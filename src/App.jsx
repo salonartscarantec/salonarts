@@ -1,6 +1,6 @@
+import { useState } from "react"
 import { BrowserRouter as Router, Switch } from "react-router-dom";
 import { useSelector} from "react-redux";
-import "./i18n";
 import Cookies from "js-cookie";
 import Home from "pages/Home";
 import Navbar from "components/layout/Navbar";
@@ -9,13 +9,14 @@ import FlashMessage from "components/layout/FlashMessage";
 import PublicRoute from "components/PublicRoute";
 
 const App = () => {
-
   const displayFlash = useSelector((state) => state.flash.display);
+
+  const [language, setLanguage] = useState('fr');
 
   return (
     <section className="App">
       <Router>
-        <Navbar />
+        <Navbar setLanguage={setLanguage} lang={language}/>
         {displayFlash && <FlashMessage />}
         
           <Switch>
