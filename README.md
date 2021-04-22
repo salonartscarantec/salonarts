@@ -1,6 +1,4 @@
-# React boilerplate
-
-##### To be used with the [associated Rails API](https://github.com/cha-fa/rails_api_boilerplate)
+# salonarts in React
 
 ## Description
 
