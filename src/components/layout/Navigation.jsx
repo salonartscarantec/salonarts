@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import "../../locales/i18n";
-import {i18n} from "../../locales/i18n.js";
+import { i18n } from "../../locales/i18n.js";
 import { Navbar, Nav } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 import ReactCountryFlag from "react-country-flag";

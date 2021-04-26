@@ -5,12 +5,10 @@
 html {
   position: relative;
   min-height: 100%;
-  overflow-y: auto;
 }
 
 #root {
   min-height: 100%;
-  overflow-y: auto;
 }
 
 .logo {
@@ -20,7 +18,6 @@ html {
 
 .home {
   min-height: 100%;
-  overflow-y: auto;
 }
 
 .JumbotronDisplay{
@@ -28,6 +25,7 @@ html {
   background-size: cover;
   min-height: 600px;
   min-width: 100%;
+  text-align: center;
 }
 
 footer {

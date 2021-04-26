@@ -6,5 +6,9 @@ export const TRANSLATIONS_FR = {
     address:"Adresse :",
     phone:"Téléphone :",
     email:"Couriel :",
-    followus:"Suivez nous :"
+    followus:"Suivez nous :",
+    expo:"Prochaine exposition :",
+    register:"Inscrivez Vous!",
+    partnership:"Devenez un partenaire : ",
+    contactus:"Contactez nous!"
 };

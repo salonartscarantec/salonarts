@@ -1,11 +1,13 @@
 import ImageJumbotron from "components/layout/ImageJumbotron";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import { Player } from '@lottiefiles/react-lottie-player';
 import CarouselDisplay from "components/layout/CarouselDisplay";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 const Home = () => {
-  
+  const { t } = useTranslation();
+
   return (
     <section className="Home">
       <ImageJumbotron/>
@@ -35,13 +37,18 @@ const Home = () => {
               ></Player>
           </Col>
         </Row>
-        <Row>
-          <h5>Affiches des éditions précédentes : </h5>
+          <h5 className="m-auto">Affiches des éditions précédentes : </h5>
+        <Row className="d-flex justify-content-md-center">
           <CarouselDisplay/>
         </Row>
         <Row>
-          <p>Devenez Partenaires</p>
-          <Link to="/contacts">Contatez nous</Link>
+          <p> {t("partnership")}
+            <span>
+              <Button>
+                <Link className="text-light" to="/contacts">{t("contactus")}</Link>
+              </Button>
+            </span>
+          </p>
         </Row>
       </Container>
     </section>
