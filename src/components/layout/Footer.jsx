@@ -2,44 +2,63 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { SocialIcon } from 'react-social-icons';
+import { Container, Row, Col } from "react-bootstrap";
 
 const Footer = () => {
   const { t } = useTranslation();
 
-  return <footer>
-    <div className="social">
-      <Link to="#">
-        <SocialIcon url="https://twitter.com" />
-      </Link>
-      <Link to="#">
-        <SocialIcon url="https://facebook.com" />
-      </Link>
-      <Link to="#">
-        <SocialIcon url="https://instagram.com" />
-      </Link>
+  return (
+  <footer>
+    <Container>
+      <Row >
+        <Col>
+          <ul>
+            Salon des Arts - Carantec
+            <ol>{t("address")}</ol>
+            <ol>{t("phone")}</ol>
+            <ol>{t("email")}</ol>
+          </ul>
+        </Col>
+        <Col className="d-flex justify-content-center">
+          <ul>
+            <ol>
+              <Link to="/">{t("linkhome")}</Link>
+            </ol>
+            <ol>
+              <Link to="/register">{t("linkregister")}</Link>
+            </ol>
+            <ol>
+              <Link to="/contacts">{t("linkcontact")}</Link>
+            </ol>
+          </ul>
+        </Col>
+        <Col>
+          <ul className="list-inline">
+            <p className="text-center">{t("followus")}</p>
+            <ol className="list-inline-item">
+              <Link to="#">
+                <SocialIcon url="https://twitter.com" />
+              </Link>
+            </ol>
+            <ol className="list-inline-item">
+              <Link to="#">
+                <SocialIcon url="https://facebook.com" />
+              </Link>
+            </ol>
+            <ol className="list-inline-item">
+              <Link to="#">
+                <SocialIcon url="https://instagram.com" />
+              </Link>
+            </ol>
+          </ul>
+        </Col>
+      </Row>
+    </Container>
+    <div className="d-flex justify-content-end">
+      <small>Jérémy Querné © 2021</small>
     </div>
-    <div className="footercontent">
-      
-        <p>Salon des Arts - Carantec</p>
-     
-      
-        <ul className="list-inline">
-          <li className="list-inline-item">
-            <Link to="/">{t("linkhome")}</Link>
-          </li>
-          <li className="list-inline-item">
-            <Link to="/register">{t("linkregister")}</Link>
-          </li>
-          <li className="list-inline-item">
-            <Link to="/contacts">{t("linkcontact")}</Link>
-          </li>
-        </ul>
-      
-      
-        <p><small>Jérémy Querné © 2021</small></p>
-      
-    </div>
-  </footer>;
+  </footer>
+  );
 };
 
 export default Footer;

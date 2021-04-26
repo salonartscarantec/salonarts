@@ -1,19 +1,16 @@
 @import "./variables";
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-* {
-  margin: auto;
-  padding: 0;
-}
 
 html {
   position: relative;
   min-height: 100%;
+  overflow-y: auto;
 }
 
 #root {
-  margin-bottom: $footer-size; /* .footer height */
   min-height: 100%;
+  overflow-y: auto;
 }
 
 .logo {
@@ -21,51 +18,23 @@ html {
   width: 70px;
 }
 
+.home {
+  min-height: 100%;
+  overflow-y: auto;
+}
+
+.JumbotronDisplay{
+  background-image: url(../assets/images/vue-de-la-pointe-de-penn.jpg);
+  background-size: cover;
+  min-height: 600px;
+  min-width: 100%;
+}
+
 footer {
-  position: absolute;
   bottom: 0;
   width: 100%;
-  height: $footer-size; /* #root margin-bottom */
   background-color: $footer-color;
   color:#4b4c4d!important;
   padding-top: 7.5vh;
   opacity:0.8;
-
-  .social {
-    text-align: center;
-
-    a {
-      padding-right: 15px;
-    }
-
-    a:hover{
-      opacity:1
-    }
-  }
-
-  .footercontent {
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    text-align: center;
-    margin-top: 2%;
-
-    ul {
-      padding-right: 60px;
-
-      a {
-        color:inherit;
-        text-decoration:none;
-        opacity:0.8;
-      }
-  
-      a:hover {
-        opacity:1;
-      }
-    }
-  }
-  
-
-  
-
 }
