@@ -13,7 +13,7 @@ const Home = () => {
       <ImageJumbotron/>
       <Container>
         <Row>
-          <Col>
+          <Col data-aos="zoom-in-right">
             <h1>Salon des Arts - Carantec</h1>
             <ul>
               <li>
@@ -27,7 +27,7 @@ const Home = () => {
               </li>
             </ul>
           </Col>
-          <Col>
+          <Col data-aos="zoom-in-left">
             <Player
               autoplay={true}
               loop={true}
@@ -38,10 +38,10 @@ const Home = () => {
           </Col>
         </Row>
           <h5 className="m-auto">Affiches des éditions précédentes : </h5>
-        <Row className="d-flex justify-content-md-center">
+        <Row data-aos="zoom-in" className="d-flex justify-content-md-center">
           <CarouselDisplay/>
         </Row>
-        <Row>
+        <Row data-aos="zoom-in">
           <p> {t("partnership")}
             <span>
               <Button>

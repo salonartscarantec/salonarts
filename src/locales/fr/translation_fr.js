@@ -10,5 +10,7 @@ export const TRANSLATIONS_FR = {
     expo:"Prochaine exposition :",
     register:"Inscrivez Vous!",
     partnership:"Devenez un partenaire : ",
-    contactus:"Contactez nous!"
+    contactus:"Contactez nous!",
+    location:"Lieu",
+    beforethe:"avant le",
 };

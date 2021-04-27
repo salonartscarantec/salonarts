@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { BrowserRouter as Router, Switch } from "react-router-dom";
 import { useSelector} from "react-redux";
 import Cookies from "js-cookie";
@@ -10,11 +10,17 @@ import PublicRoute from "components/PublicRoute";
 import Register from "pages/Register";
 import Contacts from "pages/Contacts";
 import Registerform from "pages/Registerform";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const App = () => {
   const displayFlash = useSelector((state) => state.flash.display);
-
   const [language, setLanguage] = useState('fr');
+  
+  useEffect(() => {
+    AOS.init({ duration: 400 });
+    AOS.refresh();
+  }, [])
 
   return (
     <section className="App">
