@@ -33,7 +33,8 @@ const Home = () => {
               loop={true}
               controls={false}
               src="https://assets7.lottiefiles.com/packages/lf20_ggw4qc1o.json"
-              style={{ height: '300px', width: '300px' }}
+              style={{ height: '400px', width: '400px' }}
+              alt="artist animation"
               ></Player>
           </Col>
         </Row>

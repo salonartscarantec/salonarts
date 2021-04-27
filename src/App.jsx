@@ -12,6 +12,7 @@ import Contacts from "pages/Contacts";
 import Registerform from "pages/Registerform";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import PdfDownload from "components/PdfDownload";
 
 const App = () => {
   const displayFlash = useSelector((state) => state.flash.display);
@@ -35,19 +36,25 @@ const App = () => {
               exact
             />
             <PublicRoute
-              restricted={true}
+              restricted={false}
               component={Register}
               path="/register"
               exact
             />
             <PublicRoute
-              restricted={true}
+              restricted={false}
               component={Contacts}
               path="/contacts"
               exact
             />
             <PublicRoute
-              restricted={true}
+              restricted={false}
+              component={PdfDownload}
+              path="/pdfdownload"
+              exact
+            />
+            <PublicRoute
+              restricted={false}
               component={Registerform}
               path="/registerform"
               exact

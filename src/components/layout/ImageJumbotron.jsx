@@ -12,18 +12,18 @@ const ImageJumbotron = () => {
   const REACT_APP_LIMIT_DATE_REGISTER = process.env.REACT_APP_LIMIT_DATE_REGISTER;
 
   return (
-    <Jumbotron className="JumbotronDisplay">
+    <Jumbotron className="JumbotronDisplay" alt="picture of the bay of Morlaix from Carantec">
       <Row>
         <Col>
           <ul data-aos="flip-up" className="list-inline">
             <ol className="list-inline-item">
-              <SocialIcon url="https://twitter.com" />
+              <SocialIcon url="https://twitter.com" alt="twitter icon"/>
             </ol>
             <ol className="list-inline-item">
-              <SocialIcon url="https://facebook.com" />
+              <SocialIcon url="https://facebook.com" alt="facebook icon"/>
             </ol>
             <ol className="list-inline-item">
-              <SocialIcon url="https://instagram.com" />
+              <SocialIcon url="https://instagram.com" alt="instagram icon"/>
             </ol>
           </ul>
           <div data-aos="zoom-in-right">
@@ -40,7 +40,7 @@ const ImageJumbotron = () => {
         <Col data-aos="zoom-in-left">
           <Image
           src={affiche1}
-          alt="affiche salon des arts carantec"
+          alt="Poster adverting Carantec's Salon des Arts"
           />
         </Col>
       </Row>
