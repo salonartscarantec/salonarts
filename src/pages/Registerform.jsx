@@ -40,7 +40,7 @@ const Registerform = () => {
         </FormGroup>
         <Button
           type="submit"
-          size="lg"
+          size="sm"
           block
           >
           {t("createpdf")}

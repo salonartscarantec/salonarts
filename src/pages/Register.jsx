@@ -15,11 +15,6 @@ const Register = () => {
             <Link className="text-light" to="/pdfdownload">{t("linkregisterdownload")}</Link>
           </Button>
         </Col>
-        <Col>
-          <Button>
-            <Link className="text-light" to="/registerform">{t("linkregisterform")}</Link>
-          </Button>
-        </Col>
       </Row>
       <Row className="d-block">
         <ul>

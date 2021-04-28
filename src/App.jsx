@@ -8,9 +8,9 @@ import FlashMessage from "components/layout/FlashMessage";
 import PublicRoute from "components/PublicRoute";
 import Register from "pages/Register";
 import Contacts from "pages/Contacts";
-import Registerform from "pages/Registerform";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import PdfDownload from "pages/PdfDownload";
 
 const App = () => {
   const displayFlash = useSelector((state) => state.flash.display);
@@ -47,8 +47,8 @@ const App = () => {
             />
             <PublicRoute
               restricted={false}
-              component={Registerform}
-              path="/registerform"
+              component={PdfDownload}
+              path="/pdfdownload"
               exact
             />
           </Switch>
