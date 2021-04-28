@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react"
 import { BrowserRouter as Router, Switch } from "react-router-dom";
 import { useSelector} from "react-redux";
-import Cookies from "js-cookie";
 import Home from "pages/Home";
 import Navigation from "components/layout/Navigation";
 import Footer from "components/layout/Footer";
@@ -12,7 +11,6 @@ import Contacts from "pages/Contacts";
 import Registerform from "pages/Registerform";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import PdfDownload from "components/PdfDownload";
 
 const App = () => {
   const displayFlash = useSelector((state) => state.flash.display);
@@ -45,12 +43,6 @@ const App = () => {
               restricted={false}
               component={Contacts}
               path="/contacts"
-              exact
-            />
-            <PublicRoute
-              restricted={false}
-              component={PdfDownload}
-              path="/pdfdownload"
               exact
             />
             <PublicRoute
