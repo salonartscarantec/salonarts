@@ -1,7 +1,7 @@
 import { useRef } from 'react';
 import { useReactToPrint } from 'react-to-print';
 import { PdfFile } from "./PdfFile";
-import { Row, Col, Button } from "react-bootstrap";
+import { Button } from "react-bootstrap";
 
 const PdfDownload = () => {
   const componentRef = useRef();
