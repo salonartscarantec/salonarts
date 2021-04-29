@@ -6,7 +6,7 @@ import Navigation from "components/layout/Navigation";
 import Footer from "components/layout/Footer";
 import FlashMessage from "components/layout/FlashMessage";
 import PublicRoute from "components/PublicRoute";
-import Register from "pages/Register";
+import Apply from "pages/Apply";
 import Contacts from "pages/Contacts";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -35,8 +35,8 @@ const App = () => {
             />
             <PublicRoute
               restricted={false}
-              component={Register}
-              path="/register"
+              component={Apply}
+              path="/apply"
               exact
             />
             <PublicRoute

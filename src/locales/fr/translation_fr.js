@@ -1,7 +1,7 @@
 export const TRANSLATIONS_FR = {
     //links:
     linkhome:"Accueil",
-    linkregister:"Inscriptions",
+    linkapply:"Candidatures",
     linkcontact:"Contacts",
     linkregisterform:"Remplir le formulaire en ligne",
     linkregisterdownload:"Télécharger le formulaire",

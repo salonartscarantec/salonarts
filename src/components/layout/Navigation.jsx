@@ -29,7 +29,7 @@ const Navigation = ({setLanguage, language}) => {
       <Navbar.Collapse id="navbartoggled">
         <Nav inline className="m-auto d-flex align-items-center">  
           <Nav.Link> 
-            <Link to="/register">{t("linkregister")}</Link>
+            <Link to="/apply">{t("linkapply")}</Link>
           </Nav.Link> 
           <Nav.Link>
             <Link to="/contacts">{t("linkcontact")}</Link>

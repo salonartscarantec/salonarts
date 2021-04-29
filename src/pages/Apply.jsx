@@ -2,12 +2,12 @@ import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { Row, Col, Button } from "react-bootstrap";
 
-const Register = () => {
+const Apply = () => {
   const { t } = useTranslation();
   const REACT_APP_PRICE = process.env.REACT_APP_PRICE;
     
   return (
-    <section className='Register m-auto text-center'>
+    <section className='Apply m-auto text-center'>
       <h1>{t("registertitle")}</h1>
       <Row className="m-auto d-flex">
         <Col>
@@ -39,4 +39,4 @@ const Register = () => {
   );
 };
     
-export default Register;
+export default Apply;

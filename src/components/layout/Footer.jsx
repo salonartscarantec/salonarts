@@ -25,7 +25,7 @@ const Footer = () => {
               <Link to="/">{t("linkhome")}</Link>
             </ol>
             <ol>
-              <Link to="/register">{t("linkregister")}</Link>
+              <Link to="/apply">{t("linkapply")}</Link>
             </ol>
             <ol>
               <Link to="/contacts">{t("linkcontact")}</Link>

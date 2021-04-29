@@ -9,6 +9,7 @@ html {
 
 #root {
   min-height: 100%;
+  font-family: $font!important;
 }
 
 .logo {
@@ -26,6 +27,7 @@ html {
   min-height: 600px;
   min-width: 100%;
   text-align: center;
+  font-family: $font!important;
 }
 
 .PdfFile{
@@ -40,4 +42,5 @@ footer {
   color:#4b4c4d!important;
   padding-top: 7.5vh;
   opacity:0.8;
+  font-family: $font!important;
 }

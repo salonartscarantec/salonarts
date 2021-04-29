@@ -32,7 +32,7 @@ const ImageJumbotron = () => {
             <p>{t("location")} : {REACT_APP_LOCATION}</p>
             <Button>
               <Link className="text-light" to="/register">
-                {t("linkregister")} {t("beforethe")} {REACT_APP_LIMIT_DATE_REGISTER}
+                {t("linkapply")} {t("beforethe")} {REACT_APP_LIMIT_DATE_REGISTER}
               </Link>
             </Button>
           </div>

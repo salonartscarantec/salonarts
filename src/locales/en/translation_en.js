@@ -1,7 +1,7 @@
 export const TRANSLATIONS_EN = {
      //links:
     linkhome:"Home",
-    linkregister:"Registration",
+    linkapply:"Apply",
     linkcontact:"Contact Us",
     linkregisterform:"Fill the form online",
     linkregisterdownload:"Download the form",
