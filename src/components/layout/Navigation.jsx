@@ -29,21 +29,21 @@ const Navigation = ({setLanguage, language}) => {
       <Navbar.Collapse id="navbartoggled">
         <Nav inline className="m-auto d-flex align-items-center">  
           <Nav.Link> 
-            <Link to="/apply">{t("linkapply")}</Link>
+            <Link className="navbarlink" to="/apply">{t("linkapply")}</Link>
           </Nav.Link> 
           <Nav.Link>
-            <Link to="/contacts">{t("linkcontact")}</Link>
+            <Link className="navbarlink" to="/contacts">{t("linkcontact")}</Link>
           </Nav.Link>
         </Nav>
         {(
           language === "fr" && (
-              <Button value="en" onClick={handleOnclick}>
+              <Button className="buttoncustom" value="en" onClick={handleOnclick}>
                 English
                 <ReactCountryFlag countryCode="GB" svg />
               </Button>
           )) || (
            language === "en" && (
-              <Button value="fr" onClick={handleOnclick}>
+              <Button className="buttoncustom" value="fr" onClick={handleOnclick}>
                 Français
                 <ReactCountryFlag countryCode="FR" svg />
               </Button>

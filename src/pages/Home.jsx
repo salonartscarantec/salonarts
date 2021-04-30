@@ -12,7 +12,7 @@ const Home = () => {
     <section className="Home">
       <ImageJumbotron/>
       <Container>
-        <Row>
+        <Row className="align-items-center text-center">
           <Col data-aos="zoom-in-right">
             <h1>Salon des Arts - Carantec</h1>
             <ul>
@@ -26,6 +26,13 @@ const Home = () => {
                 blablablabalb
               </li>
             </ul>
+            <p> {t("partnership")}
+              <span>
+                <Button>
+                  <Link className="text-light" to="/contacts">{t("contactus")}</Link>
+                </Button>
+              </span>
+            </p>
           </Col>
           <Col data-aos="zoom-in-left">
             <Player
@@ -38,18 +45,9 @@ const Home = () => {
               ></Player>
           </Col>
         </Row>
-          <h5 className="m-auto">Affiches des éditions précédentes : </h5>
+          <h5 className="m-auto">Quelques Oeuvres des editions précédentes : </h5>
         <Row data-aos="zoom-in" className="d-flex justify-content-md-center">
           <CarouselDisplay/>
-        </Row>
-        <Row data-aos="zoom-in">
-          <p> {t("partnership")}
-            <span>
-              <Button>
-                <Link className="text-light" to="/contacts">{t("contactus")}</Link>
-              </Button>
-            </span>
-          </p>
         </Row>
       </Container>
     </section>

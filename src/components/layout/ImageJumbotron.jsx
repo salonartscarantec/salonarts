@@ -17,24 +17,22 @@ const ImageJumbotron = () => {
         <Col>
           <ul data-aos="flip-up" className="list-inline">
             <ol className="list-inline-item">
-              <SocialIcon url="https://twitter.com" alt="twitter icon"/>
+              <SocialIcon className="socialicon" url="https://twitter.com" alt="twitter icon"/>
             </ol>
             <ol className="list-inline-item">
-              <SocialIcon url="https://facebook.com" alt="facebook icon"/>
+              <SocialIcon className="socialicon" url="https://facebook.com" alt="facebook icon"/>
             </ol>
             <ol className="list-inline-item">
-              <SocialIcon url="https://instagram.com" alt="instagram icon"/>
+              <SocialIcon className="socialicon" url="https://instagram.com" alt="instagram icon"/>
             </ol>
           </ul>
           <div data-aos="zoom-in-right">
-            <h2>{t("expo")}</h2>
-            <p>Date : {REACT_APP_DATE_EXPO}</p>
-            <p>{t("location")} : {REACT_APP_LOCATION}</p>
-            <Button>
-              <Link className="text-light" to="/register">
-                {t("linkapply")} {t("beforethe")} {REACT_APP_LIMIT_DATE_REGISTER}
-              </Link>
-            </Button>
+            <h2 id="expotitle">{t("expo")}</h2>
+            <p id="expodate">Date : {REACT_APP_DATE_EXPO}</p>
+            <p id="expoplace">{t("location")} : {REACT_APP_LOCATION}</p>
+            <Link className=" btn buttoncustom" to="/apply">
+              {t("linkapply")} {t("beforethe")} {REACT_APP_LIMIT_DATE_REGISTER}
+            </Link>         
           </div>
         </Col>
         <Col data-aos="zoom-in-left">

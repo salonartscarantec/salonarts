@@ -17,17 +17,75 @@ html {
   width: 70px;
 }
 
+.socialicon:hover{
+  scale: 1.3;
+}
+
+.buttoncustom{
+  text-decoration: none;
+  background-color: $primary;
+  border-color: $primary;
+  color:$secondary;
+
+  &:hover{
+    background-color: $secondary;
+    color: $primary;
+    transition: 1s;
+  }
+
+  &:focus,
+  &:visited {
+    text-decoration: none;
+    box-shadow: none;
+    outline: none;
+  }
+}
+
+.navbarlink{
+  font-size: 25px!important;
+  text-decoration: none!important;
+  color: darkred!important;
+  background-image: linear-gradient(darkred, darkred);
+  background-size: 0 2px, auto;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  transition: all .2s ease-out;
+}
+
+.navbarlink:hover{
+  font-size: 28px!important;
+  background-size: 100% 2px, auto;
+}
+
 .home {
   min-height: 100%;
 }
 
 .JumbotronDisplay{
-  background-image: url(../assets/images/vue-de-la-pointe-de-penn.jpg);
+  //background-image: url(../assets/images/vue-de-la-pointe-de-penn.jpg);
   background-size: cover;
   min-height: 600px;
   min-width: 100%;
   text-align: center;
   font-family: $font!important;
+
+  #expotitle{
+    font-size: 50px!important;
+    color: darkred;
+    font-weight: bold;
+  }
+
+  #expodate{
+    font-size: 40px!important;
+  }
+
+  #expoplace{
+    font-size: 40px!important;
+  }
+}
+
+.CarouselDsiplay{
+  box-shadow: 10px 10px 10px darkgray;
 }
 
 .PdfFile{
@@ -43,4 +101,20 @@ footer {
   padding-top: 7.5vh;
   opacity:0.8;
   font-family: $font!important;
+
+  .footerlink{
+    font-size: 15px!important;
+    text-decoration: none!important;
+    color: darkred!important;
+    background-image: linear-gradient(darkred, darkred);
+    background-size: 0 1px, auto;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    transition: all .2s ease-out;
+  }
+
+  .footerlink:hover{
+    font-size: 18px!important;
+    background-size: 100% 1px, auto;
+  }
 }

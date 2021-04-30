@@ -22,13 +22,13 @@ const Footer = () => {
         <Col className="d-flex justify-content-center">
           <ul>
             <ol>
-              <Link to="/">{t("linkhome")}</Link>
+              <Link className="footerlink" to="/">{t("linkhome")}</Link>
             </ol>
             <ol>
-              <Link to="/apply">{t("linkapply")}</Link>
+              <Link className="footerlink" to="/apply">{t("linkapply")}</Link>
             </ol>
             <ol>
-              <Link to="/contacts">{t("linkcontact")}</Link>
+              <Link className="footerlink" to="/contacts">{t("linkcontact")}</Link>
             </ol>
           </ul>
         </Col>
@@ -37,17 +37,17 @@ const Footer = () => {
             <p className="text-center">{t("followus")}</p>
             <ol className="list-inline-item">
               <Link to="#">
-                <SocialIcon url="https://twitter.com" />
+                <SocialIcon className="socialicon" url="https://twitter.com" />
               </Link>
             </ol>
             <ol className="list-inline-item">
               <Link to="#">
-                <SocialIcon url="https://facebook.com" />
+                <SocialIcon className="socialicon" url="https://facebook.com" />
               </Link>
             </ol>
             <ol className="list-inline-item">
               <Link to="#">
-                <SocialIcon url="https://instagram.com" />
+                <SocialIcon className="socialicon" url="https://instagram.com" />
               </Link>
             </ol>
           </ul>
