@@ -13,12 +13,12 @@ const PdfDownload = () => {
     <div className='PdfDownload'>
       <h6 className="text-center">
         Une fois votre formulaire rempli, envoyer le nous par mail  <span>
-          <Button href="mailto:Jojo@jojo.com?subject=inscription">  Email  </Button>
+          <Button className="buttoncustom" href="mailto:Jojo@jojo.com?subject=inscription">  Email  </Button>
         </span>
       </h6>
       <PdfFile ref={componentRef} />
       <div className="text-center">
-        <Button onClick={handlePrint}>Créer votre Pdf</Button>
+        <Button className="buttoncustom" onClick={handlePrint}>Créer votre Pdf</Button>
       </div>
     </div>
   );

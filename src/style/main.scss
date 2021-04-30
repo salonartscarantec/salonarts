@@ -61,6 +61,12 @@ html {
   min-height: 100%;
 }
 
+.titlecustom{
+  font-size: 50px!important;
+  color: darkred;
+  font-weight: bold;
+}
+
 .JumbotronDisplay{
   //background-image: url(../assets/images/vue-de-la-pointe-de-penn.jpg);
   background-size: cover;
@@ -68,12 +74,6 @@ html {
   min-width: 100%;
   text-align: center;
   font-family: $font!important;
-
-  #expotitle{
-    font-size: 50px!important;
-    color: darkred;
-    font-weight: bold;
-  }
 
   #expodate{
     font-size: 40px!important;

@@ -14,7 +14,7 @@ const Home = () => {
       <Container>
         <Row className="align-items-center text-center">
           <Col data-aos="zoom-in-right">
-            <h1>Salon des Arts - Carantec</h1>
+            <h1 className="titlecustom">Salon des Arts - Carantec</h1>
             <ul>
               <li>
                 blablablabalb
@@ -28,9 +28,7 @@ const Home = () => {
             </ul>
             <p> {t("partnership")}
               <span>
-                <Button>
-                  <Link className="text-light" to="/contacts">{t("contactus")}</Link>
-                </Button>
+                <Link className="btn buttoncustom" to="/contacts">{t("contactus")}</Link>
               </span>
             </p>
           </Col>

@@ -1,4 +1,4 @@
-import { Button, Row, Col, Image } from "react-bootstrap";
+import { Row, Col, Image } from "react-bootstrap";
 import { Jumbotron } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom"; 
@@ -27,10 +27,10 @@ const ImageJumbotron = () => {
             </ol>
           </ul>
           <div data-aos="zoom-in-right">
-            <h2 id="expotitle">{t("expo")}</h2>
+            <h2 className="titlecustom">{t("expo")}</h2>
             <p id="expodate">Date : {REACT_APP_DATE_EXPO}</p>
             <p id="expoplace">{t("location")} : {REACT_APP_LOCATION}</p>
-            <Link className=" btn buttoncustom" to="/apply">
+            <Link className="btn buttoncustom" to="/apply">
               {t("linkapply")} {t("beforethe")} {REACT_APP_LIMIT_DATE_REGISTER}
             </Link>         
           </div>

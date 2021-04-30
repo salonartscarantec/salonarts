@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { Row, Col, Button } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 
 const Apply = () => {
   const { t } = useTranslation();
@@ -11,9 +11,7 @@ const Apply = () => {
       <h1>{t("registertitle")}</h1>
       <Row className="m-auto d-flex">
         <Col>
-          <Button>
-            <Link className="text-light" to="/pdfdownload">{t("linkregisterdownload")}</Link>
-          </Button>
+          <Link className="btn buttoncustom" to="/pdfdownload">{t("linkregisterdownload")}</Link>
         </Col>
       </Row>
       <Row className="d-block">
