@@ -1,23 +1,31 @@
+import { useState, useEffect } from "react"
 import { BrowserRouter as Router, Switch } from "react-router-dom";
 import { useSelector} from "react-redux";
-import "./i18n";
-import Cookies from "js-cookie";
 import Home from "pages/Home";
-import Navbar from "components/layout/Navbar";
+import Navigation from "components/layout/Navigation";
 import Footer from "components/layout/Footer";
 import FlashMessage from "components/layout/FlashMessage";
 import PublicRoute from "components/PublicRoute";
+import Apply from "pages/Apply";
+import Contacts from "pages/Contacts";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import PdfDownload from "pages/PdfDownload";
 
 const App = () => {
-
   const displayFlash = useSelector((state) => state.flash.display);
+  const [language, setLanguage] = useState('fr');
+  
+  useEffect(() => {
+    AOS.init({ duration: 400 });
+    AOS.refresh();
+  }, [])
 
   return (
     <section className="App">
       <Router>
-        <Navbar />
+        <Navigation setLanguage={setLanguage} language={language}/>
         {displayFlash && <FlashMessage />}
-        
           <Switch>
             <PublicRoute
               restricted={false}
@@ -26,19 +34,24 @@ const App = () => {
               exact
             />
             <PublicRoute
-              restricted={true}
-              component={Home}
-              path="/"
+              restricted={false}
+              component={Apply}
+              path="/apply"
               exact
             />
             <PublicRoute
-              restricted={true}
-              component={Home}
-              path="/"
+              restricted={false}
+              component={Contacts}
+              path="/contacts"
+              exact
+            />
+            <PublicRoute
+              restricted={false}
+              component={PdfDownload}
+              path="/pdfdownload"
               exact
             />
           </Switch>
-       
         <Footer />
       </Router>
     </section>
