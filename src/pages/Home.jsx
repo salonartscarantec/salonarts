@@ -43,7 +43,7 @@ const Home = () => {
               ></Player>
           </Col>
         </Row>
-          <h5 className="m-auto">Quelques Oeuvres des editions précédentes : </h5>
+          <h5 className="m-auto">Des expos, des oeuvres, des ateliers et découvertes : </h5>
         <Row data-aos="zoom-in" className="d-flex justify-content-md-center">
           <CarouselDisplay/>
         </Row>
