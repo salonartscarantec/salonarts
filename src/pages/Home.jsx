@@ -1,5 +1,5 @@
 import ImageJumbotron from "components/layout/ImageJumbotron";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import { Player } from '@lottiefiles/react-lottie-player';
 import CarouselDisplay from "components/layout/CarouselDisplay";
 import { Link } from "react-router-dom";
