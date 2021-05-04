@@ -14,28 +14,27 @@ const ImageJumbotron = () => {
   return (
     <Jumbotron className="JumbotronDisplay" alt="picture of the bay of Morlaix from Carantec">
       <Row>
-        <Col>
-          <ul data-aos="flip-up" className="list-inline">
-            <ol className="list-inline-item">
-              <SocialIcon className="socialicon" url="https://twitter.com" alt="twitter icon"/>
-            </ol>
-            <ol className="list-inline-item">
+        <Col xs={12} md={6}>
+          <Row data-aos="flip-up" className="mb-2">
+            <Col>
               <SocialIcon className="socialicon" url="https://facebook.com" alt="facebook icon"/>
-            </ol>
-            <ol className="list-inline-item">
+            </Col>
+            <Col>
               <SocialIcon className="socialicon" url="https://instagram.com" alt="instagram icon"/>
-            </ol>
-          </ul>
-          <div data-aos="zoom-in-right">
-            <h2 className="titlecustom">{t("expo")}</h2>
-            <p id="expodate">Date : {REACT_APP_DATE_EXPO}</p>
-            <p id="expoplace">{t("location")} : {REACT_APP_LOCATION}</p>
-            <Link className="btn buttoncustom" to="/apply">
-              {t("linkapply")} {t("beforethe")} {REACT_APP_LIMIT_DATE_REGISTER}
-            </Link>         
-          </div>
+            </Col>
+          </Row>
+          <Row data-aos="zoom-in-right" className="mb-2">
+            <Col>
+              <h2 className="titlecustom">{t("expo")}</h2>
+              <p id="expodate">Date : {REACT_APP_DATE_EXPO}</p>
+              <p id="expoplace">{t("location")} : {REACT_APP_LOCATION}</p>
+              <Link className="btn buttoncustom" to="/apply">
+                {t("linkapply")} {t("beforethe")} {REACT_APP_LIMIT_DATE_REGISTER}
+              </Link>         
+            </Col>
+          </Row>
         </Col>
-        <Col data-aos="zoom-in-left">
+        <Col xs={12} md={6} data-aos="zoom-in-left">
           <Image
           src={affiche1}
           alt="Poster adverting Carantec's Salon des Arts"

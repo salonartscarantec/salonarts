@@ -11,7 +11,7 @@ const Footer = () => {
   <footer>
     <Container>
       <Row >
-        <Col>
+        <Col xs={12} md={4}>
           <ul>
             Salon des Arts - Carantec
             <ol>{t("address")}</ol>
@@ -19,7 +19,7 @@ const Footer = () => {
             <ol>{t("email")}</ol>
           </ul>
         </Col>
-        <Col className="d-flex justify-content-center">
+        <Col xs={12} md={4}>
           <ul>
             <ol>
               <Link className="footerlink" to="/">{t("linkhome")}</Link>
@@ -32,25 +32,15 @@ const Footer = () => {
             </ol>
           </ul>
         </Col>
-        <Col>
-          <ul className="list-inline">
-            <p className="text-center">{t("followus")}</p>
-            <ol className="list-inline-item">
-              <Link to="#">
-                <SocialIcon className="socialicon" url="https://twitter.com" />
-              </Link>
-            </ol>
-            <ol className="list-inline-item">
-              <Link to="#">
-                <SocialIcon className="socialicon" url="https://facebook.com" />
-              </Link>
-            </ol>
-            <ol className="list-inline-item">
-              <Link to="#">
-                <SocialIcon className="socialicon" url="https://instagram.com" />
-              </Link>
-            </ol>
-          </ul>
+        <Col xs={12} md={4} className="d-flex justify-content-center">
+          <Row>
+            <Col>
+              <SocialIcon className="socialicon" url="https://facebook.com" />
+            </Col>
+            <Col>
+              <SocialIcon className="socialicon" url="https://instagram.com" />
+            </Col>
+          </Row>
         </Col>
       </Row>
     </Container>

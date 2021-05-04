@@ -68,7 +68,7 @@ html {
 }
 
 .JumbotronDisplay{
-  //background-image: url(../assets/images/vue-de-la-pointe-de-penn.jpg);
+  background-image: url(../assets/images/vue-de-la-pointe-de-penn.jpg);
   background-size: cover;
   min-height: 600px;
   min-width: 100%;
@@ -116,5 +116,34 @@ footer {
   .footerlink:hover{
     font-size: 18px!important;
     background-size: 100% 1px, auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbarlink {
+    font-size: 15px!important;
+  }
+
+  .navbarlink:hover{
+    font-size: 17px!important;
+  }
+
+  #buttonlanguage{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .titlecustom{
+    font-size: 25px!important;
+  }
+
+  .JumbotronDisplay{
+    #expodate{
+      font-size: 20px!important;
+    }
+    #expoplace{
+      font-size: 20px!important;
+    }
   }
 }

@@ -34,11 +34,11 @@ const Home = () => {
           </Col>
           <Col xs={12} md={6} data-aos="zoom-in-left">
             <Player
+              id="artistanimation"
               autoplay={true}
               loop={true}
               controls={false}
               src="https://assets7.lottiefiles.com/packages/lf20_ggw4qc1o.json"
-              style={{ height: '400px', width: '400px' }}
               alt="artist animation"
               ></Player>
           </Col>
