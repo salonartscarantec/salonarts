@@ -10,7 +10,7 @@ const Apply = () => {
     <section className='Apply m-auto text-center'>
       <h1>{t("registertitle")}</h1>
       <Row className="m-auto d-flex">
-        <Col>
+        <Col xs={12}>
           <Link className="btn buttoncustom" to="/pdfdownload">{t("linkregisterdownload")}</Link>
         </Col>
       </Row>

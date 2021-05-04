@@ -25,4 +25,7 @@ export const TRANSLATIONS_FR = {
     registerprice:"tarif :",
     registerrules:"les règles pour vous inscrire :",
     createpdf:"Créer le pdf",
+
+    //contacts page:
+    contacttitle:"Pour nous contacter:",
 };

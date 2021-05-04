@@ -13,7 +13,7 @@ const Home = () => {
       <ImageJumbotron/>
       <Container>
         <Row className="align-items-center text-center">
-          <Col data-aos="zoom-in-right">
+          <Col xs={12} md={6} data-aos="zoom-in-right">
             <h1 className="titlecustom">Salon des Arts - Carantec</h1>
             <ul>
               <li>
@@ -32,7 +32,7 @@ const Home = () => {
               </span>
             </p>
           </Col>
-          <Col data-aos="zoom-in-left">
+          <Col xs={12} md={6} data-aos="zoom-in-left">
             <Player
               autoplay={true}
               loop={true}
