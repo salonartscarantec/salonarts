@@ -35,7 +35,7 @@ const Footer = () => {
         <Col xs={12} md={4} className="d-flex justify-content-center">
           <Row>
             <Col>
-              <SocialIcon className="socialicon" url="https://facebook.com" />
+              <SocialIcon className="socialicon" url="https://fr-fr.facebook.com/ArtCarantec/" />
             </Col>
             <Col>
               <SocialIcon className="socialicon" url="https://instagram.com" />

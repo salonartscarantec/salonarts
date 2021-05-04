@@ -17,7 +17,7 @@ const ImageJumbotron = () => {
         <Col xs={12} md={6}>
           <Row data-aos="flip-up" className="mb-2">
             <Col>
-              <SocialIcon className="socialicon" url="https://facebook.com" alt="facebook icon"/>
+              <SocialIcon className="socialicon" url="https://fr-fr.facebook.com/ArtCarantec/" alt="facebook icon"/>
             </Col>
             <Col>
               <SocialIcon className="socialicon" url="https://instagram.com" alt="instagram icon"/>
@@ -26,8 +26,9 @@ const ImageJumbotron = () => {
           <Row data-aos="zoom-in-right" className="mb-2">
             <Col>
               <h2 className="titlecustom">{t("expo")}</h2>
-              <p id="expodate">Date : {REACT_APP_DATE_EXPO}</p>
-              <p id="expoplace">{t("location")} : {REACT_APP_LOCATION}</p>
+              <p id="expodate">
+                {REACT_APP_DATE_EXPO} <span id="expoplace"> {REACT_APP_LOCATION}</span>
+              </p>
               <Link className="btn buttoncustom" to="/apply">
                 {t("linkapply")} {t("beforethe")} {REACT_APP_LIMIT_DATE_REGISTER}
               </Link>         
