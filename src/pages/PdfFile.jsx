@@ -9,7 +9,7 @@ export class PdfFile extends React.PureComponent {
   render() {
     return (
       <div className="PdfFile">
-        <h1 className="text-center">Salon des Arts - Carantec</h1>
+        <h1 id="formtitle" className="text-center">Salon des Arts - Carantec</h1>
         <br></br>
         <p>Formulaire d'inscription pour l'exposition du {REACT_APP_DATE_EXPO} :</p>
         <p> tarif : {REACT_APP_PRICE} </p>
@@ -19,7 +19,7 @@ export class PdfFile extends React.PureComponent {
             <FormLabel column sm="2">
               prénom :
             </FormLabel>
-            <Col sm="10">
+            <Col sx={12} sm="10">
               <FormControl type="text"/>
             </Col>
           </FormGroup>

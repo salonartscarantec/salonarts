@@ -89,8 +89,8 @@ html {
 }
 
 .PdfFile{
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left:5%;
+  margin-right: 5%;
 }
 
 footer {
@@ -144,6 +144,14 @@ footer {
     }
     #expoplace{
       font-size: 20px!important;
+    }
+  }
+
+  .PdfFile{
+    font-size: 12px;
+    
+    #formtitle{
+      font-size: 16px;
     }
   }
 }
