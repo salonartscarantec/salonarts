@@ -68,12 +68,24 @@ html {
 }
 
 .JumbotronDisplay{
-  background-image: url(../assets/images/vue-de-la-pointe-de-penn.jpg);
+  //background-image: url(../assets/images/vue-de-la-pointe-de-penn.jpg);
+  //background-image: url(../assets/images/alainquerne-cover.jpg);
+  background-image: url(../assets/images/taureau.jpg);
   background-size: cover;
-  min-height: 600px;
+  min-height: 800px;
   min-width: 100%;
   text-align: center;
   font-family: $font!important;
+
+  .jumbotext{
+    margin-top: 5%;
+  }
+
+  .facebook{
+    background: white;
+    border-color: white;
+    border-radius: 50%;
+  }
 
   #expodate{
     font-size: 40px!important;
@@ -86,17 +98,12 @@ html {
   }
 }
 
-.CarouselDsiplay{
-  box-shadow: 10px 10px 10px darkgray;
-}
-
 .PdfFile{
   margin-left:5%;
   margin-right: 5%;
 }
 
 footer {
-  bottom: 0;
   width: 100%;
   background-color: $footer-color;
   color:#4b4c4d!important;

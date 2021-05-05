@@ -12,25 +12,19 @@ const Home = () => {
     <section className="Home">
       <ImageJumbotron/>
       <Container>
-        <Row className="align-items-center text-center">
+        <Row className="align-items-center">
           <Col xs={12} md={6} data-aos="zoom-in-right">
-            <h1 className="titlecustom">Salon des Arts - Carantec</h1>
-            <ul>
-              <li>
-                blablablabalb
-              </li>
-              <li>
-                blablablabalb
-              </li>
-              <li>
-                blablablabalb
-              </li>
-            </ul>
-            <p> {t("partnership")}
-              <span>
-                <Link className="btn buttoncustom" to="/contacts">{t("contactus")}</Link>
-              </span>
-            </p>
+            <h1 className="titlecustom text-center">Salon des Arts Carantec</h1>
+            <div className="presentation">
+              <p>{t("presentation1")}</p>
+              <p>{t("presentation2")}</p>
+              <p>{t("presentation3")}</p>
+              <p className="text-center">
+                <span>
+                  <Link className="btn buttoncustom" to="/contacts">{t("contactus")}</Link>
+                </span>
+              </p>
+            </div>
           </Col>
           <Col xs={12} md={6} data-aos="zoom-in-left">
             <Player

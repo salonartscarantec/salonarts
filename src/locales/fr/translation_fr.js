@@ -19,6 +19,9 @@ export const TRANSLATIONS_FR = {
     contactus:"Contactez nous!",
     location:"Lieu",
     beforethe:"avant le",
+    presentation1:"Le Salon des Arts de Carantec est une association régie par la loi 1901.",
+    presentation2:"Fondée en 2011, cette association a pour but l’organisation de Salons de Peinture et Sculpture.",
+    presentation3:"Ces expositions sont ouvertes à tout artiste sur candidature.",
 
     //register page:
     registertitle:"Pour vous inscrire à la prochaine exposition :",
