@@ -6,6 +6,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const Footer = () => {
   const { t } = useTranslation();
+  const REACT_APP_ADDRESS = process.env.REACT_APP_ADDRESS;
 
   return (
   <footer>
@@ -14,7 +15,7 @@ const Footer = () => {
         <Col xs={12} md={4}>
           <ul>
             Salon des Arts - Carantec
-            <ol>{t("address")}</ol>
+            <ol>{t("address")} {REACT_APP_ADDRESS}</ol>
             <ol>{t("phone")}</ol>
             <ol>{t("email")}</ol>
           </ul>

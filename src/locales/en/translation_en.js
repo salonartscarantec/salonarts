@@ -24,10 +24,12 @@ export const TRANSLATIONS_EN = {
     presentation3:"All artists are welcome to apply.",
 
     //register page:
-    registertitle:"Register to the next exibition :",
-    registerprice:"Price :",
-    registerrules:"Rules to register :",
+    registertitle:"Register to the next exibition ",
+    registerprice:"Price ",
+    registerrules:"Rules to register ",
     createpdf:"Create pdf",
+    painting:" painting",
+    sculpture:" sculpture",
 
     //contacts page:
     contacttitle:"Contact us:",

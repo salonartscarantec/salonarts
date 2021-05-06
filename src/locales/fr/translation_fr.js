@@ -15,7 +15,7 @@ export const TRANSLATIONS_FR = {
     //home page:
     expo:"Prochaine exposition :",
     register:"Inscrivez Vous!",
-    partnership:"Devenez un partenaire : ",
+    partnership:"Devenez un partenaire  ",
     contactus:"Contactez nous!",
     location:"Lieu",
     beforethe:"avant le",
@@ -24,10 +24,12 @@ export const TRANSLATIONS_FR = {
     presentation3:"Ces expositions sont ouvertes à tout artiste sur candidature.",
 
     //register page:
-    registertitle:"Pour vous inscrire à la prochaine exposition :",
-    registerprice:"tarif :",
-    registerrules:"les règles pour vous inscrire :",
+    registertitle:"Pour vous inscrire à la prochaine exposition ",
+    registerprice:"tarif ",
+    registerrules:"les règles pour vous inscrire ",
     createpdf:"Créer le pdf",
+    painting:" peinture",
+    sculpture:" sculpture",
 
     //contacts page:
     contacttitle:"Pour nous contacter:",
