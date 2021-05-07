@@ -170,8 +170,14 @@ html {
   .organisation{
     margin-top: 3rem;
   }
+
+  .sidebar-wrapper{
+    position: relative;
+  }
   
   .Sidebar{
+    position: sticky;
+    top: 15%;
     margin-left: 2rem;
 
     .sidetitle{
