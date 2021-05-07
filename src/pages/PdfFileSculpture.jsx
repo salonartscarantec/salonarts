@@ -1,18 +1,18 @@
 import React from "react";
-import { Row, Col, FormCheck } from "react-bootstrap";
-import { Form, FormControl, FormGroup, FormLabel } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
+import { Form, FormControl, FormGroup, FormLabel, FormCheck } from "react-bootstrap";
 
 const REACT_APP_DATE_EXPO = process.env.REACT_APP_DATE_EXPO;
 const REACT_APP_PRICE = process.env.REACT_APP_PRICE;
 
-export class PdfFile extends React.PureComponent {
+export class PdfFileSculpture extends React.PureComponent {
   render() {
     return (
-      <div className="PdfFile">
+        <div className="PdfFile">
         <h1 id="formtitle" className="text-center">Salon des Arts - Carantec</h1>
         <br></br>
         <p>Formulaire d'inscription pour l'exposition du {REACT_APP_DATE_EXPO}, Tarif : {REACT_APP_PRICE} </p>
-        <p>Surface réservée à chaque artiste : 1m20 sur 1m80 (horizontal ou vertical)</p>
+        <p>Prévoir les socles blancs de préférence pour les sculptures.</p>
         <br></br>
         <Form>
           <FormGroup as={Row}>
@@ -82,7 +82,7 @@ export class PdfFile extends React.PureComponent {
               <FormControl type="text"/>
             </Col>
             <FormLabel column sm="2">
-              Dimension :
+              Poids/Dimension :
             </FormLabel>
             <Col sm="10">
               <FormControl type="text"/>

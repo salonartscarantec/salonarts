@@ -4,13 +4,19 @@ import { Row, Col } from "react-bootstrap";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock, faMailBulk, faPrint } from '@fortawesome/free-solid-svg-icons';
 import Sidebar from "components/layout/Sidebar";
-import { faEuroSign, faHandsHelping, faInfoCircle, faMoneyCheckAlt, faPalette, faPeopleCarry, faStar, faTasks } from '@fortawesome/free-solid-svg-icons';
+import { faEuroSign, 
+        faHandsHelping, 
+        faInfoCircle, 
+        faMoneyCheckAlt, 
+        faPalette, 
+        faPeopleCarry, 
+        faStar } from '@fortawesome/free-solid-svg-icons';
 
-const Apply = () => {
+const Apply = ( ) => {
   const { t } = useTranslation();
   const REACT_APP_PRICE = process.env.REACT_APP_PRICE;
   const REACT_APP_ADDRESS = process.env.REACT_APP_ADDRESS;
-    
+
   return (
     <section className='Apply'>
       <h1 className="titlecustom text-center">{t("registertitle")}</h1>
@@ -18,26 +24,37 @@ const Apply = () => {
         <Col xs={12} md={12}>
           <ol className="horizontal-list">
             <li className="horizontal-list-item">
-              <FontAwesomeIcon icon={faPrint} size="2x" className="listicon"/> Remplir le formulaire et le sauvegarder
+              <FontAwesomeIcon icon={faPrint} size="2x" className="listicon"/> 
+              <span className="ml-2">
+                {t("step1")}
+              </span>
             </li>
             <li className="horizontal-list-item">
-              <FontAwesomeIcon icon={faMailBulk} size="2x" className="listicon"/> Envoyer le formulaire par la poste avec un chèque de {REACT_APP_PRICE} pour les frais d'inscriptions et des photos de vos oeuvres par email
+              <FontAwesomeIcon icon={faMailBulk} size="2x" className="listicon"/> 
+              <span className="ml-2">
+                {t("step2")}{REACT_APP_PRICE}{t("step2b")}
+                joindre une feuille expliquant votre parcours : nouveaux inscrits
+                joindre des photos de vos oeuvres pour le choix de l'affiche
+              </span>
             </li>
             <li className="horizontal-list-item">
-              <FontAwesomeIcon icon={faClock} size="2x" className="listicon"/> Attendre la réponse
+              <FontAwesomeIcon icon={faClock} size="2x" className="listicon"/> 
+              <span className="ml-2">
+                {t("step3")}
+              </span>
             </li>
           </ol>
         </Col>
       </Row>
       <Row className="inlinebutton">
         <Col xs={12} md={6} className="text-center">
-          <Link className="btn buttoncustom" to="/pdfdownload">
+          <Link className="btn buttoncustom" to="/pdfdownloadpainting">
             {t("linkregisterdownload")}
             {t("painting")}
           </Link>
         </Col>
         <Col xs={12} md={6} className="text-center">
-          <Link className="btn buttoncustom" to="/pdfdownload">
+          <Link className="btn buttoncustom" to="/pdfdownloadsculpture">
             {t("linkregisterdownload")}
             {t("sculpture")}
           </Link>
@@ -45,25 +62,34 @@ const Apply = () => {
       </Row>
       <Row className="organisation">
         <Col xs={12} md={12}>
-          <h2 className="titlecustom text-center">Organisations</h2>
+          <h2 className="titlecustom text-center">
+            {t("organisation")}
+          </h2>
         </Col>
       </Row>
       <Row className="Applytext">
         <Col md={2} className="sidebar-wrapper">
           <Sidebar/>
         </Col>
-        <Col sx={12} md={10} className="righttext">
-          <ul id="infos">
+        <Col sx={12} s={12} md={10} className="righttext">
+          <ul id="info">
             <h2 className="subtitlecustom">
               <FontAwesomeIcon icon={faStar} className="listicon2"/>
-              Infos
+              {t("info")}
             </h2>
-            <ol>Ouverture de l’exposition au public : samedi 17 juillet à 15h.</ol>
-            <ol>L’exposition sera ouverte tous les jours de 15h à 19h, ainsi que le jeudi matin, jour de marché, de 10h30 à 12h30.</ol>
-            <ol>Fin de l’exposition le jeudi 19 août à 19h.</ol>
-            <ol>Le vernissage n’aura pas lieu à cause du contexte sanitaire.</ol>
+            <ol>
+              {t("openning")}
+              <span className="importanttext">{t("openningdate")}</span>
+            </ol>
+            <ol>{t("openninghours")}</ol>
+            <ol>
+              {t("closure")}
+              <span className="importanttext">{t("closuredate")}</span>
+            </ol>
+            <ol>{t("privateview")}</ol>
+            <ol className="importanttext">{t("extra")}</ol>
           </ul>
-          <ul id="art">
+          <ul id="artwork">
             <h2 className="subtitlecustom">
               <FontAwesomeIcon icon={faPalette} className="listicon2"/>
               Dépôt des œuvres
@@ -101,7 +127,7 @@ const Apply = () => {
               <span className="font-weight-bold">Sculpteurs</span> : 4 ou 5 oeuvres originales. Prévoir des socles blancs de préférence.
             </ol> 
           </ul>
-          <ul id="apply">
+          <ul id="applications">
             <h2 className="subtitlecustom">
               <FontAwesomeIcon icon={faMoneyCheckAlt} className="listicon2"/>
               Candidatures
@@ -117,7 +143,7 @@ const Apply = () => {
               L’inscription n’est effective qu'après la réception de complète du dossier et la confirmation de l'association.
             </ol>
           </ul>
-          <ul id="sells">
+          <ul id="sales">
             <h2 className="subtitlecustom">
               <FontAwesomeIcon icon={faEuroSign} className="listicon2"/>
               Ventes
@@ -142,7 +168,7 @@ const Apply = () => {
               Le transport des œuvres aller et retour est à la charge de l’artiste.
             </ol>
           </ul>
-          <ul id="permanences">
+          <ul id="permanency">
             <h2 className="subtitlecustom">
               <FontAwesomeIcon icon={faInfoCircle} className="listicon2"/>
               Permanances
@@ -153,7 +179,7 @@ const Apply = () => {
               Penser à mettre des cartes de visite à disposition.
             </ol>
           </ul>
-          <ul id="divers">
+          <ul id="others">
             <h2 className="subtitlecustom">
               <FontAwesomeIcon icon={faHandsHelping} className="listicon2"/>
               Divers

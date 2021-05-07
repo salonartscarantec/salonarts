@@ -10,7 +10,8 @@ import Apply from "pages/Apply";
 import Contacts from "pages/Contacts";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import PdfDownload from "pages/PdfDownload";
+import PdfDownloadPainting from "pages/PdfDownloadPainting";
+import PdfDownloadSculpture from "pages/PdfDownloadSculpture";
 
 const App = () => {
   const displayFlash = useSelector((state) => state.flash.display);
@@ -47,8 +48,14 @@ const App = () => {
             />
             <PublicRoute
               restricted={false}
-              component={PdfDownload}
-              path="/pdfdownload"
+              component={PdfDownloadPainting}
+              path="/pdfdownloadpainting"
+              exact
+            />
+            <PublicRoute
+              restricted={false}
+              component={PdfDownloadSculpture}
+              path="/pdfdownloadsculpture"
               exact
             />
           </Switch>

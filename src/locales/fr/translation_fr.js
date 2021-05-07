@@ -30,6 +30,28 @@ export const TRANSLATIONS_FR = {
     createpdf:"Créer le pdf",
     painting:" peinture",
     sculpture:" sculpture",
+    step1:"Remplir le formulaire et le sauvegarder",
+    step2:"Envoyer le formulaire par la poste avec un chèque de ",
+    step2b:" pour les frais d'inscriptions et des photos de vos oeuvres par email",
+    step3:"Attendre la réponse",
+    organisation:"Organisation",
+    openning:"Ouverture de l’exposition au public : ",
+    openningdate:" samedi 17 juillet 2021 à 15h.",
+    openninghours:"Tous les jours de 15h à 19h, et le jeudi matin, jour de marché, de 10h30 à 12h30.",
+    closure:"Fin de l’exposition le ",
+    closuredate:"jeudi 19 août 2021 à 19h.",
+    privateview:"Le vernissage n’aura pas lieu à cause du contexte sanitaire.",
+    extra:"",
+
+    //sidebar:
+    regulation:"Règlement",
+    info:"Infos",
+    artwork:"Oeuvres",
+    applications:"Candidatures",
+    sales:"Ventes",
+    insurances:"Assurances",
+    permanancy:"Permances",
+    others:"Divers",
 
     //contacts page:
     contacttitle:"Pour nous contacter:",

@@ -256,4 +256,16 @@ footer {
       font-size: 16px;
     }
   }
+
+  .sidebar-wrapper{
+    display: none;
+  }
+
+  ul{
+    margin-left: -15%!important;
+  }
+  
+  ol{
+    margin-left: -15%!important;
+  }
 }
