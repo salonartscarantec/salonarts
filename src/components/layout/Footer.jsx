@@ -7,6 +7,8 @@ import { Container, Row, Col } from "react-bootstrap";
 const Footer = () => {
   const { t } = useTranslation();
   const REACT_APP_ADDRESS = process.env.REACT_APP_ADDRESS;
+  const REACT_APP_PHONE = process.env.REACT_APP_PHONE;
+  const REACT_APP_EMAIL = process.env.REACT_APP_EMAIL;
 
   return (
   <footer>
@@ -14,10 +16,15 @@ const Footer = () => {
       <Row >
         <Col xs={12} md={4}>
           <ul>
-            Salon des Arts - Carantec
+            <ol>Salon des Arts - Carantec</ol>
             <ol>{t("address")} {REACT_APP_ADDRESS}</ol>
-            <ol>{t("phone")}</ol>
-            <ol>{t("email")}</ol>
+            <ol>{t("phone")} {REACT_APP_PHONE}</ol>
+            <ol>
+              {t("email")} 
+              <a className="footerlink" href={`mailto:${REACT_APP_EMAIL}?subject=contact`}>
+                {REACT_APP_EMAIL}
+              </a>
+            </ol>
           </ul>
         </Col>
         <Col xs={12} md={4}>

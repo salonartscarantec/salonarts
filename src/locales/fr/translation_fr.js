@@ -7,9 +7,9 @@ export const TRANSLATIONS_FR = {
     linkregisterdownload:"Télécharger le formulaire",
 
     //footer:
-    address:"Adresse :",
-    phone:"Téléphone :",
-    email:"Couriel :",
+    address:"Adresse : ",
+    phone:"Téléphone : ",
+    email:"Couriel : ",
     followus:"Suivez nous :",
 
     //home page:
@@ -31,14 +31,16 @@ export const TRANSLATIONS_FR = {
     painting:" peinture",
     sculpture:" sculpture",
     step1:"Remplir le formulaire et le sauvegarder",
-    step2:"Envoyer le formulaire par la poste avec un chèque de ",
-    step2b:" pour les frais d'inscriptions et des photos de vos oeuvres par email",
+    step2:"Envoyer le formulaire",
+    step2a:"Un chèque de ",
+    step2b:"Des photos de vos oeuvres par email (pour l'affiche)",
+    step2c:"Nouveaux inscrits: une feuille sur votre parcours",
     step3:"Attendre la réponse",
     organisation:"Organisation",
-    openning:"Ouverture de l’exposition au public : ",
+    openning:"Ouverture au public : ",
     openningdate:" samedi 17 juillet 2021 à 15h.",
     openninghours:"Tous les jours de 15h à 19h, et le jeudi matin, jour de marché, de 10h30 à 12h30.",
-    closure:"Fin de l’exposition le ",
+    closure:"Fin le ",
     closuredate:"jeudi 19 août 2021 à 19h.",
     privateview:"Le vernissage n’aura pas lieu à cause du contexte sanitaire.",
     extra:"",

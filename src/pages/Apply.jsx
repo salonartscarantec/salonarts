@@ -32,9 +32,11 @@ const Apply = ( ) => {
             <li className="horizontal-list-item">
               <FontAwesomeIcon icon={faMailBulk} size="2x" className="listicon"/> 
               <span className="ml-2">
-                {t("step2")}{REACT_APP_PRICE}{t("step2b")}
-                joindre une feuille expliquant votre parcours : nouveaux inscrits
-                joindre des photos de vos oeuvres pour le choix de l'affiche
+                <ul>
+                  <li>{t("step2")} et {t("step2a")} {REACT_APP_PRICE}</li>
+                  <li>{t("step2b")}</li>
+                  <li>{t("step2c")}</li>
+                </ul>
               </span>
             </li>
             <li className="horizontal-list-item">
@@ -134,13 +136,15 @@ const Apply = ( ) => {
             </h2>
             <ol>
               Le droit d’inscription est de {REACT_APP_PRICE} à régler avec la fiche de candidature par chèque à l’ordre de l’association Salon des Arts.
-              A l’adresse suivante : {REACT_APP_ADDRESS}
+            </ol>
+            <ol>
+              A l’adresse suivante : <span className="importanttext">{REACT_APP_ADDRESS}</span>
             </ol>
             <ol className="importanttext">
               L’inscription au salon implique obligatoirement l’adhésion totale au présent règlement.
             </ol>
             <ol className="importanttext">
-              L’inscription n’est effective qu'après la réception de complète du dossier et la confirmation de l'association.
+              L’inscription n’est effective qu'après la réception du dossier complet et la confirmation de l'association.
             </ol>
           </ul>
           <ul id="sales">

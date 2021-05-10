@@ -8,6 +8,7 @@ const PdfDownloadPainting = () => {
   const handlePrint = useReactToPrint({
     content: () => componentRef.current,
   });
+  const REACT_APP_EMAIL = process.env.REACT_APP_EMAIL;
     
   return (
     <div className='PdfDownloadPainting'>
@@ -17,7 +18,11 @@ const PdfDownloadPainting = () => {
         <h6 className="text-center">
           Une fois votre formulaire rempli, envoyer le nous par
         </h6>
-        <Button className="buttoncustom" href="mailto:Jojo@jojo.com?subject=inscription">Email  </Button>
+        <Button 
+          className="buttoncustom" 
+          href={`mailto:${REACT_APP_EMAIL}?subject=inscription`}>
+            Email
+        </Button>
       </div>
     </div>
   );
