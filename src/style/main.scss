@@ -74,9 +74,9 @@ html {
 }
 
 .JumbotronDisplay{
-  //background-image: url(../assets/images/vue-de-la-pointe-de-penn.jpg);
+  background-image: url(../assets/images/baie-de-morlaix-carantec.jpg);
   //background-image: url(../assets/images/alainquerne-cover.jpg);
-  background-image: url(../assets/images/taureau.jpg);
+  //background-image: url(../assets/images/taureau.jpg);
   background-size: cover;
   min-height: 800px;
   min-width: 100vw;
@@ -84,7 +84,7 @@ html {
   font-family: $font!important;
 
   .jumbotext{
-    margin-top: 5%;
+    margin-top: 1%;
   }
 
   .facebook{
@@ -196,6 +196,21 @@ html {
   margin-right: 5%;
 }
 
+.contacttext{
+  font-size: 30px;
+  margin-top: 25%;
+}
+
+.contactlink{
+  text-decoration: none!important;
+  color: $primary;
+  background-image: linear-gradient(darkred, darkred);
+  background-size: 0 2px, auto;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  transition: all .2s ease-out;
+}
+
 footer {
   max-width: 100vw;
   background-color: $footer-color;
@@ -255,6 +270,10 @@ footer {
     #formtitle{
       font-size: 16px;
     }
+  }
+
+  .contacttext{
+    font-size: 20px;
   }
 
   .sidebar-wrapper{
