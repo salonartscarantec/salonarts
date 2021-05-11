@@ -127,13 +127,21 @@ html {
     margin-right: 0!important;
   }
 
+  .liststeps{
+    list-style: none;
+  }
+
   .Applytext{
     margin-left: 0!important;
     margin-right: 0!important;
+    ul{
+      list-style: none;
+    }
   }
 
   .righttext{
     max-width: 800px!important;
+    margin-left: 5%;
   }
   
   .horizontal-list {
@@ -196,19 +204,38 @@ html {
   margin-right: 5%;
 }
 
-.contacttext{
-  font-size: 30px;
-  margin-top: 25%;
-}
+.Contacts{
 
-.contactlink{
-  text-decoration: none!important;
-  color: $primary;
-  background-image: linear-gradient(darkred, darkred);
-  background-size: 0 2px, auto;
-  background-repeat: no-repeat;
-  background-position: center bottom;
-  transition: all .2s ease-out;
+  .contacttext{
+    font-size: 30px;
+    margin-top: 25%;
+  }
+
+  .contactbureau{
+    font-size: 20px;
+    margin-top: 10%;
+    max-width: 45%;
+  }
+  
+  .contactlink{
+    text-decoration: none!important;
+    color: $primary;
+    background-image: linear-gradient(darkred, darkred);
+    background-size: 0 2px, auto;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    transition: all .2s ease-out;
+  }
+  
+  .importanttext{
+    color: $primary;
+    font-weight: bolder;
+    font-size: 35px;
+  }
+  
+  li{
+    list-style: none;
+  }
 }
 
 footer {
@@ -264,6 +291,27 @@ footer {
     }
   }
 
+  .Apply{
+    .titlecustom{
+      font-size: 17px!important;
+    }
+    .horizontal-list-item{
+      margin-top: 5%!important;
+    }
+    .stepstext{
+      margin-top: 1%!important;
+      margin-left: 3%!important;
+      margin-right: 3%!important;
+      font-size: 12px!important;
+    }
+    .subtitlecustom{
+      font-size: 15px!important;
+    }
+    li{
+      font-size: 12px!important;
+    }
+  }
+
   .PdfFile{
     font-size: 12px;
     
@@ -272,8 +320,27 @@ footer {
     }
   }
 
-  .contacttext{
-    font-size: 20px;
+  .Contacts{
+    .contacttext{
+      font-size: 15px!important;
+      margin: auto;
+    }
+  
+    .importanttext{
+      font-size: 15px!important;
+      margin: auto;
+    }
+  
+    .contactbureau{
+      font-size: 15px!important;
+      max-width: 100%;
+    }
+    h1{
+      margin-bottom: 5%!important;
+    }
+    li{
+      font-size: 15px!important;
+    }
   }
 
   .sidebar-wrapper{
