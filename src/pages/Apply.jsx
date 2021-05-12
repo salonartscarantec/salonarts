@@ -24,26 +24,36 @@ const Apply = ( ) => {
         <Col xs={12} md={12}>
           <ol className="horizontal-list">
             <li className="horizontal-list-item">
-              <FontAwesomeIcon icon={faPrint} size="2x" className="listicon"/> 
-              <span className="ml-2 stepstext">
-                {t("step1")}
-              </span>
+              <p>
+                <FontAwesomeIcon icon={faPrint} size="3x" className="listicon"/> 
+              </p>
+              <p>
+                <span className="ml-2 stepstext">
+                  {t("step1")}
+                </span>
+              </p>
             </li>
             <li className="horizontal-list-item">
-              <FontAwesomeIcon icon={faMailBulk} size="2x" className="listicon"/> 
-              <span className="ml-2 stepstext">
+              <p>
+                <FontAwesomeIcon icon={faMailBulk} size="3x" className="listicon"/> 
+              </p>
+              <p className="ml-2 stepstext">
                 <ul className="liststeps">
-                  <li>{t("step2")} et {t("step2a")} {REACT_APP_PRICE}</li>
+                  <li>{t("step2")} {t("step2a")} {REACT_APP_PRICE}</li>
                   <li>{t("step2b")}</li>
                   <li>{t("step2c")}</li>
                 </ul>
-              </span>
+              </p>
             </li>
             <li className="horizontal-list-item">
-              <FontAwesomeIcon icon={faClock} size="2x" className="listicon"/> 
-              <span className="ml-2 stepstext">
-                {t("step3")}
-              </span>
+              <p>
+                <FontAwesomeIcon icon={faClock} size="3x" className="listicon"/> 
+              </p>
+              <p>
+                <span className="ml-2 stepstext">
+                  {t("step3")}
+                </span>
+              </p>
             </li>
           </ol>
         </Col>
