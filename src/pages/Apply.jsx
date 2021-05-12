@@ -20,7 +20,7 @@ const Apply = ( ) => {
   return (
     <section className='Apply'>
       <h1 className="titlecustom text-center">{t("registertitle")}</h1>
-      <Row className="inlinelist">
+      <Row className="inlinelist" data-aos="zoom-in-right">
         <Col xs={12} md={12}>
           <ol className="horizontal-list">
             <li className="horizontal-list-item">
@@ -58,7 +58,7 @@ const Apply = ( ) => {
           </ol>
         </Col>
       </Row>
-      <Row className="inlinebutton">
+      <Row className="inlinebutton" data-aos="zoom-in-right">
         <Col xs={12} md={6} className="text-center">
           <Link className="btn buttoncustom" to="/pdfdownloadpainting">
             {t("linkregisterdownload")}
@@ -80,10 +80,10 @@ const Apply = ( ) => {
         </Col>
       </Row>
       <Row className="Applytext">
-        <Col md={2} className="sidebar-wrapper">
+        <Col md={2} className="sidebar-wrapper" data-aos="zoom-in-right">
           <Sidebar/>
         </Col>
-        <Col sx={12} s={12} md={10} className="righttext">
+        <Col sx={12} s={12} md={10} className="righttext" data-aos="zoom-in-left">
           <ul id="info">
             <h2 className="subtitlecustom">
               <FontAwesomeIcon icon={faStar} className="listicon2"/>

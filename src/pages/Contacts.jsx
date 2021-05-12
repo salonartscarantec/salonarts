@@ -12,8 +12,8 @@ const Contacts = () => {
   return (
     <div className='Contacts m-auto text-center'>
       <h1 className="importanttext">{t("contacttitle")}</h1>
-      <Row>
-        <Col xs={12} md={6}>
+      <Row className="contactaddress">
+        <Col xs={12} md={6} data-aos="zoom-in-left">
           <ul className="contacttext">
             <ol>{t("address")} {REACT_APP_ADDRESS}</ol>
             <ol>{t("phone")} {REACT_APP_PHONE}</ol>
@@ -27,7 +27,7 @@ const Contacts = () => {
             </ol>
           </ul>
         </Col>
-        <Col xs={12} md={6}>
+        <Col xs={12} md={6} data-aos="zoom-in-right">
           <Player
             autoplay={true}
             loop={true}
@@ -37,15 +37,15 @@ const Contacts = () => {
             ></Player>
         </Col>
       </Row>
-      <Row>
-        <Col sx={12} md={6}>
+      <Row className="rowbureau">
+        <Col sx={12} md={6} data-aos="zoom-in-left">
           <img
             className="d-block w-100"
             src={paintbrush}
             alt="brushes full of paint with different colors"
           />
         </Col>
-        <Col sx={12} md={6} className="contactbureau">
+        <Col sx={12} md={6} className="contactbureau" data-aos="zoom-in-right">
           <h5 className="importanttext">Le bureau élu :</h5>
           <br></br>
           <ul className="text-left">
