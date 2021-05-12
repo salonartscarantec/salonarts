@@ -13,7 +13,7 @@ export const TRANSLATIONS_FR = {
     followus:"Suivez nous :",
 
     //home page:
-    expo:"Prochaine exposition :",
+    expo:"Prochaine exposition",
     register:"Inscrivez Vous!",
     partnership:"Devenez un partenaire  ",
     contactus:"Contactez nous!",
@@ -56,5 +56,5 @@ export const TRANSLATIONS_FR = {
     others:"Divers",
 
     //contacts page:
-    contacttitle:"Pour nous contacter:",
+    contacttitle:"Pour nous contacter",
 };
