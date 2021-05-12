@@ -53,7 +53,11 @@ const Footer = () => {
       </Row>
     </Container>
     <div className="d-flex justify-content-end">
-      <small>Jérémy Querné © 2021</small>
+      <small>
+        <a className="footerlink" href="https://queje.github.io/">
+          Jérémy Querné
+        </a> © 2021
+      </small>
     </div>
   </footer>
   );
