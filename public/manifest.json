@@ -1,6 +1,7 @@
 {
   "short_name": "Arts - Carantec",
   "name": "Salon des Arts - Carantec",
+  "type":"artwork, painting and sculpting association",
   "author": "Jérémy Querné",
   "date":"2021",
   "icons": [
@@ -18,5 +19,6 @@
       "title":"Flaticon"
     }
   ],
+  "jumbotron_picture_author":"M.Querné",
   "start_url": "."
 }
