@@ -23,23 +23,28 @@ const ImageJumbotron = () => {
               <SocialIcon className="socialicon" url="https://instagram.com" alt="instagram icon"/>
             </Col>
           </Row>
-          <Row data-aos="zoom-in-right" className="mb-2">
+          <Row className="mb-2">
             <Col>
-              <h2 className="titlecustom">{t("expo")}</h2>
-              <p id="expodate">
-                {REACT_APP_DATE_EXPO} <span id="expoplace"> {REACT_APP_LOCATION}</span>
-              </p>
-              <Link className="btn buttoncustom" to="/apply">
+              <h1 data-aos="fade-left" className="title">Salon des Arts de Carantec</h1>
+              <div data-aos="fade-right" className="box">
+                <h2 className="titlecustom subtitle">{t("expo")}</h2>
+                <p id="expodate">
+                  {REACT_APP_DATE_EXPO} <span id="expoplace"> {REACT_APP_LOCATION}</span>
+                </p>
+              </div>
+              <Link data-aos="fade-left" className="btn buttoncustom bigbutton" to="/apply">
                 {t("linkapply")} {t("beforethe")} {REACT_APP_LIMIT_DATE_REGISTER}
               </Link>         
             </Col>
           </Row>
-        </Col>
-        <Col xs={12} md={6} data-aos="zoom-in-left">
-          <Image
-          src={affiche1}
-          alt="Poster adverting Carantec's Salon des Arts"
-          />
+          <Row className="imageposter">
+            <Col xs={12} md={6} data-aos="zoom-in" className="m-auto">
+              <Image
+              src={affiche1}
+              alt="Poster adverting Carantec's Salon des Arts"
+              />
+            </Col>
+          </Row>
         </Col>
       </Row>
     </Jumbotron>

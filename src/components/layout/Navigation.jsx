@@ -6,8 +6,8 @@ import { i18n } from "../../locales/i18n.js";
 import { Navbar, Nav } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 import ReactCountryFlag from "react-country-flag";
-import Image from 'react-bootstrap/Image'
-import logo from "../../assets/images/salonartscaranteccut.jpg"
+import Image from 'react-bootstrap/Image';
+import logo from "../../assets/images/salonartscaranteccut.jpg";
 
 const Navigation = ({setLanguage, language}) => {
   const { t } = useTranslation();

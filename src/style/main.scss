@@ -13,8 +13,13 @@ html {
 }
 
 .logo {
-  height: 70px;
-  width: 70px;
+  height: 80px;
+  width: 80px;
+}
+
+.logo2 {
+  height: 85px;
+  width: 85px;
 }
 
 .socialicon:hover{
@@ -57,15 +62,43 @@ html {
   background-size: 100% 2px, auto;
 }
 
-.home {
-  min-height: 100%;
+.Home {
+
+  .presentationtext{
+    font-size: 20px;
+  }
+  .importanttextmedium{
+    color: $primary;
+    font-weight: bold; 
+  }
+}
+
+.title{
+  font-size: 60px!important;
+  color: $primary;
+  font-weight: bold;
+  margin-bottom: 1rem;
 }
 
 .titlecustom{
   font-size: 50px!important;
   color: $primary;
   font-weight: bold;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+}
+
+.subtitle{
+  margin-top: 3rem;
+}
+
+.importanttexthome{
+  color: $primary;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.bigbutton{
+  font-size: 25px;
 }
 
 .subtitlecustom{
@@ -84,7 +117,13 @@ html {
   font-family: $font!important;
 
   .jumbotext{
-    margin-top: 1%;
+    margin-top: 0%;
+  }
+
+  .box{
+    border: darkred;
+    border-radius: 2%;
+    background-color: rgba(255, 254, 254, 0.33);
   }
 
   .facebook{
@@ -101,6 +140,10 @@ html {
   #expoplace{
     font-size: 40px!important;
     color: $primary;
+  }
+
+  .imageposter{
+    margin-top: 2rem;
   }
 }
 
@@ -304,6 +347,10 @@ footer {
     #expoplace{
       font-size: 20px!important;
     }
+  }
+
+  .presentationtext{
+    font-size: 12px;
   }
 
   .Apply{

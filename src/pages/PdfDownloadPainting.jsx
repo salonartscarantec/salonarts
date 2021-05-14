@@ -13,14 +13,11 @@ const PdfDownloadPainting = () => {
   return (
     <div className='PdfDownloadPainting'>
       <PdfFile ref={componentRef} />
-      <div className="text-center">
-        <Button className="buttoncustom" onClick={handlePrint}>Créer votre Pdf</Button>
-        <h6 className="text-center">
-          Une fois votre formulaire rempli, envoyer le nous par
-        </h6>
+      <div className="d-flex justify-content-md-center">
+        <Button className="buttoncustom m-2" onClick={handlePrint}>Créer votre Pdf</Button>
         <Button 
-          className="buttoncustom" 
-          href={`mailto:${REACT_APP_EMAIL}?subject=inscription`}>
+          className="buttoncustom m-2" 
+          href={`mailto:${REACT_APP_EMAIL}?subject=candidature`}>
             Email
         </Button>
       </div>

@@ -13,7 +13,7 @@ export const TRANSLATIONS_EN = {
     followus:"Follow us : ",
 
     //home page:
-    expo:"Our next exhibition",
+    expo:"Our next Exhibition",
     register:"Register Now!",
     partnership:"Become a partner : ",
     contactus:"Contact us",
