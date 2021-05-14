@@ -25,7 +25,7 @@ const ImageJumbotron = () => {
           </Row>
           <Row className="mb-2">
             <Col>
-              <h1 data-aos="fade-left" className="title">Salon des Arts de Carantec</h1>
+              <h1 data-aos="fade-left" className="title">Salon des Arts Carantec</h1>
               <div data-aos="fade-right" className="box">
                 <h2 className="titlecustom subtitle">{t("expo")}</h2>
                 <p id="expodate">

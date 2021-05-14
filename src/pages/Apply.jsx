@@ -39,7 +39,7 @@ const Apply = ( ) => {
               </p>
               <p className="ml-2 stepstext">
                 <ul className="liststeps">
-                  <li>{t("step2")} {t("step2a")} {REACT_APP_PRICE}</li>
+                  <li>{t("step2")}</li>
                   <li>{t("step2b")}</li>
                   <li>{t("step2c")}</li>
                 </ul>
@@ -49,10 +49,15 @@ const Apply = ( ) => {
               <p>
                 <FontAwesomeIcon icon={faClock} size="3x" className="listicon"/> 
               </p>
-              <p>
-                <span className="ml-2 stepstext">
-                  {t("step3")}
-                </span>
+              <p className="ml-2 stepstext">
+                <ul className="liststeps text-center">
+                  <li>
+                    {t("step3")}
+                  </li>
+                  <li>
+                    {t("step2a")} {REACT_APP_PRICE}
+                  </li>
+                </ul>
               </p>
             </li>
           </ol>
