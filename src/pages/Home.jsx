@@ -61,7 +61,6 @@ const Home = () => {
               ></Player>
           </Col>
         </Row>
-          <h5 className="m-auto"></h5>
         <Row data-aos="zoom-in" className="d-flex justify-content-md-center">
           <CarouselDisplay/>
         </Row>
