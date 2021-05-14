@@ -10,7 +10,7 @@ export const TRANSLATIONS_EN = {
     address:"Address : ",
     phone:"Phone : ",
     email:"Email : ",
-    followus:"Follow us : ",
+    followus:"Follow us",
 
     //home page:
     expo:"Our next Exhibition",
@@ -22,6 +22,12 @@ export const TRANSLATIONS_EN = {
     presentation1:"Salon des Arts de Carantec is an association under 1901's law.",
     presentation2:"Started in 2011, this association's purpose is to organized exibitions of local paintors and sculptors.",
     presentation3:"All artists are welcome to apply.",
+    presentation4:"During the exhibitions, artists are welcomed to do",
+    workshop:" workshops",
+    presentation5:" and our pationate volunteers will also offer ",
+    discovery:"discovery tours",
+    presentation6:"If you want more informations, look at posters and pictures of past events,",
+    
 
     //register page:
     registertitle:"Register to the next exibition ",

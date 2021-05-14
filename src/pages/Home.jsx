@@ -33,17 +33,16 @@ const Home = () => {
             </div>
             <div>
               <p className="presentationtext">
-                Pendant les expositions, les artistes peuvent proposer des 
-                <span className="importanttextmedium"> ateliers </span> et
-                nos bénévoles passionnés font des 
-                <span className="importanttextmedium"> parcours de découverte</span>. 
+                {t("presentation4")}
+                <span className="importanttextmedium"> {t("workshop")} </span> 
+                {t("presentation5")}
+                <span className="importanttextmedium"> {t("discovery")}</span>. 
               </p>
               <p className="presentationtext"> 
-                Si vous voulez plus d'informations, 
-                voir les affiches et les photos des expositions passées, 
+                {t("presentation6")} 
               </p>
               <p className="importanttexthome text-center">
-                Suivez nous
+                {t("followus")}
               </p>
               <p className="text-center">
                 <SocialIcon data-aos="flip-up" className="socialicon m-2" url="https://fr-fr.facebook.com/ArtCarantec/" alt="facebook icon"/>
