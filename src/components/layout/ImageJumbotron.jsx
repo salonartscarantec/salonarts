@@ -13,33 +13,38 @@ const ImageJumbotron = () => {
 
   return (
     <Jumbotron className="JumbotronDisplay" alt="picture of the bay of Morlaix from Carantec">
-      <Row>
-        <Col>
-          <ul data-aos="flip-up" className="list-inline">
-            <ol className="list-inline-item">
-              <SocialIcon className="socialicon" url="https://twitter.com" alt="twitter icon"/>
-            </ol>
-            <ol className="list-inline-item">
-              <SocialIcon className="socialicon" url="https://facebook.com" alt="facebook icon"/>
-            </ol>
-            <ol className="list-inline-item">
+      <Row className="jumbotext">
+        <Col xs={12} md={6}>
+          <Row data-aos="flip-up" className="mb-2">
+            <Col>
+              <SocialIcon className="socialicon facebook" url="https://fr-fr.facebook.com/ArtCarantec/" alt="facebook icon"/>
+            </Col>
+            <Col>
               <SocialIcon className="socialicon" url="https://instagram.com" alt="instagram icon"/>
-            </ol>
-          </ul>
-          <div data-aos="zoom-in-right">
-            <h2 className="titlecustom">{t("expo")}</h2>
-            <p id="expodate">Date : {REACT_APP_DATE_EXPO}</p>
-            <p id="expoplace">{t("location")} : {REACT_APP_LOCATION}</p>
-            <Link className="btn buttoncustom" to="/apply">
-              {t("linkapply")} {t("beforethe")} {REACT_APP_LIMIT_DATE_REGISTER}
-            </Link>         
-          </div>
-        </Col>
-        <Col data-aos="zoom-in-left">
-          <Image
-          src={affiche1}
-          alt="Poster adverting Carantec's Salon des Arts"
-          />
+            </Col>
+          </Row>
+          <Row className="mb-2">
+            <Col>
+              <h1 data-aos="fade-left" className="title">Salon des Arts Carantec</h1>
+              <div data-aos="fade-right" className="box">
+                <h2 className="titlecustom subtitle">{t("expo")}</h2>
+                <p id="expodate">
+                  {REACT_APP_DATE_EXPO} <span id="expoplace"> {REACT_APP_LOCATION}</span>
+                </p>
+              </div>
+              <Link data-aos="fade-left" className="btn buttoncustom bigbutton" to="/apply">
+                {t("linkapply")} {t("beforethe")} {REACT_APP_LIMIT_DATE_REGISTER}
+              </Link>         
+            </Col>
+          </Row>
+          <Row className="imageposter">
+            <Col xs={12} md={6} data-aos="zoom-in" className="m-auto">
+              <Image
+              src={affiche1}
+              alt="Poster adverting Carantec's Salon des Arts"
+              />
+            </Col>
+          </Row>
         </Col>
       </Row>
     </Jumbotron>

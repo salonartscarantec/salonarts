@@ -6,20 +6,28 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const Footer = () => {
   const { t } = useTranslation();
+  const REACT_APP_ADDRESS = process.env.REACT_APP_ADDRESS;
+  const REACT_APP_PHONE = process.env.REACT_APP_PHONE;
+  const REACT_APP_EMAIL = process.env.REACT_APP_EMAIL;
 
   return (
   <footer>
     <Container>
       <Row >
-        <Col>
+        <Col xs={12} md={4}>
           <ul>
-            Salon des Arts - Carantec
-            <ol>{t("address")}</ol>
-            <ol>{t("phone")}</ol>
-            <ol>{t("email")}</ol>
+            <ol>Salon des Arts - Carantec</ol>
+            <ol>{t("address")} {REACT_APP_ADDRESS}</ol>
+            <ol>{t("phone")} {REACT_APP_PHONE}</ol>
+            <ol>
+              {t("email")} 
+              <a className="footerlink" href={`mailto:${REACT_APP_EMAIL}?subject=contact`}>
+                {REACT_APP_EMAIL}
+              </a>
+            </ol>
           </ul>
         </Col>
-        <Col className="d-flex justify-content-center">
+        <Col xs={12} md={4}>
           <ul>
             <ol>
               <Link className="footerlink" to="/">{t("linkhome")}</Link>
@@ -32,30 +40,24 @@ const Footer = () => {
             </ol>
           </ul>
         </Col>
-        <Col>
-          <ul className="list-inline">
-            <p className="text-center">{t("followus")}</p>
-            <ol className="list-inline-item">
-              <Link to="#">
-                <SocialIcon className="socialicon" url="https://twitter.com" />
-              </Link>
-            </ol>
-            <ol className="list-inline-item">
-              <Link to="#">
-                <SocialIcon className="socialicon" url="https://facebook.com" />
-              </Link>
-            </ol>
-            <ol className="list-inline-item">
-              <Link to="#">
-                <SocialIcon className="socialicon" url="https://instagram.com" />
-              </Link>
-            </ol>
-          </ul>
+        <Col xs={12} md={4} className="d-flex justify-content-center">
+          <Row>
+            <Col>
+              <SocialIcon className="socialicon" url="https://fr-fr.facebook.com/ArtCarantec/" />
+            </Col>
+            <Col>
+              <SocialIcon className="socialicon" url="https://instagram.com" />
+            </Col>
+          </Row>
         </Col>
       </Row>
     </Container>
     <div className="d-flex justify-content-end">
-      <small>Jérémy Querné © 2021</small>
+      <small>
+        <a className="footerlink" href="https://queje.github.io/">
+          Jérémy Querné
+        </a> © 2021
+      </small>
     </div>
   </footer>
   );

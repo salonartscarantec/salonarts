@@ -6,8 +6,8 @@ import { i18n } from "../../locales/i18n.js";
 import { Navbar, Nav } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 import ReactCountryFlag from "react-country-flag";
-import Image from 'react-bootstrap/Image'
-import logo from "../../assets/images/salonartscaranteccut.jpg"
+import Image from 'react-bootstrap/Image';
+import logo from "../../assets/images/salonartscaranteccut.jpg";
 
 const Navigation = ({setLanguage, language}) => {
   const { t } = useTranslation();
@@ -35,20 +35,22 @@ const Navigation = ({setLanguage, language}) => {
             <Link className="navbarlink" to="/contacts">{t("linkcontact")}</Link>
           </Nav.Link>
         </Nav>
-        {(
-          language === "fr" && (
-              <Button className="buttoncustom" value="en" onClick={handleOnclick}>
-                English
-                <ReactCountryFlag countryCode="GB" svg />
-              </Button>
-          )) || (
-           language === "en" && (
-              <Button className="buttoncustom" value="fr" onClick={handleOnclick}>
-                Français
-                <ReactCountryFlag countryCode="FR" svg />
-              </Button>
-           ))
-        }
+        <div id="buttonlanguage">
+          {(
+            language === "fr" && (
+                <Button className="buttoncustom" value="en" onClick={handleOnclick}>
+                  English
+                  <ReactCountryFlag countryCode="GB" svg />
+                </Button>
+            )) || (
+            language === "en" && (
+                <Button className="buttoncustom" value="fr" onClick={handleOnclick}>
+                  Français
+                  <ReactCountryFlag countryCode="FR" svg />
+                </Button>
+            ))
+          }
+        </div>
       </Navbar.Collapse>
     </Navbar>
   );

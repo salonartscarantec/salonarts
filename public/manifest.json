@@ -8,10 +8,15 @@
       "src": "brush_black_18dp",
       "sizes": "24x24",
       "type": "image/svg"
+    },
+    {
+      "src":"https://www.freepik.com",
+      "title":"https://www.freepik.com"
+    },
+    {
+      "src":"https://www.flaticon.com/", 
+      "title":"Flaticon"
     }
   ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "start_url": "."
 }
