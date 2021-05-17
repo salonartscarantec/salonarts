@@ -6,14 +6,13 @@
 * Redux (authentication and flashmessages)
 * React Router with public and privates routes
 * Basic Layout (navbar, flashmessages, footer)
-* Cookies Js
-* Pages : Home, Register, Login, Profile
+* Pages : Home, Apply, Contacts, ... 
 * React Icons
 
 ## Usage
 
 Clone this repository  
-Create a .env with `REACT_APP_API_URL="http://localhost:8080"`    
+Create a .env with     
 `npm install`  
 `npm start`  
 Your app will be running on `http://localhost:3000`  
