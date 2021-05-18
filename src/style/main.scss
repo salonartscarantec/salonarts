@@ -319,7 +319,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .navbarlink {
     font-size: 15px!important;
   }
@@ -414,4 +414,15 @@ footer {
   ol{
     margin-left: -15%!important;
   }
+
+  footer{
+    .row{
+      margin-left: 5%!important;
+      margin-right: 5%!important;
+    }
+  }
+}
+
+@media screen and (min-width:2560px) { 
+  /* CSS rules here */
 }
