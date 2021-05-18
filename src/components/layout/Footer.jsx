@@ -16,28 +16,28 @@ const Footer = () => {
       <Row >
         <Col xs={12} md={4}>
           <ul>
-            <ol>Salon des Arts - Carantec</ol>
-            <ol>{t("address")} {REACT_APP_ADDRESS}</ol>
-            <ol>{t("phone")} {REACT_APP_PHONE}</ol>
-            <ol>
+            <li className="footertitle">Salon des Arts - Carantec</li>
+            <li>{t("address")} {REACT_APP_ADDRESS}</li>
+            <li>{t("phone")} {REACT_APP_PHONE}</li>
+            <li>
               {t("email")} 
               <a className="footerlink" href={`mailto:${REACT_APP_EMAIL}?subject=contact`}>
                 {REACT_APP_EMAIL}
               </a>
-            </ol>
+            </li>
           </ul>
         </Col>
         <Col xs={12} md={4}>
           <ul>
-            <ol>
+            <li>
               <Link className="footerlink" to="/">{t("linkhome")}</Link>
-            </ol>
-            <ol>
+            </li>
+            <li>
               <Link className="footerlink" to="/apply">{t("linkapply")}</Link>
-            </ol>
-            <ol>
+            </li>
+            <li>
               <Link className="footerlink" to="/contacts">{t("linkcontact")}</Link>
-            </ol>
+            </li>
           </ul>
         </Col>
         <Col xs={12} md={4} className="d-flex justify-content-center">

@@ -304,6 +304,11 @@ footer {
   opacity:0.8;
   font-family: $font!important;
 
+  .footertitle{
+    font-weight: bolder;
+    color: $primary;
+  }
+
   .footerlink{
     font-size: 15px!important;
     text-decoration: none!important;
@@ -318,6 +323,10 @@ footer {
   .footerlink:hover{
     font-size: 18px!important;
     background-size: 100% 1px, auto;
+  }
+
+  li{
+    list-style: none;
   }
 }
 
@@ -339,6 +348,9 @@ footer {
   .titlecustom{
     font-size: 25px!important;
   }
+  .buttoncustom{
+    margin-top: 1%;
+  }
 
   .JumbotronDisplay{
     #expodate{
@@ -359,12 +371,27 @@ footer {
     }
     .horizontal-list-item{
       margin-top: 5%!important;
+      margin-left: -10%;
     }
     .stepstext{
       margin-top: 1%!important;
       margin-left: 3%!important;
       margin-right: 3%!important;
       font-size: 12px!important;
+    }
+    .righttext{
+      ul{
+        margin-left: -10%;
+      }
+      #info#artwork#applications#sales#insurances#permanency#others{
+        li{
+          margin-left: -15%!important;
+        }
+      }
+    }
+    .liststeps{
+      margin-left: 3%!important;
+      margin-right: 3%!important;
     }
     .subtitlecustom{
       font-size: 15px!important;
@@ -385,7 +412,9 @@ footer {
   .Contacts{
     .contacttext{
       font-size: 15px!important;
-      margin: auto;
+      margin-top: 0%;
+      margin-left: 3%;
+      margin-right: 3%;
     }
   
     .importanttext{
@@ -396,9 +425,17 @@ footer {
     .contactbureau{
       font-size: 15px!important;
       max-width: 100%;
+      margin-left: 3%!important;
+      margin-right: 3%!important;
     }
     h1{
       margin-bottom: 5%!important;
+    }
+    ul{
+      margin-left: 0%!important;
+    }
+    ol{
+      margin-left: -15%!important;
     }
     li{
       font-size: 15px!important;
@@ -409,18 +446,18 @@ footer {
     display: none;
   }
 
-  ul{
-    margin-left: -15%!important;
-  }
-  
-  ol{
-    margin-left: -15%!important;
-  }
-
   footer{
     .row{
       margin-left: 5%!important;
       margin-right: 5%!important;
+    }
+    .footertitle{
+      font-weight: bolder;
+      color: $primary;
+      margin-bottom: 8%;
+    }
+    ul{
+      margin-left: -10%!important;
     }
   }
 }
