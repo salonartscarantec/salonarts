@@ -104,107 +104,113 @@ const Apply = ( ) => {
               <span className="importanttext">{t("closuredate")}</span>
             </li>
             <li>{t("privateview")}</li>
-            <li className="importanttext">{t("extra")}</li>
           </ul>
           <ul id="artwork">
             <h2 className="subtitlecustom">
               <FontAwesomeIcon icon={faPalette} className="listicon2"/>
-              Dépôt des œuvres
+              {t("artworkdeposit")}
             </h2>
             <li>
-              <span className="font-weight-bold">Peintres</span> : lundi 12 juillet 10h-12h et 14h-16h
+              <span className="font-weight-bold">
+                {t("paintors")}
+              </span>
+                {t("depositdatepaintors")}
             </li>
             <li>
-              <span className="font-weight-bold">Sculpteurs</span> : vendredi 16 juillet de 10h à 12h
+              <span className="font-weight-bold">
+                {t("sculptors")}
+              </span>
+                {t("depositdatesculptors")}
             </li>
-            <li>Accrochage et installation réalisé par l’association.</li>
-          </ul>
-          <ul>
-            <h2 className="subtitlecustom">
-              <FontAwesomeIcon icon={faPalette} className="listicon2"/>  
-              Retrait des œuvres
-            </h2>
-            <li> vendredi 20 août de 10 à 12h</li>
+            <li>
+              {t("deposittext")}
+            </li>
           </ul>
           <ul>
             <h2 className="subtitlecustom">
               <FontAwesomeIcon icon={faPalette} className="listicon2"/>
-              Infos œuvres
+              {t("artworkretrival")}  
+            </h2>
+            <li>
+              {t("retrivaldate")} 
+            </li>
+          </ul>
+          <ul>
+            <h2 className="subtitlecustom">
+              <FontAwesomeIcon icon={faPalette} className="listicon2"/>
+              {t("artworkinfos")}
             </h2>
             <li className="mb-2">
-              Les œuvres doivent être originales et ne pas avoir été déjà exposées dans notre salon. 
-              Dans un souci d’harmonie, les organisateurs se réservent le droit de limiter les œuvres exposées.
-              Nous avons besoin de vos photos (avec une bonne définition) pour le choix de l’affiche.
+              {t("infostext")}
             </li>
             <li className="mb-2">
-              <span className="font-weight-bold">Peintres</span> : Chaque artiste dispose d’une surface de 1m20x1m80 (panneau horizontal ou vertical).
-               Merci de respecter les dimensions car cette année le salon a lieu dans une salle de la mairie plus restreinte que notre salle habituelle.
+              <span className="font-weight-bold">
+                {t("paintors")}
+              </span>
+              {t("infospaintors")}
             </li>
             <li className="mb-2">
-              <span className="font-weight-bold">Sculpteurs</span> : 4 ou 5 oeuvres originales. Prévoir des socles blancs de préférence.
+              <span className="font-weight-bold">
+                {t("sculptors")}
+              </span>
+              {t("infossculptors")}
             </li> 
           </ul>
           <ul id="applications">
             <h2 className="subtitlecustom">
               <FontAwesomeIcon icon={faMoneyCheckAlt} className="listicon2"/>
-              Candidatures
+              {t("applications")}
             </h2>
             <li>
-              Le droit d’inscription est de {REACT_APP_PRICE} à régler avec la fiche de candidature par chèque à l’ordre de l’association Salon des Arts.
+              {t("applicationlign1")}
+              {REACT_APP_PRICE}
+              {t("applicationlign2")}
             </li>
             <li>
-              A l’adresse suivante : <span className="importanttext">{REACT_APP_ADDRESS}</span>
+              {t("applicationaddress")}
+              <span className="importanttext">{REACT_APP_ADDRESS}</span>
             </li>
             <li className="importanttext">
-              L’inscription au salon implique obligatoirement l’adhésion totale au présent règlement.
+              {t("applicationrule1")}
             </li>
             <li className="importanttext">
-              L’inscription n’est effective qu'après la réception du dossier complet et la confirmation de l'association.
+              {t("applicationrule2")}
             </li>
           </ul>
           <ul id="sales">
             <h2 className="subtitlecustom">
               <FontAwesomeIcon icon={faEuroSign} className="listicon2"/>
-              Ventes
+              {t("sales")}
             </h2>
             <li>
-              Le prix de vente de chaque œuvre est de la responsabilité de l’artiste.
-              Chaque œuvre devra porter au dos : nom, prénom, adresse, le titre de l’œuvre et son prix ainsi qu’un certificat d’authenticité signé par l’artiste.
-              Chaque œuvre devra être munie d’un système d’accrochage solide et pratique.
-              L’association demandera 10% sur les ventes.
+              {t("salestext")}
             </li>
           </ul>
           <ul id="insurances">
             <h2 className="subtitlecustom">
               <FontAwesomeIcon icon={faPeopleCarry} className="listicon2"/>
-              Assurances
+              {t("insurances")}
             </h2>
             <li>
-              Les organisateurs prendront le plus grand soin de vos œuvres. 
-              La municipalité et l’association organisatrice de l’exposition ne répondent en aucun cas des dommages qui pourraient survenir aux œuvres pendant la durée de l’exposition. 
-              Les artistes sont invités à assurer leurs œuvres contre tout risque. 
-              Ils renoncent expressément à tout recours contre l’association.
-              Le transport des œuvres aller et retour est à la charge de l’artiste.
+              {t("insurancestext")}
             </li>
           </ul>
           <ul id="permanency">
             <h2 className="subtitlecustom">
               <FontAwesomeIcon icon={faInfoCircle} className="listicon2"/>
-              Permanances
+              {t("permanency")}
             </h2>
             <li>
-              Les artistes sont invités à assurer une ou 2 permanences de 14h à 18h. La présence des artistes est un plus pour les échanges avec les visiteurs et favorise les ventes. 
-              Les ateliers de démonstrations sont à nouveau mis en place. Contactez nous si vous êtes intéressés.
-              Penser à mettre des cartes de visite à disposition.
+              {t("permanancytext")}
             </li>
           </ul>
           <ul id="others">
             <h2 className="subtitlecustom">
               <FontAwesomeIcon icon={faHandsHelping} className="listicon2"/>
-              Divers
+              {t("others")}
             </h2>
             <li>
-              Il a été convenu que les seules ventes à l’accueil du salon, seraient les ventes des cartes, affiches, marque-pages appartenant à l’association.
+              {t("otherstext")}
             </li>
           </ul>
         </Col>
