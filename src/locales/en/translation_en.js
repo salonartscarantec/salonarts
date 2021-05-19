@@ -28,8 +28,7 @@ export const TRANSLATIONS_EN = {
     discovery:"discovery tours",
     presentation6:"If you want more informations, look at posters and pictures of past events,",
     
-
-    //register page:
+    //apply page:
     registertitle:"Register to the next exibition ",
     registerprice:"Price ",
     registerrules:"Rules to register ",
@@ -42,14 +41,42 @@ export const TRANSLATIONS_EN = {
     step2b:"Pictures of your artwork by email",
     step2c:"New applications: join a small text about you",
     step3:"Wait for an answer,",
-    organisation:"Organization",
+    organisation:"Organisation",
     openning:"Openning to the public :", 
     openningdate:" 17th of July 2021 at 3pm.",
     openninghours:"Everyday from 3pm to 7pm, and thursday morning, local market day, from 10:30am to 12:30am",
     closure:"End of the exhibition :",
     closuredate:" 19th of August 2021 at 7pm.",
     privateview:"Due to the health context, there will be not private openning event this year.",
-    extra:"The rest of the translation is not yet available, don't hesitate to contact us in case you need more assistance.",
+
+    artworkdeposit:"Artwork deposit",
+    paintors:"paintors",
+    sculptors:"sculptors",
+    depositdatepaintors:" : monday 12th of july from 10-12am and 2-4pm",
+    depositdatesculptors:" : friday 16th of july from 10-12am",
+    deposittext:"The setting up of the artwork is made by our trusted volonteers.",
+
+    artworkretrival:"Artwork retrival",
+    retrivaldate:" friday 20th of august from 10 - 12am",
+
+    artworkinfos:"Artwork informations",
+    infostext:"Submitted artwork must be originals and not have already been presented in our exhibitions. The organisation commitee could choose to limit the number pieces presented. We also need pictures of your artwok (in good definition) to select one for the poster.",
+    infospaintors:" : Each artist has a available area of 1m20x1m80 (horizontal or vertical). Please be sure to respect this rule as the location of the exhibition is limited in space.",
+    infossculptors:" : 4 or 5 pieces of original artwork. Please be sure to bring white pedestal to present your work.",
+
+    applicationlign1:"The registration fee is ",
+    applicationlign2:" to send by check payable to the salon des arts, after recieving the application file and acceptance by the association.",
+    applicationaddress:"Use the following address : ",
+    applicationrule1:"Registration implies mandatory acceptance of the rules of the salon.",
+    applicationrule2:"Registration is not effective untill recieving the complete application file and confirmation by the association.",
+
+    salestext:"Sailing prices are under the responsability of the artist. Each piece should have inscribed in the back : name, firstname, address, title of the piece, price and an authencication certificate signed by the artist. Each piece should be provided with a strong and practile support system. The association will ask for 10% of each sales.",
+
+    insurancestext:"The comitee and volonteers will take the utmost care of your work. The city council and the association will not be responsible for any damage occuring during the exhibition. Artists are strongly invitated to insure their work against all risks. Artists also renounce the rigths to any recourse against the association. Transport of artworks is the responsability of the artist.",
+
+    permanancytext:"Artits are invited to be on site for one or 2 permanancies from 2 to 6pm. Attendance is a plus to exchange with visitors and boost your sales. Demonstration workshops are possible to set up. Contact us if you are interested. Please consider providing us with business cards to display.", 
+
+    otherstext:"it was decided that the only sales possible at the reception of the salon will be postcards, posters, bookmarks belonging to the association.",
 
     //sidebar:
     regulation:"Regulation",
@@ -58,7 +85,7 @@ export const TRANSLATIONS_EN = {
     applications:"Applications",
     sales:"Sales",
     insurances:"Insurances",
-    permanancy:"Permancy",
+    permanancy:"Permanancy",
     others:"More",
 
     //contacts page:
