@@ -50,8 +50,8 @@ export const TRANSLATIONS_FR = {
     privateview:"Le vernissage n’aura pas lieu à cause du contexte sanitaire.",
     
     artworkdeposit:"Dépôt des œuvres",
-    paintors:"peintres",
-    sculptors:"sculptures",
+    paintors:"Peintres",
+    sculptors:"Sculptures",
     depositdatepaintors:" : lundi 12 juillet 10h-12h et 14h-16h",
     depositdatesculptors:" : vendredi 16 juillet de 10h à 12h",
     deposittext:"Accrochage et installation réalisé par l’association.",
