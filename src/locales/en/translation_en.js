@@ -50,8 +50,8 @@ export const TRANSLATIONS_EN = {
     privateview:"Due to the health context, there will be not private openning event this year.",
 
     artworkdeposit:"Artwork deposit",
-    paintors:"paintors",
-    sculptors:"sculptors",
+    paintors:"Paintors",
+    sculptors:"Sculptors",
     depositdatepaintors:" : monday 12th of july from 10-12am and 2-4pm",
     depositdatesculptors:" : friday 16th of july from 10-12am",
     deposittext:"The setting up of the artwork is made by our trusted volonteers.",
@@ -76,7 +76,7 @@ export const TRANSLATIONS_EN = {
 
     permanancytext:"Artits are invited to be on site for one or 2 permanancies from 2 to 6pm. Attendance is a plus to exchange with visitors and boost your sales. Demonstration workshops are possible to set up. Contact us if you are interested. Please consider providing us with business cards to display.", 
 
-    otherstext:"it was decided that the only sales possible at the reception of the salon will be postcards, posters, bookmarks belonging to the association.",
+    otherstext:"It was decided that the only sales possible at the reception of the salon will be postcards, posters, bookmarks belonging to the association.",
 
     //sidebar:
     regulation:"Regulation",
