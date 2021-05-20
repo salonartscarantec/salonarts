@@ -12,6 +12,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import PdfDownloadPainting from "pages/PdfDownloadPainting";
 import PdfDownloadSculpture from "pages/PdfDownloadSculpture";
+import ScrollToTop from "components/ScrollToTop";
 
 const App = () => {
   const displayFlash = useSelector((state) => state.flash.display);
@@ -25,6 +26,7 @@ const App = () => {
   return (
     <section className="App">
       <Router>
+        <ScrollToTop />
         <Navigation setLanguage={setLanguage} language={language}/>
         {displayFlash && <FlashMessage />}
           <Switch>
