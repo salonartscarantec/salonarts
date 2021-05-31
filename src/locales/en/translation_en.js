@@ -29,18 +29,18 @@ export const TRANSLATIONS_EN = {
     presentation6:"If you want more informations, look at posters and pictures of past events,",
     
     //apply page:
-    registertitle:"Register to the next exibition ",
+    registertitle:"Apply to the next exibition ",
     registerprice:"Price ",
     registerrules:"Rules to register ",
     createpdf:"Create pdf",
     painting:" painting",
     sculpture:" sculpture",
-    step1:"Complete the form and save it",
-    step2:"Send us the form",
-    step2a:"If you got a positive reply, send us a check of ",
-    step2b:"Pictures of your artwork by email",
+
+    step2b:"Send pictures of your artwork by ",
     step2c:"New applications: join a small text about you",
-    step3:"Wait for an answer,",
+    step3:"Wait for an answer form the comitee",
+    step2a:"If you got a positive reply, complete the form, save it and send it by mail with a check of ",
+
     organisation:"Organisation",
     openning:"Openning to the public :", 
     openningdate:" 17th of July 2021 at 3pm.",
