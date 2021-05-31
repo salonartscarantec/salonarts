@@ -16,6 +16,7 @@ const Apply = ( ) => {
   const { t } = useTranslation();
   const REACT_APP_PRICE = process.env.REACT_APP_PRICE;
   const REACT_APP_ADDRESS = process.env.REACT_APP_ADDRESS;
+  const REACT_APP_EMAIL = process.env.REACT_APP_EMAIL;
 
   return (
     <section className='Apply'>
@@ -25,24 +26,22 @@ const Apply = ( ) => {
           <ol className="horizontal-list">
             <li className="horizontal-list-item">
               <p>
-                <FontAwesomeIcon icon={faPrint} size="3x" className="listicon"/> 
-              </p>
-              <p>
-                <span className="ml-2 stepstext">
-                  {t("step1")}
-                </span>
-              </p>
-            </li>
-            <li className="horizontal-list-item">
-              <p>
                 <FontAwesomeIcon icon={faMailBulk} size="3x" className="listicon"/> 
               </p>
-              <p className="ml-2 stepstext">
-                <ul className="liststeps">
-                  <li>{t("step2")}</li>
-                  <li>{t("step2b")}</li>
-                  <li>{t("step2c")}</li>
-                </ul>
+              <p className="ml-2 stepstext"> 
+                <li>
+                  {t("step2b")}
+                  <a 
+                    className="emaillink" 
+                    href={`mailto:${REACT_APP_EMAIL}?subject=candidature`}>
+                      Email
+                  </a>
+                </li>
+                <li>
+                  <small>
+                    {t("step2c")}
+                  </small>
+                </li> 
               </p>
             </li>
             <li className="horizontal-list-item">
@@ -50,14 +49,21 @@ const Apply = ( ) => {
                 <FontAwesomeIcon icon={faClock} size="3x" className="listicon"/> 
               </p>
               <p className="ml-2 stepstext">
-                <ul className="liststeps text-center">
+                <ul className="liststeps">
                   <li>
                     {t("step3")}
                   </li>
-                  <li>
-                    {t("step2a")} {REACT_APP_PRICE}
-                  </li>
                 </ul>
+              </p>
+            </li>
+            <li className="horizontal-list-item">
+              <p>
+                <FontAwesomeIcon icon={faPrint} size="3x" className="listicon"/> 
+              </p>
+              <p>
+                <li className="ml-2 stepstext">
+                  {t("step2a")} {REACT_APP_PRICE}
+                </li>
               </p>
             </li>
           </ol>

@@ -19,7 +19,7 @@ const CarouselDsiplay = () => {
         />
       </Carousel.Item>
 
-      <Carousel.Item>
+      <Carousel.Item className="imagecarousel">
         <img
           className="d-block w-100"
           src={image2}
@@ -27,7 +27,7 @@ const CarouselDsiplay = () => {
         />
       </Carousel.Item>
 
-      <Carousel.Item>
+      <Carousel.Item className="imagecarousel">
         <img
           className="d-block w-100"
           src={image3}
@@ -35,7 +35,7 @@ const CarouselDsiplay = () => {
         />
       </Carousel.Item>
 
-      <Carousel.Item>
+      <Carousel.Item className="imagecarousel">
         <img
           className="d-block w-100"
           src={image4}
@@ -43,7 +43,7 @@ const CarouselDsiplay = () => {
         />
       </Carousel.Item>
 
-      <Carousel.Item>
+      <Carousel.Item className="imagecarousel">
         <img
           className="d-block w-100"
           src={image5}
