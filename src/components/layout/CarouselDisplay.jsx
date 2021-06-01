@@ -15,7 +15,7 @@ const CarouselDsiplay = () => {
         <img
           className="d-block w-100"
           src={image1}
-          alt="First slide"
+          alt="salon des arts, présentation des oeuvres et de l'exposition"
         />
       </Carousel.Item>
 
@@ -23,7 +23,7 @@ const CarouselDsiplay = () => {
         <img
           className="d-block w-100"
           src={image2}
-          alt="Second slide"
+          alt="peinture du viaduc de Morlaix, Arditti"
         />
       </Carousel.Item>
 
@@ -31,7 +31,7 @@ const CarouselDsiplay = () => {
         <img
           className="d-block w-100"
           src={image3}
-          alt="Third slide"
+          alt="découverte de l'exposition par des scolaires"
         />
       </Carousel.Item>
 
@@ -39,7 +39,7 @@ const CarouselDsiplay = () => {
         <img
           className="d-block w-100"
           src={image4}
-          alt="4th slide"
+          alt="Sculpture de femme, Rita"
         />
       </Carousel.Item>
 
@@ -47,7 +47,7 @@ const CarouselDsiplay = () => {
         <img
           className="d-block w-100"
           src={image5}
-          alt="4th slide"
+          alt="Atelier découverte avec des jeunes"
         />
       </Carousel.Item>
         
