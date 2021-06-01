@@ -42,6 +42,7 @@ const ImageJumbotron = () => {
               <Image
               src={affiche1}
               alt="Poster adverting Carantec's Salon des Arts"
+              className="posterimage"
               />
             </Col>
           </Row>

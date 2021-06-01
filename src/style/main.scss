@@ -74,6 +74,10 @@ html {
 
   .imagecarousel{
     max-height: 90vh;
+    img{
+      width: 800px;
+      height: 700px;
+    }
   }
 }
 
@@ -374,6 +378,14 @@ footer {
     }
     #expoplace{
       font-size: 20px!important;
+    }
+  }
+
+  .imagecarousel{
+    max-height: 90vh;
+    img{
+      min-width: 100%!important;
+      height: auto!important;
     }
   }
 
