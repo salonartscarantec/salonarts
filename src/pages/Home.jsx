@@ -1,12 +1,11 @@
 import ImageJumbotron from "components/layout/ImageJumbotron";
-import { Container, Row, Col } from "react-bootstrap";
-import { Player } from '@lottiefiles/react-lottie-player';
+import { Container, Row, Col, Image } from "react-bootstrap";
 import CarouselDisplay from "components/layout/CarouselDisplay";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import logo from "../assets/images/salonartscaranteccut.jpg";
-import Image from 'react-bootstrap/Image';
 import { SocialIcon } from 'react-social-icons';
+import affiche1 from "../assets/images/affiche1.jpg";
 
 const Home = () => {
   const { t } = useTranslation();
@@ -19,7 +18,6 @@ const Home = () => {
           <Col xs={12} md={6} data-aos="zoom-in-right">
             <h1 className="titlecustom text-center">
               <Image className="logo2" src={logo}/>
-              Salon des Arts Carantec
             </h1>
             <div className="presentation">
               <p className="presentationtext">{t("presentation1")}</p>
@@ -51,14 +49,11 @@ const Home = () => {
             </div>
           </Col>
           <Col xs={12} md={6} data-aos="zoom-in-left">
-            <Player
-              id="artistanimation"
-              autoplay={true}
-              loop={true}
-              controls={false}
-              src="https://assets7.lottiefiles.com/packages/lf20_ggw4qc1o.json"
-              alt="artist animation"
-              ></Player>
+            <Image
+              src={affiche1}
+              alt="Poster adverting Carantec's Salon des Arts"
+              className="posterimage"
+              />
           </Col>
         </Row>
         <Row data-aos="zoom-in" className="d-flex justify-content-md-center">
