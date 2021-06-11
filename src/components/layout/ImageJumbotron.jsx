@@ -1,9 +1,8 @@
-import { Row, Col, Image } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import { Jumbotron } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom"; 
 import { SocialIcon } from 'react-social-icons';
-import affiche1 from "../../assets/images/affiche1.jpeg";
 
 const ImageJumbotron = () => { 
   const { t } = useTranslation();
@@ -37,15 +36,7 @@ const ImageJumbotron = () => {
               </Link>         
             </Col>
           </Row>
-          <Row className="imageposter">
-            <Col xs={12} md={6} className="m-auto">
-              <Image
-              src={affiche1}
-              alt="Poster adverting Carantec's Salon des Arts"
-              className="posterimage"
-              />
-            </Col>
-          </Row>
+          
         </Col>
       </Row>
     </Jumbotron>
