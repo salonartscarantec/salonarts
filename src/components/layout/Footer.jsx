@@ -47,7 +47,7 @@ const Footer = () => {
               <SocialIcon className="socialicon" url="https://fr-fr.facebook.com/ArtCarantec/" />
             </Col>
             <Col>
-              <SocialIcon className="socialicon" url="https://instagram.com" />
+              <SocialIcon className="socialicon" url="https://www.instagram.com/saloncarantec/" />
             </Col>
           </Row>
         </Col>
