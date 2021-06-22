@@ -41,6 +41,8 @@ export const TRANSLATIONS_FR = {
     step3:"Attendre la réponse des organisateurs ",
     step2a:"Si la réponse est positive, remplir le formulaire, le sauvegarder et l'envoyer par courrier avec un chèque de ",
 
+    warning:"Vous pouvez rencontrer des difficultés en utilisant des mobiles",
+
     organisation:"Organisation",
     openning:"Ouverture au public : ",
     openningdate:" samedi 17 juillet 2021 à 15h.",
@@ -85,7 +87,7 @@ export const TRANSLATIONS_FR = {
     applications:"Candidatures",
     sales:"Ventes",
     insurances:"Assurances",
-    permanancy:"Permances",
+    permanency:"Permances",
     others:"Divers",
 
     //contacts page:

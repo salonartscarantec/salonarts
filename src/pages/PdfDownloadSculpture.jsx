@@ -2,8 +2,10 @@ import { useRef } from 'react';
 import { useReactToPrint } from 'react-to-print';
 import { PdfFileSculpture } from './PdfFileSculpture';
 import { Button } from "react-bootstrap";
+import { useTranslation } from "react-i18next";
 
 const PdfDownloadSculpture = () => {
+  const { t } = useTranslation();
   const componentRef = useRef();
   const handlePrint = useReactToPrint({
     content: () => componentRef.current,
@@ -20,6 +22,9 @@ const PdfDownloadSculpture = () => {
           href={`mailto:${REACT_APP_EMAIL}?subject=candidature`}>
             Email
         </Button>
+      </div>
+      <div className="d-flex justify-content-md-center mb-2">
+        <small>{t("warning")}</small>
       </div>
     </div>
   );

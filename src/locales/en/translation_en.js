@@ -41,6 +41,8 @@ export const TRANSLATIONS_EN = {
     step3:"Wait for an answer form the comitee",
     step2a:"If you got a positive reply, complete the form, save it and send it by mail with a check of ",
 
+    warning:"You could encounter difficulties using mobile devices",
+
     organisation:"Organisation",
     openning:"Openning to the public :", 
     openningdate:" 17th of July 2021 at 3pm.",
@@ -74,7 +76,7 @@ export const TRANSLATIONS_EN = {
 
     insurancestext:"The comitee and volonteers will take the utmost care of your work. The city council and the association will not be responsible for any damage occuring during the exhibition. Artists are strongly invitated to insure their work against all risks. Artists also renounce the rigths to any recourse against the association. Transport of artworks is the responsability of the artist.",
 
-    permanancytext:"Artits are invited to be on site for one or 2 permanancies from 2 to 6pm. Attendance is a plus to exchange with visitors and boost your sales. Demonstration workshops are possible to set up. Contact us if you are interested. Please consider providing us with business cards to display.", 
+    permanancytext:"Artits are invited to be on site for one or 2 permanencies from 2 to 6pm. Attendance is a plus to exchange with visitors and boost your sales. Demonstration workshops are possible to set up. Contact us if you are interested. Please consider providing us with business cards to display.", 
 
     otherstext:"It was decided that the only sales possible at the reception of the salon will be postcards, posters, bookmarks belonging to the association.",
 
@@ -85,7 +87,7 @@ export const TRANSLATIONS_EN = {
     applications:"Applications",
     sales:"Sales",
     insurances:"Insurances",
-    permanancy:"Permanancy",
+    permanency:"Permanency",
     others:"More",
 
     //contacts page:

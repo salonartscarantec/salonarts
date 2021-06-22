@@ -19,7 +19,7 @@ const ImageJumbotron = () => {
               <SocialIcon className="socialicon facebook" url="https://fr-fr.facebook.com/ArtCarantec/" alt="facebook icon"/>
             </Col>
             <Col>
-              <SocialIcon className="socialicon" url="https://instagram.com" alt="instagram icon"/>
+              <SocialIcon className="socialicon" url="https://www.instagram.com/saloncarantec/" alt="instagram icon"/>
             </Col>
           </Row>
           <Row className="mb-2">

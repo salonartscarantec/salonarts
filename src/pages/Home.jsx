@@ -44,7 +44,7 @@ const Home = () => {
               </p>
               <p className="text-center">
                 <SocialIcon data-aos="flip-up" className="socialicon m-2" url="https://fr-fr.facebook.com/ArtCarantec/" alt="facebook icon"/>
-                <SocialIcon data-aos="flip-up" className="socialicon m-2" url="https://instagram.com" alt="instagram icon"/>
+                <SocialIcon data-aos="flip-up" className="socialicon m-2" url="https://www.instagram.com/saloncarantec/" alt="instagram icon"/>
               </p>
             </div>
           </Col>
