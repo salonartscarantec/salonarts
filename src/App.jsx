@@ -13,6 +13,7 @@ import "aos/dist/aos.css";
 import PdfDownloadPainting from "pages/PdfDownloadPainting";
 import PdfDownloadSculpture from "pages/PdfDownloadSculpture";
 import ScrollToTop from "components/ScrollToTop";
+import NotFound from "components/NotFound";
 
 const App = () => {
   const displayFlash = useSelector((state) => state.flash.display);
@@ -59,6 +60,10 @@ const App = () => {
               component={PdfDownloadSculpture}
               path="/pdfdownloadsculpture"
               exact
+            />
+            <PublicRoute
+              restricted={false}
+              component={NotFound}
             />
           </Switch>
         <Footer />

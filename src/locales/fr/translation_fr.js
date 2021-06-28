@@ -92,4 +92,7 @@ export const TRANSLATIONS_FR = {
 
     //contacts page:
     contacttitle:"Pour nous contacter",
+
+    //notfound page:
+    notfound:"Nous n'avons pas trouver la page, veuillez revenir à l'acceuil",
 };
