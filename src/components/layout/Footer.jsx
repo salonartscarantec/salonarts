@@ -10,6 +10,7 @@ const Footer = () => {
   const REACT_APP_PHONE = process.env.REACT_APP_PHONE;
   const REACT_APP_PHONE_2 = process.env.REACT_APP_PHONE_2;
   const REACT_APP_EMAIL = process.env.REACT_APP_EMAIL;
+  const REACT_APP_DEVELOPPER= process.env.REACT_APP_DEVELOPPER;
 
   return (
   <footer>
@@ -55,7 +56,7 @@ const Footer = () => {
     </Container>
     <div className="d-flex justify-content-end">
       <small>
-        <a className="footerlink" href="https://queje.github.io/">
+        <a className="footerlink" href={REACT_APP_DEVELOPPER}>
           Jérémy Querné
         </a> © 2021
       </small>

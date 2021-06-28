@@ -92,4 +92,7 @@ export const TRANSLATIONS_EN = {
 
     //contacts page:
     contacttitle:"Contact us",
+
+    //notfound page:
+    notfound:"Page not found, please go back to the home page",
 };
