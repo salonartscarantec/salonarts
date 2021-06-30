@@ -75,14 +75,14 @@ html {
   .imagecarousel{
     max-height: 90vh;
     img{
-      width: 800px;
+      width: auto;
       height: 700px;
     }
   }
 
   .posterimage{
-    width: 85%!important;
-    height: 85%!important;
+    width: 85%;
+    height: 85%;
   }
 }
 
@@ -398,10 +398,15 @@ footer {
     }
   }
 
+  .posterimage{
+    width: 100%!important;
+    height: 100%!important;
+  }
+
   .imagecarousel{
     max-height: 90vh;
     img{
-      min-width: 100%!important;
+      width: 100%!important;
       height: auto!important;
     }
   }
