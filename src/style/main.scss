@@ -347,6 +347,21 @@ footer {
     background-size: 100% 1px, auto;
   }
 
+  .footerlinkmail{
+    font-size: 15px!important;
+    text-decoration: none!important;
+    color: $primary;
+    background-image: linear-gradient(darkred, darkred);
+    background-size: 0 1px, auto;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    transition: all .2s ease-out;
+  }
+
+  .footerlinkmail:hover{
+    background-size: 100% 1px, auto;
+  }
+
   li{
     list-style: none;
   }
