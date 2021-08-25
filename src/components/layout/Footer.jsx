@@ -23,7 +23,7 @@ const Footer = () => {
             <li>{t("phone")} {REACT_APP_PHONE} / {REACT_APP_PHONE_2}</li>
             <li>
               {t("email")} 
-              <a className="footerlink" href={`mailto:${REACT_APP_EMAIL}?subject=contact`}>
+              <a className="footerlinkmail" href={`mailto:${REACT_APP_EMAIL}?subject=contact`}>
                 {REACT_APP_EMAIL}
               </a>
             </li>
