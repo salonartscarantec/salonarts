@@ -15,17 +15,20 @@ const Contacts = () => {
       <h1 className="importanttext">{t("contacttitle")}</h1>
       <Row className="contactaddress">
         <Col xs={12} md={6} data-aos="zoom-in-left">
-          <ul className="contacttext">
-            <ol>{t("address")} {REACT_APP_ADDRESS}</ol>
-            <ol>{t("phone")} {REACT_APP_PHONE} / {REACT_APP_PHONE_2}</ol>
-            <ol>
+          <ul className="contacttext text-left">
+            <li>{t("address")} {REACT_APP_ADDRESS}</li>
+            <li>{t("phone")} 
+              <a className="contactlink" href={`tel:${REACT_APP_PHONE}`}> {REACT_APP_PHONE}</a> /
+              <a className="contactlink" href={`tel:${REACT_APP_PHONE_2}`}> {REACT_APP_PHONE_2}</a>
+            </li>
+            <li>
               {t("email")} 
               <a 
                 className="contactlink" 
                 href={`mailto:${REACT_APP_EMAIL}?subject=contact`}>
                   {REACT_APP_EMAIL}
               </a>
-            </ol>
+            </li>
           </ul>
         </Col>
         <Col xs={12} md={6} data-aos="zoom-in-right">
