@@ -27,7 +27,10 @@ const Navigation = ({setLanguage, language}) => {
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="navbartoggled" />
       <Navbar.Collapse id="navbartoggled">
-        <Nav inline className="m-auto d-flex align-items-center">  
+        <Nav inline className="m-auto d-flex align-items-center">
+          <Nav.Link> 
+            <Link className="navbarlink" to="/">{t("linkhome")}</Link>
+          </Nav.Link>   
           <Nav.Link> 
             <Link className="navbarlink" to="/apply">{t("linkapply")}</Link>
           </Nav.Link> 

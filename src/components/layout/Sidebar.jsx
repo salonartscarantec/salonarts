@@ -47,7 +47,7 @@ const Sidebar = () => {
           </MenuItem>
           <MenuItem icon={<FontAwesomeIcon icon={faInfoCircle} />}>
             <HashLink smooth to="/apply#permanency">
-              {t("permanancy")}
+              {t("permanency")}
             </HashLink>
           </MenuItem>
           <MenuItem icon={<FontAwesomeIcon icon={faHandsHelping} />}>

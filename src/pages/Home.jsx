@@ -56,7 +56,7 @@ const Home = () => {
               />
           </Col>
         </Row>
-        <Row data-aos="zoom-in" className="d-flex justify-content-md-center">
+        <Row className="d-flex justify-content-md-center">
           <CarouselDisplay/>
         </Row>
       </Container>

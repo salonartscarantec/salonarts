@@ -72,6 +72,16 @@ html {
     font-weight: bold; 
   }
 
+  .carousel-inner{
+    display: flex!important;
+    justify-content: center!important;
+  }
+
+  .carousel-item{
+    margin-right: 0%!important;
+    transition: transform .5s linear!important;
+  }
+
   .imagecarousel{
     max-height: 90vh;
     img{
