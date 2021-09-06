@@ -429,6 +429,10 @@ footer {
     .titlecustom{
       font-size: 17px!important;
     }
+    .horizontal-list{
+      margin-left: 2%!important;
+    }
+
     .horizontal-list-item{
       margin-top: 5%!important;
       margin-left: -10%;
@@ -470,6 +474,11 @@ footer {
   }
 
   .Contacts{
+    .contactaddress{
+      margin-left: 0px!important;
+      margin-right: 0px!important;
+    }
+
     .contacttext{
       font-size: 15px!important;
       margin-top: 0%;
@@ -480,6 +489,11 @@ footer {
     .importanttext{
       font-size: 15px!important;
       margin: auto;
+    }
+
+    .rowbureau{
+      margin-left: 0px!important;
+      margin-right: 0px!important;
     }
   
     .contactbureau{
