@@ -4,7 +4,7 @@ export const TRANSLATIONS_EN = {
     linkapply:"Apply",
     linkcontact:"Contact Us",
     linkregisterform:"Fill the form online",
-    linkregisterdownload:"Download the form",
+    linkregisterdownload:"Form",
 
     //footer:
     address:"Address : ",
