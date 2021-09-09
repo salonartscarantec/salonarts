@@ -22,7 +22,7 @@ const Navigation = ({setLanguage, language}) => {
     <Navbar bg="ligth" expand="lg">
       <Navbar.Brand className="brand">
         <Link to="/">
-          <Image className="logo" src={logo}/>
+          <Image className="logo" src={logo} alt="logo salon des arts Carantec"/>
         </Link>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="navbartoggled" />
@@ -43,13 +43,13 @@ const Navigation = ({setLanguage, language}) => {
             language === "fr" && (
                 <Button className="buttoncustom" value="en" onClick={handleOnclick}>
                   English
-                  <ReactCountryFlag countryCode="GB" svg />
+                  <ReactCountryFlag countryCode="GB" svg alt="english flag"/>
                 </Button>
             )) || (
             language === "en" && (
                 <Button className="buttoncustom" value="fr" onClick={handleOnclick}>
                   Français
-                  <ReactCountryFlag countryCode="FR" svg />
+                  <ReactCountryFlag countryCode="FR" svg alt="drapeau français"/>
                 </Button>
             ))
           }
