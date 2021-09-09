@@ -5,11 +5,11 @@ import image3 from 'assets/images/image3.jpg';
 import image4 from 'assets/images/image4.jpg';
 import image5 from 'assets/images/image5.jpg';
 
-const CarouselDsiplay = () => {
+const CarouselDisplay = () => {
     
   return (
     <>
-    <Carousel className='CarouselDsiplay'>
+    <Carousel className='CarouselDisplay'>
 
       <Carousel.Item className="imagecarousel">
         <img
@@ -56,4 +56,4 @@ const CarouselDsiplay = () => {
   )
 }
     
-export default CarouselDsiplay
+export default CarouselDisplay
