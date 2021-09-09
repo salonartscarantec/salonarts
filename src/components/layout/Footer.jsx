@@ -20,7 +20,10 @@ const Footer = () => {
           <ul>
             <li className="footertitle">Salon des Arts - Carantec</li>
             <li>{t("address")} {REACT_APP_ADDRESS}</li>
-            <li>{t("phone")} {REACT_APP_PHONE} / {REACT_APP_PHONE_2}</li>
+            <li>{t("phone")} 
+              <a className="footerlinkmail" href={`tel:${REACT_APP_PHONE}`}> {REACT_APP_PHONE}</a> / 
+              <a className="footerlinkmail" href={`tel:${REACT_APP_PHONE_2}`}> {REACT_APP_PHONE_2}</a>
+            </li>
             <li>
               {t("email")} 
               <a className="footerlinkmail" href={`mailto:${REACT_APP_EMAIL}?subject=contact`}>
