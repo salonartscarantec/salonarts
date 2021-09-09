@@ -17,7 +17,7 @@ const Home = () => {
         <Row className="align-items-center">
           <Col xs={12} md={6} data-aos="zoom-in-right">
             <h1 className="titlecustom text-center">
-              <Image className="logo2" src={logo}/>
+              <Image className="logo2" src={logo} alt="logo association salon des arts Carantec"/>
             </h1>
             <div className="presentation">
               <p className="presentationtext">{t("presentation1")}</p>
