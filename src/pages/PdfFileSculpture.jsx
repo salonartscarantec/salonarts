@@ -9,7 +9,7 @@ export class PdfFileSculpture extends React.PureComponent {
   render() {
     return (
         <div className="PdfFile">
-        <h1 id="formtitle" className="text-center">Salon des Arts - Carantec</h1>
+        <h1 id="formtitle" className="text-center">Salon des Arts - Carantec - Sculpture</h1>
         <br></br>
         <p>Formulaire d'inscription pour l'exposition du {REACT_APP_DATE_EXPO}, Tarif : {REACT_APP_PRICE} </p>
         <p>Prévoir les socles blancs de préférence pour les sculptures.</p>

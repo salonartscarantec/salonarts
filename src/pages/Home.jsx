@@ -6,12 +6,29 @@ import { useTranslation } from "react-i18next";
 import logo from "../assets/images/salonartscaranteccut.jpg";
 import { SocialIcon } from 'react-social-icons';
 import affiche1 from "../assets/images/affiche1.jpg";
+import { Helmet } from "react-helmet";
 
 const Home = () => {
   const { t } = useTranslation();
 
   return (
     <section className="Home">
+      <Helmet>
+        <meta charset="utf-8" />
+        <link rel="icon" href="./brush_black_18dp.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#000000" />
+        <meta
+          name="description"
+          content="Salon des arts de Carantec, situer dans la baie de Morlaix, dans le Finistère, en Bretagne. 
+          Nous réalisons des expositions de peintures et de sculptures deux fois par an, en été et en hiver. 
+          Vous pouvez proposer votre candidature pour participer aux évenements, faire des démonstrations et des ateliers pour les plus jeunes."
+        />
+        <link rel="apple-touch-icon" href="./brush_black_18dp.svg" />
+        <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+        <link rel="canonical" href="https://www.salonartcarantec.com" />
+        <title>Salon des Arts Carantec</title>
+      </Helmet>
       <ImageJumbotron/>
       <Container>
         <Row className="align-items-center">
