@@ -27,7 +27,6 @@ const PdfDownloadSculpture = () => {
         />
         <link rel="apple-touch-icon" href="./brush_black_18dp.svg" />
         <link rel="manifest" href="https://www.salonartcarantec.com/manifest.json" />
-        <link rel="canonical" href="https://www.salonartcarantec.com/pdfdownloadsculpture" />
         <title>Salon des Arts Carantec - Candidature - Sculpture </title>
       </Helmet>
       <PdfFileSculpture ref={componentRef} />
