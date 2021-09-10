@@ -9,7 +9,7 @@ export class PdfFile extends React.PureComponent {
   render() {
     return (
       <div className="PdfFile">
-        <h1 id="formtitle" className="text-center">Salon des Arts - Carantec</h1>
+        <h1 id="formtitle" className="text-center">Salon des Arts - Carantec - Peinture</h1>
         <br></br>
         <p className="font-weight-bold">Formulaire d'inscription pour l'exposition du {REACT_APP_DATE_EXPO}, Tarif : {REACT_APP_PRICE} </p>
         <p>Surface réservée à chaque artiste : 1m20 sur 1m80 (horizontal ou vertical)</p>
