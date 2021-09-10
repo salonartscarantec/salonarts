@@ -2,6 +2,7 @@ import { Col, Row } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 import { Player } from '@lottiefiles/react-lottie-player';
 import paintbrush from '../assets/images/paintbrush.jpg';
+import { Helmet } from "react-helmet";
 
 const Contacts = () => {
   const { t } = useTranslation();
@@ -12,6 +13,20 @@ const Contacts = () => {
     
   return (
     <div className='Contacts m-auto text-center'>
+      <Helmet>
+        <meta charset="utf-8" />
+        <link rel="icon" href="./brush_black_18dp.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#000000" />
+        <meta
+          name="description"
+          content="Salon des arts de Carantec, 
+          les informations pour nous contacter en cas de difficultés."
+        />
+        <link rel="apple-touch-icon" href="./brush_black_18dp.svg" />
+        <link rel="manifest" href="https://www.salonartcarantec.com/manifest.json" />
+        <title>Salon des Arts Carantec - Contacts</title>
+      </Helmet>
       <h1 className="importanttext">{t("contacttitle")}</h1>
       <Row className="contactaddress">
         <Col xs={12} md={6} data-aos="zoom-in-left">
