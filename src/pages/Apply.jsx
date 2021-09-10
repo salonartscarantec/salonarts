@@ -11,6 +11,7 @@ import { faEuroSign,
         faPalette, 
         faPeopleCarry, 
         faStar } from '@fortawesome/free-solid-svg-icons';
+import { Helmet } from "react-helmet";
 
 const Apply = ( ) => {
   const { t } = useTranslation();
@@ -20,6 +21,22 @@ const Apply = ( ) => {
 
   return (
     <section className='Apply'>
+      <Helmet>
+        <meta charset="utf-8" />
+        <link rel="icon" href="./brush_black_18dp.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#000000" />
+        <meta
+          name="description"
+          content="Salon des arts de Carantec, 
+          proposez votre candidature pour participer aux expositions d'été ou d'hiver. 
+          Prenez connaissance du règlement de l'association concernant l'organisation des expositions,
+          les horaires, retraits et dépôts des oeuvres, ventes, assurances, permanences."
+        />
+        <link rel="apple-touch-icon" href="./brush_black_18dp.svg" />
+        <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+        <title>Salon des Arts Carantec - Candidatures</title>
+      </Helmet>
       <h1 className="titlecustom text-center">{t("registertitle")}</h1>
       <Row className="inlinelist" data-aos="zoom-in-right">
         <Col xs={12} md={12}>

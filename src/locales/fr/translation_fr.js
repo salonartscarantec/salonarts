@@ -87,7 +87,7 @@ export const TRANSLATIONS_FR = {
     applications:"Candidatures",
     sales:"Ventes",
     insurances:"Assurances",
-    permanency:"Permances",
+    permanency:"Permanences",
     others:"Divers",
 
     //contacts page:
