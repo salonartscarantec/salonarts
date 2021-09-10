@@ -34,7 +34,8 @@ const Apply = ( ) => {
           les horaires, retraits et dépôts des oeuvres, ventes, assurances, permanences."
         />
         <link rel="apple-touch-icon" href="./brush_black_18dp.svg" />
-        <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+        <link rel="manifest" href="https://www.salonartcarantec.com/manifest.json" />
+        <link rel="canonical" href="https://www.salonartcarantec.com/apply" />
         <title>Salon des Arts Carantec - Candidatures</title>
       </Helmet>
       <h1 className="titlecustom text-center">{t("registertitle")}</h1>

@@ -25,7 +25,7 @@ const Home = () => {
           Vous pouvez proposer votre candidature pour participer aux évenements, faire des démonstrations et des ateliers pour les plus jeunes."
         />
         <link rel="apple-touch-icon" href="./brush_black_18dp.svg" />
-        <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+        <link rel="manifest" href="https://www.salonartcarantec.com/manifest.json" />
         <link rel="canonical" href="https://www.salonartcarantec.com" />
         <title>Salon des Arts Carantec</title>
       </Helmet>
