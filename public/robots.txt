@@ -1,2 +1,4 @@
 User-agent: *
-Allow: *
+Allow: /
+
+Sitemap: https://www.salonartcarantec.com/sitemap.xml
