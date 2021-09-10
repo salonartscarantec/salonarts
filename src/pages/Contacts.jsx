@@ -24,7 +24,8 @@ const Contacts = () => {
           les informations pour nous contacter en cas de difficultés."
         />
         <link rel="apple-touch-icon" href="./brush_black_18dp.svg" />
-        <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+        <link rel="manifest" href="https://www.salonartcarantec.com/manifest.json" />
+        <link rel="canonical" href="https://www.salonartcarantec.com/contacts" />
         <title>Salon des Arts Carantec - Contacts</title>
       </Helmet>
       <h1 className="importanttext">{t("contacttitle")}</h1>

@@ -26,7 +26,8 @@ const PdfDownloadPainting = () => {
           le formulaire de candidature pour les artistes peintres."
         />
         <link rel="apple-touch-icon" href="./brush_black_18dp.svg" />
-        <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+        <link rel="manifest" href="https://www.salonartcarantec.com/manifest.json" />
+        <link rel="canonical" href="https://www.salonartcarantec.com/pdfdownloadpainting" />
         <title>Salon des Arts Carantec - Candidature - Peinture </title>
       </Helmet>
       <PdfFile ref={componentRef} />
