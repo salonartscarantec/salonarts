@@ -20,7 +20,7 @@ const Home = () => {
         <meta name="theme-color" content="#000000" />
         <meta
           name="description"
-          content="Salon des arts de Carantec, situer dans la baie de Morlaix, dans le Finistère, en Bretagne. 
+          content="Salon des arts de Carantec, situé dans la baie de Morlaix, dans le Finistère, en Bretagne. 
           Nous réalisons des expositions de peintures et de sculptures deux fois par an, en été et en hiver. 
           Vous pouvez proposer votre candidature pour participer aux évenements, faire des démonstrations et des ateliers pour les plus jeunes."
         />
