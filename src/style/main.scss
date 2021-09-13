@@ -327,6 +327,27 @@ html {
   }
 }
 
+.Mentionslegales{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+
+  .mentionlink{
+    text-decoration: none!important;
+    color: $primary;
+    background-image: linear-gradient(darkred, darkred);
+    background-size: 0 2px, auto;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    transition: all .2s ease-out;
+  }
+
+  .mentionlink:hover{
+    font-size: 18px!important;
+    background-size: 100% 1px, auto;
+  }
+}
+
 footer {
   max-width: 100vw;
   background-color: $footer-color;
@@ -516,6 +537,13 @@ footer {
     }
   }
 
+  .Mentionslegales{
+    h2{
+      font-size: 17px!important;
+    }
+    font-size: 15px!important;
+  }
+
   .sidebar-wrapper{
     display: none;
   }
@@ -536,6 +564,3 @@ footer {
   }
 }
 
-@media screen and (min-width:2560px) { 
-  /* CSS rules here */
-}
