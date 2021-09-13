@@ -14,6 +14,7 @@ import PdfDownloadPainting from "pages/PdfDownloadPainting";
 import PdfDownloadSculpture from "pages/PdfDownloadSculpture";
 import ScrollToTop from "components/ScrollToTop";
 import NotFound from "components/NotFound";
+import Mentionslegales from "pages/Mentionslegales";
 
 const App = () => {
   const displayFlash = useSelector((state) => state.flash.display);
@@ -60,6 +61,11 @@ const App = () => {
               component={PdfDownloadSculpture}
               path="/pdfdownloadsculpture"
               exact
+            />
+            <PublicRoute
+              restricted={false}
+              component={Mentionslegales}
+              path="/mentionslegales"
             />
             <PublicRoute
               restricted={false}

@@ -10,7 +10,6 @@ const Footer = () => {
   const REACT_APP_PHONE = process.env.REACT_APP_PHONE;
   const REACT_APP_PHONE_2 = process.env.REACT_APP_PHONE_2;
   const REACT_APP_EMAIL = process.env.REACT_APP_EMAIL;
-  const REACT_APP_DEVELOPPER= process.env.REACT_APP_DEVELOPPER;
 
   return (
   <footer>
@@ -29,6 +28,9 @@ const Footer = () => {
               <a className="footerlinkmail" href={`mailto:${REACT_APP_EMAIL}?subject=contact`}>
                 {REACT_APP_EMAIL}
               </a>
+            </li>
+            <li>
+              Blog : <a className="footerlinkmail" href="http://salonartscarantec.kazeo.com/">http://salonartscarantec.kazeo.com/</a>
             </li>
           </ul>
         </Col>
@@ -59,9 +61,9 @@ const Footer = () => {
     </Container>
     <div className="d-flex justify-content-end">
       <small>
-        <a className="footerlink" href={REACT_APP_DEVELOPPER}>
-          Jérémy Querné
-        </a> © 2021
+        <Link className="footerlink" to="/mentionslegales">
+          Mentions Légales
+        </Link> © 2021
       </small>
     </div>
   </footer>

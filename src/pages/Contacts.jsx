@@ -44,6 +44,9 @@ const Contacts = () => {
                   {REACT_APP_EMAIL}
               </a>
             </li>
+            <li>
+              Blog : <a className="contactlink" href="http://salonartscarantec.kazeo.com/">http://salonartscarantec.kazeo.com/</a>
+            </li>
           </ul>
         </Col>
         <Col xs={12} md={6} data-aos="zoom-in-right">
