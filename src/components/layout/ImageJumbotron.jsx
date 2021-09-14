@@ -13,7 +13,7 @@ const ImageJumbotron = () => {
   return (
     <Jumbotron className="JumbotronDisplay" alt="picture of the bay of Morlaix from Carantec">
       <Row className="jumbotext">
-        <Col xs={12} md={6}>
+        <Col xs={12} md={6} className="leftjumbotext">
           <Row data-aos="flip-up" className="mb-2">
             <Col>
               <SocialIcon className="socialicon facebook" url="https://fr-fr.facebook.com/ArtCarantec/" alt="facebook icon"/>
@@ -24,8 +24,8 @@ const ImageJumbotron = () => {
           </Row>
           <Row className="mb-2">
             <Col>
-              <h1 className="title">Salon des Arts Carantec</h1>
               <div className="box">
+                <h1 className="title">Salon des Arts Carantec</h1>
                 <h2 className="titlecustom subtitle">{t("expo")}</h2>
                 <p id="expodate">
                   {REACT_APP_DATE_EXPO} <span id="expoplace"> {REACT_APP_LOCATION}</span>
