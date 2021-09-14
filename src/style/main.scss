@@ -132,6 +132,7 @@ html {
 .JumbotronDisplay{
   background-image: url(../assets/images/baie-de-morlaix-carantec.jpg);
   background-size: cover;
+  background-position: center;
   min-height: 600px;
   max-width: 100vw;
   text-align: center;
@@ -564,3 +565,18 @@ footer {
   }
 }
 
+@media screen and (min-width: 2000px) {
+  .JumbotronDisplay{
+    min-height: 900px;
+    background-position: center;
+  }
+  
+  .leftjumbotext{
+    margin-top: 11.5%;
+  }
+
+  .box{
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}

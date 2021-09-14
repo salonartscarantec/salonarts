@@ -13,7 +13,7 @@ const ImageJumbotron = () => {
   return (
     <Jumbotron className="JumbotronDisplay" alt="picture of the bay of Morlaix from Carantec">
       <Row className="jumbotext">
-        <Col xs={12} md={6}>
+        <Col xs={12} md={6} className="leftjumbotext">
           <Row data-aos="flip-up" className="mb-2">
             <Col>
               <SocialIcon className="socialicon facebook" url="https://fr-fr.facebook.com/ArtCarantec/" alt="facebook icon"/>
