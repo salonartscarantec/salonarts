@@ -24,8 +24,8 @@ const ImageJumbotron = () => {
           </Row>
           <Row className="mb-2">
             <Col>
-              <h1 className="title">Salon des Arts Carantec</h1>
               <div className="box">
+                <h1 className="title">Salon des Arts Carantec</h1>
                 <h2 className="titlecustom subtitle">{t("expo")}</h2>
                 <p id="expodate">
                   {REACT_APP_DATE_EXPO} <span id="expoplace"> {REACT_APP_LOCATION}</span>
