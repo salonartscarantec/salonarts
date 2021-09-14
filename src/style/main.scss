@@ -400,6 +400,10 @@ footer {
 }
 
 @media screen and (max-width: 700px) {
+  .title{
+    font-size: 2.5rem!important;
+  }
+
   .navbarlink {
     font-size: 15px!important;
   }
@@ -452,7 +456,7 @@ footer {
       font-size: 17px!important;
     }
     .horizontal-list{
-      margin-left: 2%!important;
+      margin-left: 4%!important;
     }
 
     .horizontal-list-item{
