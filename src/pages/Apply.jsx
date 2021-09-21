@@ -137,11 +137,17 @@ const Apply = ( ) => {
               <span className="font-weight-bold">
                 {t("paintors")}
               </span>
+              <span className="importanttext">
+                {t("datepaintors")}
+              </span>
                 {t("depositdatepaintors")}
             </li>
             <li>
               <span className="font-weight-bold">
                 {t("sculptors")}
+              </span>
+              <span className="importanttext">
+                {t("datesculptors")}
               </span>
                 {t("depositdatesculptors")}
             </li>
@@ -155,7 +161,10 @@ const Apply = ( ) => {
               {t("artworkretrival")}  
             </h2>
             <li>
-              {t("retrivaldate")} 
+              <span className="importanttext">
+                {t("retrivaldate")}
+              </span>
+              {t("retrivaltext")} 
             </li>
           </ul>
           <ul>
