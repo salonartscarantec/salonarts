@@ -27,7 +27,7 @@ const Contacts = () => {
         <link rel="manifest" href="https://www.salonartcarantec.com/manifest.json" />
         <title>Salon des Arts Carantec - Contacts</title>
       </Helmet>
-      <h1 className="importanttext">{t("contacttitle")}</h1>
+      <h2 className="importanttext">{t("contacttitle")}</h2>
       <Row className="contactaddress">
         <Col xs={12} md={6} data-aos="zoom-in-left">
           <ul className="contacttext text-left">

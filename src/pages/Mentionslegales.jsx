@@ -20,7 +20,7 @@ const Mentionslegales = () => {
         <title>Salon des Arts Carantec - Mentions Légales</title>
 			</Helmet>
 			<div className="Mentionslegales">
-				<h1 className="titlecustom text-center">Mentions Légales</h1>
+				<h2 className="titlecustom text-center">Mentions Légales</h2>
 				<div>
 					<h2 className="subtitlecustom"><u>Editeurs :</u></h2>
 					<p>Salon des Arts - Carantec, Mairie 29660 CARANTEC (siège administratif)</p>

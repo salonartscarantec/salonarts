@@ -37,7 +37,7 @@ const Apply = ( ) => {
         <link rel="manifest" href="https://www.salonartcarantec.com/manifest.json" />
         <title>Salon des Arts Carantec - Candidatures</title>
       </Helmet>
-      <h1 className="titlecustom text-center">{t("registertitle")}</h1>
+      <h2 className="titlecustom text-center">{t("registertitle")}</h2>
       <Row className="inlinelist" data-aos="zoom-in-right">
         <Col xs={12} md={12}>
           <ol className="horizontal-list">
