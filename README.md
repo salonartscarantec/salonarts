@@ -4,6 +4,7 @@ This website is a dedicated to the "salon des arts de Carantec" association. it'
 ## Description
 
 * React Router with public routes
+* React Helmet to improve SEO
 * i18n with french and english 
 * react-dotenv
 * Basic Layout (navbar, flashmessages, footer, sidebar, CarouselDisplay, ImageJumbotron)
