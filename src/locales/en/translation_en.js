@@ -13,7 +13,7 @@ export const TRANSLATIONS_EN = {
     followus:"Follow us",
 
     //home page:
-    expo:"Our next Exhibition",
+    expo:"Winter Exhibition",
     register:"Register Now!",
     partnership:"Become a partner : ",
     contactus:"Contact us",
@@ -45,26 +45,29 @@ export const TRANSLATIONS_EN = {
 
     organisation:"Organisation",
     openning:"Openning to the public :", 
-    openningdate:" 17th of July 2021 at 3pm.",
-    openninghours:"Everyday from 3pm to 7pm, and thursday morning, local market day, from 10:30am to 12:30am",
+    openningdate:" 11th of December 2021.",
+    openninghours:"Everyday from 2:30pm to 6:30pm",
     closure:"End of the exhibition :",
-    closuredate:" 19th of August 2021 at 7pm.",
-    privateview:"Due to the health context, there will be not private openning event this year.",
+    closuredate:" 9th of January 2022.",
+    privateview:"",
 
     artworkdeposit:"Artwork deposit",
-    paintors:"Paintors",
-    sculptors:"Sculptors",
-    depositdatepaintors:" : monday 12th of july from 10-12am and 2-4pm",
-    depositdatesculptors:" : friday 16th of july from 10-12am",
+    paintors:"Paintors :",
+    sculptors:"Sculptors :",
+    datepaintors:" 6th of December 2021",
+    datesculptors:" 8th of December 2021",
+    depositdatepaintors:" from 10-12am and 2-4pm",
+    depositdatesculptors:" from 10-12am",
     deposittext:"The setting up of the artwork is made by our trusted volonteers.",
 
     artworkretrival:"Artwork retrival",
-    retrivaldate:" friday 20th of august from 10 - 12am",
+    retrivaldate:" 10th of January 2022",
+    retrivaltext:" from 10 - 12am.",
 
     artworkinfos:"Artwork informations",
     infostext:"Submitted artwork must be originals and not have already been presented in our exhibitions. The organisation commitee could choose to limit the number pieces presented. We also need pictures of your artwok (in good definition) to select one for the poster.",
-    infospaintors:" : Each artist has a available area of 1m20x1m80 (horizontal or vertical). Please be sure to respect this rule as the location of the exhibition is limited in space.",
-    infossculptors:" : 4 or 5 pieces of original artwork. Please be sure to bring white pedestal to present your work.",
+    infospaintors:" Each artist has a available area of 1m20x1m80 (horizontal or vertical). Please be sure to respect this rule as the location of the exhibition is limited in space.",
+    infossculptors:" 4 or 5 pieces of original artwork. Please be sure to bring white pedestal to present your work.",
 
     applicationlign1:"The registration fee is ",
     applicationlign2:" to send by check payable to the salon des arts, after recieving the application file and acceptance by the association.",
@@ -76,7 +79,7 @@ export const TRANSLATIONS_EN = {
 
     insurancestext:"The comitee and volonteers will take the utmost care of your work. The city council and the association will not be responsible for any damage occuring during the exhibition. Artists are strongly invitated to insure their work against all risks. Artists also renounce the rigths to any recourse against the association. Transport of artworks is the responsability of the artist.",
 
-    permanancytext:"Artits are invited to be on site for one or 2 permanencies from 2 to 6pm. Attendance is a plus to exchange with visitors and boost your sales. Demonstration workshops are possible to set up. Contact us if you are interested. Please consider providing us with business cards to display.", 
+    permanancytext:"Artits are invited to be on site for one or 2 permanencies from 2:30 to 6:30pm. Attendance is a plus to exchange with visitors and boost your sales. Demonstration workshops are possible to set up. Contact us if you are interested. Please consider providing us with business cards to display.", 
 
     otherstext:"It was decided that the only sales possible at the reception of the salon will be postcards, posters, bookmarks belonging to the association.",
 

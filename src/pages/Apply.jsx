@@ -37,7 +37,7 @@ const Apply = ( ) => {
         <link rel="manifest" href="https://www.salonartcarantec.com/manifest.json" />
         <title>Salon des Arts Carantec - Candidatures</title>
       </Helmet>
-      <h1 className="titlecustom text-center">{t("registertitle")}</h1>
+      <h2 className="titlecustom text-center">{t("registertitle")}</h2>
       <Row className="inlinelist" data-aos="zoom-in-right">
         <Col xs={12} md={12}>
           <ol className="horizontal-list">
@@ -137,11 +137,17 @@ const Apply = ( ) => {
               <span className="font-weight-bold">
                 {t("paintors")}
               </span>
+              <span className="importanttext">
+                {t("datepaintors")}
+              </span>
                 {t("depositdatepaintors")}
             </li>
             <li>
               <span className="font-weight-bold">
                 {t("sculptors")}
+              </span>
+              <span className="importanttext">
+                {t("datesculptors")}
               </span>
                 {t("depositdatesculptors")}
             </li>
@@ -155,7 +161,10 @@ const Apply = ( ) => {
               {t("artworkretrival")}  
             </h2>
             <li>
-              {t("retrivaldate")} 
+              <span className="importanttext">
+                {t("retrivaldate")}
+              </span>
+              {t("retrivaltext")} 
             </li>
           </ul>
           <ul>
