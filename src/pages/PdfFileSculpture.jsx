@@ -162,6 +162,9 @@ export class PdfFileSculpture extends React.PureComponent {
             <FormCheck inline label="Possibilité de faire un après-midi vente - dédicace de vos livres (prévenir à l’avance pour l’annoncer dans la presse)"/>
             <FormCheck inline label="Déclare avoir pris connaissance du règlement du salon d’Eté 2021 de Carantec auquel je souhaite participer et en accepte les clauses"/>
           </FormGroup>
+          <FormLabel column sm="2">
+            Signature:
+          </FormLabel>
         </Form> 
       </div>
     );
