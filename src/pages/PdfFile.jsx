@@ -19,7 +19,7 @@ export class PdfFile extends React.PureComponent {
             <FormLabel column sm="2">
               Prénom :
             </FormLabel>
-            <Col sx={12} sm="4">
+            <Col sm="4">
               <FormControl type="text"/>
             </Col>
             <FormLabel column sm="2">
