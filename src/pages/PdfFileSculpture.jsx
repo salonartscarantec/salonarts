@@ -15,82 +15,82 @@ export class PdfFileSculpture extends React.PureComponent {
         <p>Prévoir les socles blancs de préférence pour les sculptures.</p>
         <br></br>
         <Form>
-          <FormGroup as={Row}>
-            <FormLabel column sm="2">
+          <FormGroup className="group1" as={Row}>
+            <FormLabel className="label" column sm="2">
               Prénom :
             </FormLabel>
-            <Col sx={12} sm="4">
+            <Col className="textinput" sm="4">
               <FormControl type="text"/>
             </Col>
-            <FormLabel column sm="2">
+            <FormLabel className="label" column sm="2">
               Nom :
             </FormLabel>
-            <Col sm="4">
+            <Col className="textinput" sm="4">
               <FormControl type="text"/>
             </Col>
           </FormGroup>
-          <FormGroup as={Row}>
-            <FormLabel column sm="2">
+          <FormGroup className="group1" as={Row}>
+            <FormLabel className="label" column sm="2">
               N° de téléphone :
             </FormLabel>
-            <Col sm="4">
+            <Col className="textinput" sm="4">
               <FormControl type="text"/>
             </Col>
-            <FormLabel column sm="2">
+            <FormLabel className="label" column sm="2">
               Courriel :
             </FormLabel>
-            <Col sm="4">
+            <Col className="textinput" sm="4">
               <FormControl type="email"/>
             </Col>
           </FormGroup>
-          <FormGroup as={Row}>
-            <FormLabel column sm="2">
+          <FormGroup className="group1" as={Row}>
+            <FormLabel className="label" column sm="2">
               Adresse :
             </FormLabel>
-            <Col sm="10">
+            <Col className="textinputlarge" sm="10">
               <FormControl type="text"/>
             </Col>
           </FormGroup>
-          <FormGroup as={Row}>
-            <FormLabel column sm="2">
+          <FormGroup className="group1" as={Row}>
+            <FormLabel className="label" column sm="2">
               Site internet :
             </FormLabel>
-            <Col sm="4">
+            <Col className="textinput" sm="4">
               <FormControl type="text"/>
             </Col>
-            <FormLabel column sm="2">
+            <FormLabel className="label" column sm="2">
               N° de SIRET :
             </FormLabel>
-            <Col sm="4">
+            <Col className="textinput" sm="4">
               <FormControl type="text"/>
             </Col>
           </FormGroup>
           <br></br>
           <h6>Oeuvre n°1 :</h6>
           <hr></hr>
-          <FormGroup as={Row}>
-            <FormLabel column sm="2">
+          <FormGroup className="group1" as={Row}>
+            <FormLabel className="label" column sm="2">
               Titre :
             </FormLabel>
-            <Col sm="10">
+            <Col className="textinputlarge" sm="10">
               <FormControl type="text"/>
             </Col>
-            <FormLabel column sm="2">
+            <FormLabel className="label" column sm="2">
               Technique :
             </FormLabel>
-            <Col sm="10">
+            <Col className="textinputlarge" sm="10">
               <FormControl type="text"/>
             </Col>
-            <FormLabel column sm="2">
+            <FormLabel className="label" column sm="2">
               Poids/Dimension :
             </FormLabel>
-            <Col sm="10">
+            <Col className="textinputlarge" sm="10">
               <FormControl type="text"/>
             </Col>
-            <FormLabel column sm="2">
+            <FormLabel className="label" column sm="2">
               Prix :
             </FormLabel>
-            <Col sm="10">
+            <Col className="textinputlarge" sm="10">
               <FormControl type="text"/>
             </Col>
           </FormGroup>
@@ -98,29 +98,29 @@ export class PdfFileSculpture extends React.PureComponent {
           <br></br>
           <h6>Oeuvre n°2 :</h6>
           <hr></hr>
-          <FormGroup as={Row}>
-            <FormLabel column sm="2">
+          <FormGroup className="group1" as={Row}>
+            <FormLabel className="label" column sm="2">
               Titre :
             </FormLabel>
-            <Col sm="10">
+            <Col className="textinputlarge" sm="10">
               <FormControl type="text"/>
             </Col>
-            <FormLabel column sm="2">
+            <FormLabel className="label" column sm="2">
               Technique :
             </FormLabel>
-            <Col sm="10">
+            <Col className="textinputlarge" sm="10">
               <FormControl type="text"/>
             </Col>
-            <FormLabel column sm="2">
+            <FormLabel className="label" column sm="2">
               Dimension :
             </FormLabel>
-            <Col sm="10">
+            <Col className="textinputlarge" sm="10">
               <FormControl type="text"/>
             </Col>
-            <FormLabel column sm="2">
+            <FormLabel className="label" column sm="2">
               Prix :
             </FormLabel>
-            <Col sm="10">
+            <Col className="textinputlarge" sm="10">
               <FormControl type="text"/>
             </Col>
           </FormGroup>
@@ -128,29 +128,29 @@ export class PdfFileSculpture extends React.PureComponent {
           <br></br>
           <h6>Oeuvre n°3 :</h6>
           <hr></hr>
-          <FormGroup as={Row}>
-            <FormLabel column sm="2">
+          <FormGroup className="group1" as={Row}>
+            <FormLabel className="label" column sm="2">
               Titre :
             </FormLabel>
-            <Col sm="10">
+            <Col className="textinputlarge" sm="10">
               <FormControl type="text"/>
             </Col>
-            <FormLabel column sm="2">
+            <FormLabel className="label" column sm="2">
               Technique :
             </FormLabel>
-            <Col sm="10">
+            <Col className="textinputlarge" sm="10">
               <FormControl type="text"/>
             </Col>
-            <FormLabel column sm="2">
+            <FormLabel className="label" column sm="2">
               Dimension :
             </FormLabel>
-            <Col sm="10">
+            <Col className="textinputlarge" sm="10">
               <FormControl type="text"/>
             </Col>
-            <FormLabel column sm="2">
+            <FormLabel className="label" column sm="2">
               Prix :
             </FormLabel>
-            <Col sm="10">
+            <Col className="textinputlarge" sm="10">
               <FormControl type="text"/>
             </Col>
           </FormGroup>

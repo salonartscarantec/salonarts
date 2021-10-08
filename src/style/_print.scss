@@ -1,0 +1,22 @@
+@media print {
+    .pdfFile{
+        font-size: 14px;
+
+        .group1{
+            display: flex;
+            flex-direction: row;
+            
+            .label{
+                width: 10%;
+            }
+
+            .textinput{
+                width: 40%;
+            }
+
+            .textinputlarge{
+                width: 90%;
+            }
+        }
+    }
+}
