@@ -8,10 +8,12 @@ const REACT_APP_PRICE = process.env.REACT_APP_PRICE;
 export class PdfFileSculpture extends React.PureComponent {
   render() {
     return (
-        <div className="PdfFile">
+      <div className="PdfFile">
         <h2 id="formtitle" className="text-center">Salon des Arts - Carantec - Sculpture</h2>
+        <br></br>
         <p className="font-weight-bold">Formulaire d'inscription pour l'exposition du {REACT_APP_DATE_EXPO}, Tarif : {REACT_APP_PRICE} </p>
         <p>Prévoir les socles blancs de préférence pour les sculptures.</p>
+        <br></br>
         <Form>
           <FormGroup className="group1" as={Row}>
             <FormLabel className="label" column sm="2">
