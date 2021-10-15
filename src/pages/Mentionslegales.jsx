@@ -1,4 +1,4 @@
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const Mentionslegales = () => {
 	const REACT_APP_DEVELOPPER= process.env.REACT_APP_DEVELOPPER;

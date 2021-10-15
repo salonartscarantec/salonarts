@@ -2,7 +2,7 @@ import { Col, Row } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 import { Player } from '@lottiefiles/react-lottie-player';
 import paintbrush from '../assets/images/paintbrush.jpg';
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const Contacts = () => {
   const { t } = useTranslation();
