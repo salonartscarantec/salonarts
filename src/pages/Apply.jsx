@@ -11,7 +11,7 @@ import { faEuroSign,
         faPalette, 
         faPeopleCarry, 
         faStar } from '@fortawesome/free-solid-svg-icons';
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const Apply = ( ) => {
   const { t } = useTranslation();
