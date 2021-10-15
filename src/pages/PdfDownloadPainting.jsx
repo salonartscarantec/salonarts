@@ -3,7 +3,7 @@ import { useReactToPrint } from 'react-to-print';
 import { PdfFile } from "./PdfFile";
 import { Button } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const PdfDownloadPainting = () => {
   const { t } = useTranslation();
