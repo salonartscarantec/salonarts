@@ -4,15 +4,16 @@ import "./style/main.scss";
 import App from "./App";
 import { Provider } from "react-redux";
 import store from "./stores/store";
-
+import { HelmetProvider } from 'react-helmet-async';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Provider store={store}>
-      <Suspense fallback="...loading">
+  <Provider store={store}>
+    <Suspense fallback="...loading">
+      <HelmetProvider>
         <App />
-      </Suspense>
-    </Provider>
-  </React.StrictMode>,
+      </HelmetProvider>
+    </Suspense>
+  </Provider>
+  ,
   document.getElementById("root")
 );

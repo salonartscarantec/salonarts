@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import "../../locales/i18n";
 import { i18n } from "../../locales/i18n.js";
-import { Navbar, Nav } from "react-bootstrap";
+import { Navbar, Nav, NavItem } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 import ReactCountryFlag from "react-country-flag";
 import Image from 'react-bootstrap/Image';
@@ -27,16 +27,16 @@ const Navigation = ({setLanguage, language}) => {
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="navbartoggled" />
       <Navbar.Collapse id="navbartoggled">
-        <Nav inline className="m-auto d-flex align-items-center">
-          <Nav.Link> 
-            <Link className="navbarlink" to="/">{t("linkhome")}</Link>
-          </Nav.Link>   
-          <Nav.Link> 
-            <Link className="navbarlink" to="/apply">{t("linkapply")}</Link>
-          </Nav.Link> 
-          <Nav.Link>
-            <Link className="navbarlink" to="/contacts">{t("linkcontact")}</Link>
-          </Nav.Link>
+        <Nav className="m-auto d-flex align-items-center">
+          <NavItem> 
+            <Link className="navbarlink mx-2" to="/">{t("linkhome")}</Link>
+          </NavItem>   
+          <NavItem > 
+            <Link className="navbarlink mx-2" to="/apply">{t("linkapply")}</Link>
+          </NavItem> 
+          <NavItem >
+            <Link className="navbarlink mx-2" to="/contacts">{t("linkcontact")}</Link>
+          </NavItem>
         </Nav>
         <div id="buttonlanguage">
           {(

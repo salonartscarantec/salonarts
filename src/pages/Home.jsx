@@ -6,7 +6,7 @@ import { useTranslation } from "react-i18next";
 import logo from "../assets/images/salonartscaranteccut.jpg";
 import { SocialIcon } from 'react-social-icons';
 import affiche1 from "../assets/images/affiche1.jpg";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const Home = () => {
   const { t } = useTranslation();
@@ -59,10 +59,10 @@ const Home = () => {
               <p className="importanttexthome text-center">
                 {t("followus")}
               </p>
-              <p className="text-center">
+              <div className="text-center">
                 <SocialIcon data-aos="flip-up" className="socialicon m-2" url="https://fr-fr.facebook.com/ArtCarantec/" alt="facebook icon"/>
                 <SocialIcon data-aos="flip-up" className="socialicon m-2" url="https://www.instagram.com/saloncarantec/" alt="instagram icon"/>
-              </p>
+              </div>
             </div>
           </Col>
           <Col xs={12} md={6} data-aos="zoom-in-left">
@@ -73,7 +73,7 @@ const Home = () => {
               />
           </Col>
         </Row>
-        <Row className="d-flex justify-content-md-center">
+        <Row className="d-flex justify-content-md-center mt-4">
           <CarouselDisplay/>
         </Row>
       </Container>
