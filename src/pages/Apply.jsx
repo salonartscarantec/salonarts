@@ -46,41 +46,31 @@ const Apply = ( ) => {
                 <FontAwesomeIcon icon={faMailBulk} size="3x" className="listicon"/> 
               </p>
               <p className="ml-2 stepstext"> 
-                <li>
-                  {t("step2b")}
-                  <a 
-                    className="emaillink" 
-                    href={`mailto:${REACT_APP_EMAIL}?subject=candidature`}>
-                      Email
-                  </a>
-                </li>
-                <li>
-                  <small>
-                    {t("step2c")}
-                  </small>
-                </li> 
+                {t("step2b")}
+                <a 
+                  className="emaillink" 
+                  href={`mailto:${REACT_APP_EMAIL}?subject=candidature`}>
+                    Email
+                </a>
               </p>
+              <small>
+                {t("step2c")}
+              </small>
             </li>
             <li className="horizontal-list-item">
               <p>
                 <FontAwesomeIcon icon={faClock} size="3x" className="listicon"/> 
               </p>
               <p className="ml-2 stepstext">
-                <ul className="liststeps">
-                  <li>
-                    {t("step3")}
-                  </li>
-                </ul>
+                {t("step3")}
               </p>
             </li>
             <li className="horizontal-list-item">
               <p>
                 <FontAwesomeIcon icon={faPrint} size="3x" className="listicon"/> 
               </p>
-              <p>
-                <li className="ml-2 stepstext">
-                  {t("step2a")} {REACT_APP_PRICE}
-                </li>
+              <p className="ml-2 stepstext">
+                {t("step2a")} {REACT_APP_PRICE}
               </p>
             </li>
           </ol>
