@@ -28,6 +28,14 @@ const Home = () => {
         <link rel="manifest" href="https://www.salonartcarantec.com/manifest.json" />
         <link rel="canonical" href="https://www.salonartcarantec.com" />
         <title>Salon des Arts Carantec</title>
+        <meta http-equiv="Content-Security-Policy" 
+							content="default-src 'none' https://assets7.lottiefiles.com; 
+											script-src 'self' 'unsafe-inline'; 
+											style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; 
+											font-src 'self' https://fonts.gstatic.com;
+											img-src 'self' data:; 
+											base-uri 'self';" 
+				/>
       </Helmet>
       <ImageJumbotron/>
       <Container>
