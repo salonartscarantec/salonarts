@@ -33,7 +33,7 @@ const Home = () => {
 											script-src 'self' 'unsafe-inline'; 
 											style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; 
 											font-src 'self' https://fonts.gstatic.com;
-											img-src 'self' data:; 
+											img-src 'self' https://cdnjs.cloudflare.com data:; 
                       manifest-src https://www.salonartcarantec.com/manifest.json;
 											base-uri 'self';" 
 				/>
