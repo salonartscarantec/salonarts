@@ -29,11 +29,12 @@ const Home = () => {
         <link rel="canonical" href="https://www.salonartcarantec.com" />
         <title>Salon des Arts Carantec</title>
         <meta http-equiv="Content-Security-Policy" 
-							content="default-src 'none' https://assets7.lottiefiles.com; 
+							content="default-src 'self' https://assets7.lottiefiles.com; 
 											script-src 'self' 'unsafe-inline'; 
 											style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; 
 											font-src 'self' https://fonts.gstatic.com;
 											img-src 'self' data:; 
+                      manifest-src 'self';
 											base-uri 'self';" 
 				/>
       </Helmet>
