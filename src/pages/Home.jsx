@@ -34,7 +34,7 @@ const Home = () => {
 											style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; 
 											font-src 'self' https://fonts.gstatic.com;
 											img-src 'self' data:; 
-                      manifest-src 'https://www.salonartcarantec.com/manifest.json';
+                      manifest-src https://www.salonartcarantec.com/manifest.json;
 											base-uri 'self';" 
 				/>
       </Helmet>
