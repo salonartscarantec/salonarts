@@ -166,7 +166,6 @@ html {
     font-weight: bolder;
     color: $primary;
   }
-  
 }
 
 .Apply{
@@ -236,6 +235,7 @@ html {
           padding-right: .5rem;
       }
   }
+
   .emaillink{
     text-decoration: none!important;
     color: $primary;
@@ -245,6 +245,7 @@ html {
     background-position: center bottom;
     transition: all .2s ease-out;
   }
+
   .emaillink:hover{
     background-size: 100% 1px, auto;
   }
@@ -464,29 +465,35 @@ footer {
       margin-top: 5%!important;
       margin-left: -10%;
     }
+
     .stepstext{
       margin-top: 1%!important;
       margin-left: 8%!important;
       margin-right: 8%!important;
       font-size: 12px!important;
     }
+
     .righttext{
       ul{
         margin-left: -10%;
       }
+
       #info#artwork#applications#sales#insurances#permanency#others{
         li{
           margin-left: -15%!important;
         }
       }
     }
+
     .liststeps{
       margin-left: 3%!important;
       margin-right: 3%!important;
     }
+
     .subtitlecustom{
       font-size: 15px!important;
     }
+
     li{
       font-size: 12px!important;
     }
@@ -501,6 +508,7 @@ footer {
   }
 
   .Contacts{
+
     .contactaddress{
       margin-left: 0px!important;
       margin-right: 0px!important;
@@ -529,21 +537,26 @@ footer {
       margin-left: 3%!important;
       margin-right: 3%!important;
     }
+
     h1{
       margin-bottom: 5%!important;
     }
+
     ul{
       margin-left: 0%!important;
     }
+
     ol{
       margin-left: -15%!important;
     }
+
     li{
       font-size: 15px!important;
     }
   }
 
   .Mentionslegales{
+
     h2{
       font-size: 17px!important;
     }
@@ -555,15 +568,18 @@ footer {
   }
 
   footer{
+
     .row{
       margin-left: 5%!important;
       margin-right: 5%!important;
     }
+
     .footertitle{
       font-weight: bolder;
       color: $primary;
       margin-bottom: 8%;
     }
+
     ul{
       margin-left: -10%!important;
     }
@@ -571,6 +587,7 @@ footer {
 }
 
 @media screen and (min-width: 2000px) {
+
   .JumbotronDisplay{
     min-height: 900px;
   }
@@ -586,6 +603,7 @@ footer {
 }
 
 @media screen and (min-width: 3000px) {
+  
   .title{
     font-size: 8rem!important;
   }
