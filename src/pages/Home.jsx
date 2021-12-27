@@ -3,9 +3,9 @@ import { Container, Row, Col, Image } from "react-bootstrap";
 import CarouselDisplay from "components/layout/CarouselDisplay";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import logo from "../assets/images/salonartscaranteccut.jpg";
+import logo from "../assets/images/salonartscaranteccut.webp";
 import { SocialIcon } from 'react-social-icons';
-import affiche1 from "../assets/images/affiche1.jpg";
+import affiche1 from "../assets/images/affiche1.webp";
 import { Helmet } from "react-helmet-async";
 
 const Home = () => {
@@ -29,7 +29,7 @@ const Home = () => {
         <link rel="canonical" href="https://www.salonartcarantec.com" />
         <title>Salon des Arts Carantec</title>
         <meta http-equiv="Content-Security-Policy" 
-							content="default-src 'self' https://assets7.lottiefiles.com; 
+							content="default-src 'self' https://assets7.lottiefiles.com/packages/lf20_eBcQGa.json; 
 											script-src 'self' 'unsafe-inline'; 
 											style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; 
 											font-src 'self' https://fonts.gstatic.com;
@@ -40,7 +40,7 @@ const Home = () => {
       </Helmet>
       <ImageJumbotron/>
       <Container>
-        <Row className="align-items-center">
+        <Row className="d-flex justify-content-center">
           <Col xs={12} md={6} data-aos="zoom-in-right">
             <h1 className="titlecustom text-center">
               <Image className="logo2" src={logo} alt="logo association salon des arts Carantec"/>

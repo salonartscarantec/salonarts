@@ -1,7 +1,6 @@
 import { Col, Row } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
-import { Player } from '@lottiefiles/react-lottie-player';
-import paintbrush from '../assets/images/paintbrush.jpg';
+import paintbrush from '../assets/images/paintbrush.webp';
 import { Helmet } from "react-helmet-async";
 
 const Contacts = () => {
@@ -28,8 +27,8 @@ const Contacts = () => {
         <title>Salon des Arts Carantec - Contacts</title>
       </Helmet>
       <h2 className="importanttext">{t("contacttitle")}</h2>
-      <Row className="contactaddress">
-        <Col xs={12} md={6} data-aos="zoom-in-left">
+      <Row className="contactaddress d-flex justify-content-center">
+        <Col xs={12} md={6} data-aos="zoom-in">
           <ul className="contacttext text-left">
             <li>{t("address")} {REACT_APP_ADDRESS}</li>
             <li>{t("phone")} 
@@ -49,25 +48,18 @@ const Contacts = () => {
             </li>
           </ul>
         </Col>
-        <Col xs={12} md={6} data-aos="zoom-in-right">
-          <Player
-            autoplay={true}
-            loop={true}
-            controls={false}
-            src="https://assets7.lottiefiles.com/packages/lf20_eBcQGa.json"
-            alt="contact us animation"
-            ></Player>
-        </Col>
       </Row>
-      <Row className="rowbureau">
-        <Col sx={12} md={6} data-aos="zoom-in-left">
+      <Row className="rowbureau d-flex justify-content-center">
+        <Col sx={12} md={6} data-aos="zoom-in">
           <img
             className="d-block w-100"
             src={paintbrush}
             alt="brushes full of paint with different colors"
           />
         </Col>
-        <Col sx={12} md={6} className="contactbureau" data-aos="zoom-in-right">
+      </Row>
+      <Row className="d-flex justify-content-center">
+        <Col sx={12} md={6} className="contactbureau" data-aos="zoom-in">
           <h5 className="importanttext">Le bureau élu :</h5>
           <br></br>
           <ul className="text-left">
@@ -78,8 +70,8 @@ const Contacts = () => {
             <li>Trésorière : M.Querné</li>
             <li>Trésorière adjointe : A. Le Scour</li>
             <br></br>
-            <li>Le Conseil d’administration se compose d’une vingtaine de membres.</li> 
           </ul>
+          <p>Le Conseil d’administration se compose d’une vingtaine de membres.</p> 
         </Col>
       </Row>
     </div>

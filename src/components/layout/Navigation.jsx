@@ -7,7 +7,7 @@ import { Navbar, Nav, NavItem } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 import ReactCountryFlag from "react-country-flag";
 import Image from 'react-bootstrap/Image';
-import logo from "../../assets/images/salonartscaranteccut.jpg";
+import logo from "../../assets/images/salonartscaranteccut.webp";
 
 const Navigation = ({setLanguage, language}) => {
   const { t } = useTranslation();

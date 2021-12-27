@@ -34,20 +34,20 @@ const Footer = () => {
             </li>
           </ul>
         </Col>
-        <Col xs={12} md={4}>
+        <Col xs={12} md={4} className="footernavlink">
           <ul className="text-center">
             <li>
-              <Link className="footerlink" to="/">{t("linkhome")}</Link>
+              <Link className="footerlink footerlinkresponsive" to="/">{t("linkhome")}</Link>
             </li>
             <li>
-              <Link className="footerlink" to="/apply">{t("linkapply")}</Link>
+              <Link className="footerlink footerlinkresponsive" to="/apply">{t("linkapply")}</Link>
             </li>
             <li>
-              <Link className="footerlink" to="/contacts">{t("linkcontact")}</Link>
+              <Link className="footerlink footerlinkresponsive" to="/contacts">{t("linkcontact")}</Link>
             </li>
           </ul>
         </Col>
-        <Col xs={12} md={4} className="d-flex justify-content-center">
+        <Col xs={12} md={4} className="footersocial d-flex justify-content-center">
           <Row>
             <Col>
               <SocialIcon className="socialicon" url="https://fr-fr.facebook.com/ArtCarantec/" />
