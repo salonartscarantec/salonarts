@@ -49,7 +49,7 @@ export const TRANSLATIONS_EN = {
     openninghours:"Everyday from 2:30pm to 6:30pm",
     closure:"End of the exhibition :",
     closuredate:" 21th of August 2022.",
-    privateview:"Private openning the 16th of July 2022.",
+    privateview:"Private opening the 16th of July 2022.",
 
     artworkdeposit:"Artwork deposit",
     paintors:"Paintors :",
