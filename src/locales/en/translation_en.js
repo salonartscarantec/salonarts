@@ -13,7 +13,7 @@ export const TRANSLATIONS_EN = {
     followus:"Follow us",
 
     //home page:
-    expo:"Winter Exhibition",
+    expo:"Summer Exhibition",
     register:"Register Now!",
     partnership:"Become a partner : ",
     contactus:"Contact us",
@@ -45,23 +45,23 @@ export const TRANSLATIONS_EN = {
 
     organisation:"Organisation",
     openning:"Openning to the public :", 
-    openningdate:" 11th of December 2021.",
+    openningdate:" 17th of July 2022.",
     openninghours:"Everyday from 2:30pm to 6:30pm",
     closure:"End of the exhibition :",
-    closuredate:" 9th of January 2022.",
-    privateview:"",
+    closuredate:" 21th of August 2022.",
+    privateview:"Private openning the 16th of July 2022.",
 
     artworkdeposit:"Artwork deposit",
     paintors:"Paintors :",
     sculptors:"Sculptors :",
-    datepaintors:" 6th of December 2021",
-    datesculptors:" 8th of December 2021",
+    datepaintors:" 11th of July 2022",
+    datesculptors:" 13th of July 2022",
     depositdatepaintors:" from 10-12am and 2-4pm",
     depositdatesculptors:" from 10-12am",
     deposittext:"The setting up of the artwork is made by our trusted volonteers.",
 
     artworkretrival:"Artwork retrival",
-    retrivaldate:" 10th of January 2022",
+    retrivaldate:" 22th of August 2022",
     retrivaltext:" from 10 - 12am.",
 
     artworkinfos:"Artwork informations",

@@ -13,7 +13,7 @@ export const TRANSLATIONS_FR = {
     followus:"Suivez nous",
 
     //home page:
-    expo:"Le Salon d'Hiver",
+    expo:"Le Salon d'Eté",
     register:"Inscrivez Vous!",
     partnership:"Devenez un partenaire  ",
     contactus:"Contactez nous!",
@@ -45,23 +45,23 @@ export const TRANSLATIONS_FR = {
 
     organisation:"Organisation",
     openning:"Ouverture au public : ",
-    openningdate:" 11 décembre 2021.",
+    openningdate:" 17 Juillet 2022.",
     openninghours:"Tous les jours de 14h30 à 18h30.",
     closure:"Fin le ",
-    closuredate:"9 Janvier 2022.",
-    privateview:"",
+    closuredate:"21 Août 2022.",
+    privateview:"Vernissage le 16 juillet 2022.",
     
     artworkdeposit:"Dépôt des œuvres",
     paintors:"Peintres :",
     sculptors:"Sculptures :",
-    datepaintors:" 6 décembre 2021",
-    datesculptors:" 8 décembre 2021",
+    datepaintors:" 11 Juillet 2022",
+    datesculptors:" 13 Juillet 2022",
     depositdatepaintors:" de 10h-12h et 14h-16h",
     depositdatesculptors:" de 10h à 12h",
     deposittext:"Accrochage et installation réalisés par l’association.",
 
     artworkretrival:"Retrait des œuvres",
-    retrivaldate:" 10 janvier 2022",
+    retrivaldate:" 22 Août 2022",
     retrivaltext:" de 10 à 12h.",
 
     artworkinfos:"Infos œuvres",
