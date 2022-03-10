@@ -15,8 +15,6 @@ import { Helmet } from "react-helmet-async";
 
 const Apply = ( ) => {
   const { t } = useTranslation();
-  const REACT_APP_PRICE = process.env.REACT_APP_PRICE;
-  const REACT_APP_ADDRESS = process.env.REACT_APP_ADDRESS;
   const REACT_APP_EMAIL = process.env.REACT_APP_EMAIL;
 
   return (
@@ -70,7 +68,7 @@ const Apply = ( ) => {
                 <FontAwesomeIcon icon={faPrint} size="3x" className="listicon"/> 
               </p>
               <p className="ml-2 stepstext">
-                {t("step2a")} {REACT_APP_PRICE}
+                {t("step2a")} {t("price")}
               </p>
             </li>
           </ol>
@@ -185,12 +183,12 @@ const Apply = ( ) => {
             </h2>
             <li>
               {t("applicationlign1")}
-              {REACT_APP_PRICE}
+              {t("price")}
               {t("applicationlign2")}
             </li>
             <li>
               {t("applicationaddress")}
-              <span className="importanttext">{REACT_APP_ADDRESS}</span>
+              <span className="importanttext">{t("addressname")}</span>
             </li>
             <li className="importanttext">
               {t("applicationrule1")}
