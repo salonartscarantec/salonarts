@@ -1,4 +1,8 @@
 export const TRANSLATIONS_FR = {
+    price: "40€",
+    addressname: "Salon des arts Mairie 29660 CARANTEC",
+    emailname: "salonpeinturecarantec29@orange.fr",
+    
     //links:
     linkhome:"Accueil",
     linkapply:"Candidatures",
@@ -14,6 +18,9 @@ export const TRANSLATIONS_FR = {
 
     //home page:
     expo:"Le Salon d'Eté",
+    expodate: "du 17/07 au 21/08/2022",
+    expoplace: "Salle de la Mairie",
+    registrationlimitdate: "31/03/2022",
     register:"Inscrivez Vous!",
     partnership:"Devenez un partenaire  ",
     contactus:"Contactez nous!",
