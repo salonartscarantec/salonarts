@@ -69,8 +69,22 @@ const Home = () => {
                 {t("followus")}
               </p>
               <div className="text-center">
-                <SocialIcon data-aos="flip-up" className="socialicon m-2" url="https://fr-fr.facebook.com/ArtCarantec/" alt="facebook icon"/>
-                <SocialIcon data-aos="flip-up" className="socialicon m-2" url="https://www.instagram.com/saloncarantec/" alt="instagram icon"/>
+                <SocialIcon 
+                  data-aos="flip-up" 
+                  className="socialicon m-2" 
+                  url="https://fr-fr.facebook.com/ArtCarantec/" 
+                  alt="facebook icon"
+                  target="_blank" 
+                  rel="noreferrer noopener"
+                />
+                <SocialIcon 
+                  data-aos="flip-up" 
+                  className="socialicon m-2" 
+                  url="https://www.instagram.com/saloncarantec/" 
+                  alt="instagram icon"
+                  target="_blank" 
+                  rel="noreferrer noopener"
+                />
               </div>
             </div>
           </Col>
