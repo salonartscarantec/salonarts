@@ -50,10 +50,22 @@ const Footer = () => {
         <Col xs={12} md={4} className="footersocial d-flex justify-content-center">
           <Row>
             <Col>
-              <SocialIcon className="socialicon" url="https://fr-fr.facebook.com/ArtCarantec/" />
+              <SocialIcon 
+                className="socialicon" 
+                url="https://fr-fr.facebook.com/ArtCarantec/"
+                alt="facebook icon" 
+                target="_blank" 
+                rel="noreferrer noopener"
+              />
             </Col>
             <Col>
-              <SocialIcon className="socialicon" url="https://www.instagram.com/saloncarantec/" />
+              <SocialIcon 
+                className="socialicon" 
+                url="https://www.instagram.com/saloncarantec/"
+                alt="instagram icon"
+                target="_blank" 
+                rel="noreferrer noopener" 
+              />
             </Col>
           </Row>
         </Col>

@@ -16,10 +16,22 @@ const ImageJumbotron = () => {
         <Col xs={12} md={6} className="leftjumbotext">
           <Row data-aos="flip-up" className="mb-2">
             <Col>
-              <SocialIcon className="socialicon facebook" url="https://fr-fr.facebook.com/ArtCarantec/" alt="facebook icon"/>
+              <SocialIcon 
+                className="socialicon facebook" 
+                url="https://fr-fr.facebook.com/ArtCarantec/" 
+                alt="facebook icon"
+                target="_blank" 
+                rel="noreferrer noopener"
+              />
             </Col>
             <Col>
-              <SocialIcon className="socialicon" url="https://www.instagram.com/saloncarantec/" alt="instagram icon"/>
+              <SocialIcon 
+                className="socialicon" 
+                url="https://www.instagram.com/saloncarantec/" 
+                alt="instagram icon"
+                target="_blank" 
+                rel="noreferrer noopener"
+              />
             </Col>
           </Row>
           <Row className="mb-2">
