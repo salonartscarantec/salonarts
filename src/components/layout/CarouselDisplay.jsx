@@ -65,19 +65,19 @@ const CarouselDisplay = () => {
       <Carousel.Item className="imagecarousel">
         <img
           className="d-block"
+          src={image7}
+          alt="salon des arts, sculpture"
+        />
+      </Carousel.Item>
+
+      <Carousel.Item className="imagecarousel">
+        <img
+          className="d-block"
           src={image6}
           alt="salon des arts, présentation des oeuvres et de l'exposition, 4"
         />
       </Carousel.Item> 
 
-      <Carousel.Item className="imagecarousel">
-        <img
-          className="d-block"
-          src={image7}
-          alt="salon des arts, sculpture"
-        />
-      </Carousel.Item>
-        
     </Carousel>
     </>
   )
