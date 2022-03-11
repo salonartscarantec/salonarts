@@ -26,7 +26,7 @@ const CarouselDisplay = () => {
         <img
           className="d-block"
           src={image2}
-          alt="Démonstration par un artiste"
+          alt="Démonstration par un artiste, Pierre Quentel"
         />
       </Carousel.Item>
 
