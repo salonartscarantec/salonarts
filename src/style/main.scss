@@ -84,7 +84,6 @@ html {
   }
 
   .imagecarousel{
-    max-height: 90vh;
     img{
       width: auto;
       height: 700px;
@@ -94,6 +93,7 @@ html {
   .posterimage{
     width: 85%;
     height: 85%;
+    margin-left: 2rem;
   }
 }
 
@@ -131,7 +131,12 @@ html {
 }
 
 .JumbotronDisplay{
-  background-image: url(../assets/images/baie-de-morlaix-carantec.webp);
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.85), 
+    rgba(255, 255, 255, 0.1),
+    ),
+    url(../assets/images/baie-de-morlaix-carantec.webp);
   background-size: cover;
   background-position: center;
   min-height: 600px;
@@ -143,10 +148,13 @@ html {
     margin-top: 0%;
   }
 
+  .leftjumbotext{
+    margin-top: -1rem;
+  }
+
   .box{
     border: darkred;
     border-radius: 2%;
-    background-color: rgba(255, 254, 254, 0.33);
   }
 
   .facebook{
@@ -422,7 +430,7 @@ footer {
   }
 
   .titlecustom{
-    font-size: 25px!important;
+    font-size: 2rem!important;
   }
   .buttoncustom{
     margin-top: 1%;
@@ -430,20 +438,30 @@ footer {
 
   .JumbotronDisplay{
     #expodate{
-      font-size: 20px!important;
+      font-size: 2rem!important;
     }
     #expoplace{
-      font-size: 20px!important;
+      font-size: 2rem!important;
     }
+  }
+
+  .box{
+    margin-top: 0.5rem!important;
+    margin-bottom: 4rem!important;
   }
 
   .posterimage{
     width: 100%!important;
     height: 100%!important;
+    margin-left: 0!important;
+    margin-top: 1rem;
+  }
+
+  .CarouselDisplay{
+    margin-top: 1rem;
   }
 
   .imagecarousel{
-    max-height: 90vh;
     img{
       width: 100%!important;
       height: auto!important;
