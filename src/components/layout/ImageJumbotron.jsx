@@ -6,20 +6,32 @@ import { SocialIcon } from 'react-social-icons';
 
 const ImageJumbotron = () => { 
   const { t } = useTranslation();
-  const REACT_APP_DATE_EXPO = process.env.REACT_APP_DATE_EXPO;
-  const REACT_APP_LOCATION = process.env.REACT_APP_LOCATION;
-  const REACT_APP_LIMIT_DATE_REGISTER = process.env.REACT_APP_LIMIT_DATE_REGISTER;
 
   return (
-    <Jumbotron className="JumbotronDisplay" alt="picture of the bay of Morlaix from Carantec">
+    <Jumbotron 
+      className="JumbotronDisplay" 
+      alt="picture of the bay of Morlaix from Carantec"
+    >
       <Row className="jumbotext">
         <Col xs={12} md={6} className="leftjumbotext">
           <Row data-aos="flip-up" className="mb-2">
             <Col>
-              <SocialIcon className="socialicon facebook" url="https://fr-fr.facebook.com/ArtCarantec/" alt="facebook icon"/>
+              <SocialIcon 
+                className="socialicon facebook" 
+                url="https://fr-fr.facebook.com/ArtCarantec/" 
+                alt="facebook icon"
+                target="_blank" 
+                rel="noreferrer noopener"
+              />
             </Col>
             <Col>
-              <SocialIcon className="socialicon" url="https://www.instagram.com/saloncarantec/" alt="instagram icon"/>
+              <SocialIcon 
+                className="socialicon" 
+                url="https://www.instagram.com/saloncarantec/" 
+                alt="instagram icon"
+                target="_blank" 
+                rel="noreferrer noopener"
+              />
             </Col>
           </Row>
           <Row className="mb-2">
@@ -28,11 +40,14 @@ const ImageJumbotron = () => {
                 <h1 className="title">Salon des Arts Carantec</h1>
                 <h2 className="titlecustom subtitle">{t("expo")}</h2>
                 <p id="expodate">
-                  {REACT_APP_DATE_EXPO} <span id="expoplace"> {REACT_APP_LOCATION}</span>
+                  {t("expodate")}
+                </p>
+                <p id="expoplace">
+                  {t("expoplace")}
                 </p>
               </div>
               <Link className="btn buttoncustom bigbutton" to="/apply">
-                {t("linkapply")} {t("beforethe")} {REACT_APP_LIMIT_DATE_REGISTER}
+                {t("linkapply")} {t("beforethe")} {t("registrationlimitdate")}
               </Link>         
             </Col>
           </Row>
