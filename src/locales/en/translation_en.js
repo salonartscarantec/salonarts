@@ -53,7 +53,7 @@ export const TRANSLATIONS_EN = {
     organisation:"Organisation",
     openning:"Openning to the public :", 
     openningdate:" 17th of July 2022.",
-    openninghours:"Everyday from 2:30pm to 6:30pm",
+    openninghours:"Everyday from 3 to 7pm and thurday mornings from 10:30 to 12:30",
     closure:"End of the exhibition :",
     closuredate:" 21th of August 2022.",
     privateview:"Private opening the 16th of July 2022.",
