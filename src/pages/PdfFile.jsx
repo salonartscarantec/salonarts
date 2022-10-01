@@ -2,7 +2,6 @@ import React from "react";
 import { Row, Col, FormCheck } from "react-bootstrap";
 import { Form, FormControl, FormGroup, FormLabel } from "react-bootstrap";
 
-const REACT_APP_DATE_EXPO = process.env.REACT_APP_DATE_EXPO;
 const REACT_APP_PRICE = process.env.REACT_APP_PRICE;
 
 export class PdfFile extends React.PureComponent {
@@ -11,7 +10,7 @@ export class PdfFile extends React.PureComponent {
       <div className="PdfFile">
         <h2 id="formtitle" className="text-center">Salon des Arts - Carantec - Peinture</h2>
         <br></br>
-        <p className="font-weight-bold mt-1">Formulaire d'inscription pour l'exposition du {REACT_APP_DATE_EXPO}, Tarif : {REACT_APP_PRICE} </p>
+        <p className="font-weight-bold mt-1">Formulaire d'inscription pour l'exposition du 11/12/2022, Tarif : {REACT_APP_PRICE} </p>
         <p>Surface réservée à chaque artiste : 1m20 sur 1m80 (horizontal ou vertical)</p>
         <br></br>
         <Form>

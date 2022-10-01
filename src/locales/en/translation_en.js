@@ -61,14 +61,14 @@ export const TRANSLATIONS_EN = {
     artworkdeposit:"Artwork deposit",
     paintors:"Paintors :",
     sculptors:"Sculptors :",
-    datepaintors:" 11th of July 2022",
-    datesculptors:" 13th of July 2022",
+    datepaintors:" 5th of December 2022",
+    datesculptors:" 7th of December 2022",
     depositdatepaintors:" from 10-12am and 2-4pm",
     depositdatesculptors:" from 10-12am",
     deposittext:"The setting up of the artwork is made by our trusted volonteers.",
 
     artworkretrival:"Artwork retrival",
-    retrivaldate:" 22th of August 2022",
+    retrivaldate:" 9th of January 2023",
     retrivaltext:" from 10 - 12am.",
 
     artworkinfos:"Artwork informations",

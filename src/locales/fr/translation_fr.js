@@ -61,14 +61,14 @@ export const TRANSLATIONS_FR = {
     artworkdeposit:"Dépôt des œuvres",
     paintors:"Peintres :",
     sculptors:"Sculptures :",
-    datepaintors:" 11 Juillet 2022",
-    datesculptors:" 13 Juillet 2022",
+    datepaintors:" 5 Décembre 2022",
+    datesculptors:" 7 Décembre 2022",
     depositdatepaintors:" de 10h-12h et 14h-16h",
     depositdatesculptors:" de 10h à 12h",
     deposittext:"Accrochage et installation réalisés par l’association.",
 
     artworkretrival:"Retrait des œuvres",
-    retrivaldate:" 22 Août 2022",
+    retrivaldate:" 9 Janvier 2023",
     retrivaltext:" de 10 à 12h.",
 
     artworkinfos:"Infos œuvres",
