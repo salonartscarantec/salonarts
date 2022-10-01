@@ -17,10 +17,10 @@ export const TRANSLATIONS_FR = {
     followus:"Suivez nous",
 
     //home page:
-    expo:"Le Salon d'Eté",
-    expodate: "du 17/07 au 21/08/2022",
+    expo:"Le Salon d'Hiver",
+    expodate: "du 11/12/2022 au 08/01/2023",
     expoplace: "Salle de la Mairie",
-    registrationlimitdate: "31/03/2022",
+    registrationlimitdate: "15/10/2022",
     register:"Inscrivez Vous!",
     partnership:"Devenez un partenaire  ",
     contactus:"Contactez nous!",
@@ -52,11 +52,11 @@ export const TRANSLATIONS_FR = {
 
     organisation:"Organisation",
     openning:"Ouverture au public : ",
-    openningdate:" 17 Juillet 2022.",
+    openningdate:" 11 Décembre 2022.",
     openninghours:"Tous les jours de 15h à 19h et les jeudi matin de 10h30 à 12h30.",
     closure:"Fin le ",
-    closuredate:"21 Août 2022.",
-    privateview:"Vernissage le 16 juillet 2022.",
+    closuredate:"8 Janvier 2023.",
+    privateview:"Vernissage le 10 Décembre 2022.",
     
     artworkdeposit:"Dépôt des œuvres",
     paintors:"Peintres :",
