@@ -56,7 +56,7 @@ export const TRANSLATIONS_EN = {
     openninghours:"Everyday from 3 to 7pm and thurday mornings from 10:30 to 12:30",
     closure:"End of the exhibition :",
     closuredate:" 8th of January 2023.",
-    privateview:"Private opening the 10th of December 2022.",
+    privateview:"Private opening the 11th of December 2022.",
 
     artworkdeposit:"Artwork deposit",
     paintors:"Paintors :",
