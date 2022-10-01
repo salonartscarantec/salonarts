@@ -17,10 +17,10 @@ export const TRANSLATIONS_EN = {
     followus:"Follow us",
 
     //home page:
-    expo:"Summer Exhibition",
-    expodate: "from 17/07 to 21/08/2022",
+    expo:"Winter Exhibition",
+    expodate: "from 11/12/2022 to 08/01/2023",
     expoplace: "Salle de la Mairie",
-    registrationlimitdate: "31/03/2022",
+    registrationlimitdate: "15/10/2022",
     register:"Register Now!",
     partnership:"Become a partner : ",
     contactus:"Contact us",
@@ -52,23 +52,23 @@ export const TRANSLATIONS_EN = {
 
     organisation:"Organisation",
     openning:"Openning to the public :", 
-    openningdate:" 17th of July 2022.",
+    openningdate:" 11th of December 2022.",
     openninghours:"Everyday from 3 to 7pm and thurday mornings from 10:30 to 12:30",
     closure:"End of the exhibition :",
-    closuredate:" 21th of August 2022.",
-    privateview:"Private opening the 16th of July 2022.",
+    closuredate:" 8th of January 2023.",
+    privateview:"Private opening the 11th of December 2022.",
 
     artworkdeposit:"Artwork deposit",
     paintors:"Paintors :",
     sculptors:"Sculptors :",
-    datepaintors:" 11th of July 2022",
-    datesculptors:" 13th of July 2022",
+    datepaintors:" 5th of December 2022",
+    datesculptors:" 7th of December 2022",
     depositdatepaintors:" from 10-12am and 2-4pm",
     depositdatesculptors:" from 10-12am",
     deposittext:"The setting up of the artwork is made by our trusted volonteers.",
 
     artworkretrival:"Artwork retrival",
-    retrivaldate:" 22th of August 2022",
+    retrivaldate:" 9th of January 2023",
     retrivaltext:" from 10 - 12am.",
 
     artworkinfos:"Artwork informations",
