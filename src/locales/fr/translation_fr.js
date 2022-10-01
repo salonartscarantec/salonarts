@@ -56,7 +56,7 @@ export const TRANSLATIONS_FR = {
     openninghours:"Tous les jours de 15h à 19h et les jeudi matin de 10h30 à 12h30.",
     closure:"Fin le ",
     closuredate:"8 Janvier 2023.",
-    privateview:"Vernissage le 10 Décembre 2022.",
+    privateview:"Vernissage le 11 Décembre 2022.",
     
     artworkdeposit:"Dépôt des œuvres",
     paintors:"Peintres :",
