@@ -53,7 +53,7 @@ export const TRANSLATIONS_FR = {
     organisation:"Organisation",
     openning:"Ouverture au public : ",
     openningdate:" 11 Décembre 2022.",
-    openninghours:"Tous les jours de 15h à 19h et les jeudi matin de 10h30 à 12h30.",
+    openninghours:"Tous les jours de 14h30 à 18h30 et les jeudi matin de 10h30 à 12h30.",
     closure:"Fin le ",
     closuredate:"8 Janvier 2023.",
     privateview:"Vernissage le 11 Décembre 2022.",
