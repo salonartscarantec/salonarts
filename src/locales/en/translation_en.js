@@ -53,10 +53,10 @@ export const TRANSLATIONS_EN = {
     organisation:"Organisation",
     openning:"Openning to the public :", 
     openningdate:" 11th of December 2022.",
-    openninghours:"Everyday from 2:30 to 6:30pm and thurday mornings from 10:30 to 12:30",
+    openninghours:"Everyday from 2 to 6pm and thurday mornings from 10:30 to 12:30",
     closure:"End of the exhibition :",
     closuredate:" 8th of January 2023.",
-    privateview:"Private opening the 11th of December 2022.",
+    privateview:"",
 
     artworkdeposit:"Artwork deposit",
     paintors:"Paintors :",
