@@ -52,6 +52,20 @@ export class PdfFileSculpture extends React.PureComponent {
           </FormGroup>
           <FormGroup className="group1" as={Row}>
             <FormLabel className="label" column sm="2">
+              Code Postal :
+            </FormLabel>
+            <Col className="textinput" sm="4">
+              <FormControl type="text"/>
+            </Col>
+            <FormLabel className="label" column sm="2">
+              Ville :
+            </FormLabel>
+            <Col className="textinput" sm="4">
+              <FormControl type="text"/>
+            </Col>
+          </FormGroup>
+          <FormGroup className="group1" as={Row}>
+            <FormLabel className="label" column sm="2">
               Site internet :
             </FormLabel>
             <Col className="textinput" sm="4">
