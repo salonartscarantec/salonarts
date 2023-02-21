@@ -10,7 +10,7 @@ export class PdfFileSculpture extends React.PureComponent {
       <div className="PdfFile">
         <h2 id="formtitle" className="text-center">Salon des Arts - Carantec - Sculpture</h2>
         <br></br>
-        <p className="font-weight-bold">Formulaire d'inscription pour l'exposition du 11/12/2022, Tarif : {REACT_APP_PRICE} </p>
+        <p className="font-weight-bold">Formulaire d'inscription pour l'exposition du 15/07/2023, Tarif : {REACT_APP_PRICE} </p>
         <p>Prévoir les socles blancs de préférence pour les sculptures.</p>
         <br></br>
         <Form>
@@ -228,7 +228,7 @@ export class PdfFileSculpture extends React.PureComponent {
             <FormCheck inline label="Réalisera une démonstration"/>
             <FormCheck inline label="confirme que mes œuvres exposées sont bien assurées"/>
             <FormCheck inline label="Possibilité de faire un après-midi vente - dédicace de vos livres (prévenir à l’avance pour l’annoncer dans la presse)"/>
-            <FormCheck inline label="Déclare avoir pris connaissance du règlement du salon d’Hiver 2022 de Carantec auquel je souhaite participer et en accepte les clauses"/>
+            <FormCheck inline label="Déclare avoir pris connaissance du règlement du salon d’Eté 2023 de Carantec auquel je souhaite participer et en accepte les clauses"/>
           </FormGroup>
           <FormLabel column sm="2">
             Signature:
