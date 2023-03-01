@@ -1,12 +1,12 @@
 import Carousel from 'react-bootstrap/Carousel';
-import image1 from 'assets/images/tableaux1.webp';
+import image1 from 'assets/images/image1.webp';
 // import image2 from 'assets/images/photo4rs.webp';
-import image3 from 'assets/images/photo6.webp';
+import image3 from 'assets/images/image2.webp';
 // import image4 from 'assets/images/photo8.webp';
-import image5 from 'assets/images/photo7.webp';
-import image6 from 'assets/images/tableaux5.webp';
-import image7 from 'assets/images/photo-statue.webp';
-import image8 from 'assets/images/tableaux3.webp';
+import image5 from 'assets/images/image3.webp';
+import image6 from 'assets/images/image4.webp';
+import image7 from 'assets/images/image5.webp';
+import image8 from 'assets/images/image6.webp';
 
 const CarouselDisplay = () => {
     
