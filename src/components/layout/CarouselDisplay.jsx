@@ -18,64 +18,66 @@ const CarouselDisplay = () => {
         <img
           className="d-block"
           src={image1}
-          alt="salon des arts, présentation des oeuvres et de l'exposition, 1"
+          alt="salon des arts, Anne Sophie Hocquez-Schipman en démonstration"
         />
+        <Carousel.Caption>
+          <h4 className="captiontext">Anne Sophie Hocquez-Schipman</h4>
+        </Carousel.Caption>
       </Carousel.Item>
-
-      {/* <Carousel.Item className="imagecarousel">
-        <img
-          className="d-block"
-          src={image2}
-          alt="Démonstration par un artiste, Pierre Quentel"
-        />
-      </Carousel.Item> */}
 
       <Carousel.Item className="imagecarousel">
         <img
           className="d-block"
           src={image3}
-          alt="salon des arts, présentation des oeuvres et de l'exposition, 2"
+          alt="salon des arts, sculpture de perroquet, Olivier Raoult, 2"
         />
+        <Carousel.Caption>
+          <h4 className="captiontext">Olivier Raoult</h4>
+        </Carousel.Caption>
       </Carousel.Item>
-
-      {/* <Carousel.Item className="imagecarousel">
-        <img
-          className="d-block"
-          src={image4}
-          alt="Article de journal, Télégramme"
-        />
-      </Carousel.Item> */}
 
       <Carousel.Item className="imagecarousel">
         <img
           className="d-block"
           src={image8}
-          alt="salon des arts, présentation des oeuvres et de l'exposition, 3"
+          alt="salon des arts, tableau, Soizic Ogier - Le Goff, 3"
         />
+        <Carousel.Caption>
+          <h4 className="captiontext">Soizic Ogier - Le Goff</h4>
+        </Carousel.Caption>
       </Carousel.Item>
 
       <Carousel.Item className="imagecarousel">
         <img
           className="d-block"
           src={image5}
-          alt="Atelier découverte avec des jeunes"
+          alt="Atelier découverte avec des jeunes, Véronique Pedrero"
         />
+        <Carousel.Caption>
+          <h4 className="captiontext">Véronique Pedrero</h4>
+        </Carousel.Caption>
       </Carousel.Item>
 
       <Carousel.Item className="imagecarousel">
         <img
           className="d-block"
           src={image7}
-          alt="salon des arts, sculpture par l'artiste Clauda"
+          alt="salon des arts, sculpture, Éric Jonquais"
         />
+        <Carousel.Caption>
+          <h4 className="captiontext">Éric Jonquais</h4>
+        </Carousel.Caption>
       </Carousel.Item>
 
       <Carousel.Item className="imagecarousel">
         <img
           className="d-block"
           src={image6}
-          alt="salon des arts, présentation des oeuvres et de l'exposition, 4"
+          alt="salon des arts, tableau, Joëlle Troussier, 4"
         />
+        <Carousel.Caption>
+          <h4 className="captiontext">Joëlle Troussier</h4>
+        </Carousel.Caption>
       </Carousel.Item> 
 
     </Carousel>

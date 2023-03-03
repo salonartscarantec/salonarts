@@ -68,9 +68,17 @@ html {
   .presentationtext{
     font-size: 20px;
   }
+
   .importanttextmedium{
     color: $primary;
     font-weight: bold; 
+  }
+
+  .captiontext{
+    color: $primary;
+    font-weight: bolder;
+    font-style: italic;
+    backdrop-filter: blur(40px) saturate(98%)
   }
 
   .carousel-inner{
