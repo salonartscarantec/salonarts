@@ -75,10 +75,11 @@ html {
   }
 
   .captiontext{
-    color: $primary;
+    color: $secondary;
+    text-shadow: 3px 3px 12px black;
     font-weight: bolder;
     font-style: italic;
-    backdrop-filter: blur(40px) saturate(98%)
+    backdrop-filter: blur(15px) saturate(80%)
   }
 
   .carousel-inner{
