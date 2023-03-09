@@ -43,7 +43,7 @@ const CarouselDisplay = () => {
           alt="salon des arts, tableau, Soizic Ogier - Le Goff, 3"
         />
         <Carousel.Caption>
-          <h4 className="captiontext">Soizic Ogier - Le Goff</h4>
+          <h4 className="captiontext">Soizic Oger - Le Goff</h4>
         </Carousel.Caption>
       </Carousel.Item>
 
