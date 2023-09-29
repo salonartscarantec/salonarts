@@ -17,10 +17,10 @@ export const TRANSLATIONS_EN = {
     followus:"Follow us",
 
     //home page:
-    expo:"Summer Exhibition",
-    expodate: "from 15/07/2023 to 20/08/2023",
+    expo:"Winter Exhibition",
+    expodate: "from 17/12/2023 to 07/01/2023",
     expoplace: "Espace André JACQ",
-    registrationlimitdate: "15/04/2022",
+    registrationlimitdate: "30/10/2022",
     register:"Register Now!",
     partnership:"Become a partner : ",
     contactus:"Contact us",
@@ -52,23 +52,23 @@ export const TRANSLATIONS_EN = {
 
     organisation:"Organisation",
     openning:"Openning to the public :", 
-    openningdate:" 15th of July 2023.",
+    openningdate:" 17th of December 2023.",
     openninghours:"Everyday from 3 to 7pm and thurday mornings from 10:30 to 12:30",
     closure:"End of the exhibition :",
-    closuredate:" 20th of August 2023.",
-    privateview:"Privare openning 15th of July 2023.",
+    closuredate:" 7th of January 2024.",
+    privateview:"Privare openning 16th of December 2023.",
 
     artworkdeposit:"Artwork deposit",
     paintors:"Paintors :",
     sculptors:"Sculptors :",
-    datepaintors:" 10th of July 2022",
-    datesculptors:" 12th of July 2022",
+    datepaintors:" 12th of December 2023",
+    datesculptors:" 13th of December 2023",
     depositdatepaintors:" from 10-12am and 2-4pm",
     depositdatesculptors:" from 10-12am",
     deposittext:"The setting up of the artwork is made by our trusted volonteers.",
 
     artworkretrival:"Artwork retrival",
-    retrivaldate:" 21th of August 2023",
+    retrivaldate:" 8th of January 2024",
     retrivaltext:" from 10 - 12am.",
 
     artworkinfos:"Artwork informations",

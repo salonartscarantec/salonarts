@@ -17,10 +17,10 @@ export const TRANSLATIONS_FR = {
     followus:"Suivez nous",
 
     //home page:
-    expo:"Le Salon d'Eté",
-    expodate: "du 15/07/2023 au 20/08/2023",
+    expo:"Le Salon d'Hiver",
+    expodate: "du 17/12/2023 au 07/01/2024",
     expoplace: "Espace André JACQ",
-    registrationlimitdate: "15/04/2023",
+    registrationlimitdate: "30/10/2023",
     register:"Inscrivez Vous!",
     partnership:"Devenez un partenaire  ",
     contactus:"Contactez nous!",
@@ -52,23 +52,23 @@ export const TRANSLATIONS_FR = {
 
     organisation:"Organisation",
     openning:"Ouverture au public : ",
-    openningdate:" 15 Juillet 2023.",
+    openningdate:" 17 Décembre 2023.",
     openninghours:"Tous les jours de 15h à 19h et les jeudi matin de 10h30 à 12h30.",
     closure:"Fin le ",
-    closuredate:"20 Aout 2023.",
-    privateview:"Vernissage 15 Juillet 2023",
+    closuredate:"7 Janvier 2024.",
+    privateview:"Vernissage 16 Décembre 2023",
     
     artworkdeposit:"Dépôt des œuvres",
     paintors:"Peintres :",
     sculptors:"Sculptures :",
-    datepaintors:" 10 Juillet 2023",
-    datesculptors:" 12 Juillet 2023",
+    datepaintors:" 12 Décembre 2023",
+    datesculptors:" 13 Décembre 2023",
     depositdatepaintors:" de 10h-12h et 14h-16h",
     depositdatesculptors:" de 10h à 12h",
     deposittext:"Accrochage et installation réalisés par l’association.",
 
     artworkretrival:"Retrait des œuvres",
-    retrivaldate:" 21 Août 2023",
+    retrivaldate:" 8 Janvier 2024",
     retrivaltext:" de 10 à 12h.",
 
     artworkinfos:"Infos œuvres",
