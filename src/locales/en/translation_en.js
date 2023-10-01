@@ -69,7 +69,7 @@ export const TRANSLATIONS_EN = {
 
     artworkretrival:"Artwork retrival",
     retrivaldate:" 8th of January 2024",
-    retrivaltext:" ",
+    retrivaltext:"",
 
     artworkinfos:"Artwork informations",
     infostext:"Submitted artwork must be originals and not have already been presented in our exhibitions. The organisation commitee could choose to limit the number pieces presented. We also need pictures of your artwok (in good definition) to select one for the poster.",
