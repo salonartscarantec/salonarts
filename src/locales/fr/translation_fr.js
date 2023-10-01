@@ -69,7 +69,7 @@ export const TRANSLATIONS_FR = {
 
     artworkretrival:"Retrait des œuvres",
     retrivaldate:" 8 Janvier 2024",
-    retrivaltext:" ",
+    retrivaltext:"",
 
     artworkinfos:"Infos œuvres",
     infostext:"Les œuvres doivent être originales et ne pas avoir été déjà exposées dans notre salon. Dans un souci d’harmonie, les organisateurs se réservent le droit de limiter les œuvres exposées. Nous avons besoin de vos photos (avec une bonne définition) pour le choix de l’affiche.",
