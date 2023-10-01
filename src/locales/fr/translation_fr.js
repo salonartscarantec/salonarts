@@ -68,7 +68,7 @@ export const TRANSLATIONS_FR = {
     deposittext:"Accrochage et installation réalisés par l’association.",
 
     artworkretrival:"Retrait des œuvres",
-    retrivaldate:" 8 Janvier 2024",
+    retrivaldate:" 8 Janvier 2024.",
     retrivaltext:"",
 
     artworkinfos:"Infos œuvres",
