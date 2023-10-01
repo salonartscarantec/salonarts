@@ -68,7 +68,7 @@ export const TRANSLATIONS_EN = {
     deposittext:"The setting up of the artwork is made by our trusted volonteers.",
 
     artworkretrival:"Artwork retrival",
-    retrivaldate:" 8th of January 2024",
+    retrivaldate:" 8th of January 2024.",
     retrivaltext:"",
 
     artworkinfos:"Artwork informations",
