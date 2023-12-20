@@ -54,7 +54,7 @@ const CarouselDisplay = () => {
           alt="salon des arts, été 2023"
         />
         <Carousel.Caption>
-          <h4 className="captiontext">Isablelle D'Arboussier</h4>
+          <h4 className="captiontext">Isabelle D'Arboussier</h4>
         </Carousel.Caption>
       </Carousel.Item>
 
