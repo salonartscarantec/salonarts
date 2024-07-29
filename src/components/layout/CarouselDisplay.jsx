@@ -43,7 +43,7 @@ const CarouselDisplay = () => {
           alt="salon des arts, été 2024"
         />
         <Carousel.Caption>
-          <h4 className="captiontext">Guy An Dreo</h4>
+          <h4 className="captiontext">Guy AN DREO</h4>
         </Carousel.Caption>
       </Carousel.Item>
 
