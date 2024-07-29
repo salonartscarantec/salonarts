@@ -21,7 +21,7 @@ const CarouselDisplay = () => {
           alt="salon des arts, été 2024"
         />
         <Carousel.Caption>
-          <h4 className="captiontext"> </h4>
+          <h4 className="captiontext">Michel LE DUC</h4>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -32,7 +32,7 @@ const CarouselDisplay = () => {
           alt="salon des arts, été 2024"
         />
         <Carousel.Caption>
-          <h4 className="captiontext"> </h4>
+          <h4 className="captiontext">Bernadette PIERDAIT</h4>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -43,7 +43,7 @@ const CarouselDisplay = () => {
           alt="salon des arts, été 2024"
         />
         <Carousel.Caption>
-          <h4 className="captiontext"> </h4>
+          <h4 className="captiontext">Guy An Dreo</h4>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -54,7 +54,7 @@ const CarouselDisplay = () => {
           alt="salon des arts, été 2024"
         />
         <Carousel.Caption>
-          <h4 className="captiontext"> </h4>
+          <h4 className="captiontext">Jean Bernard BLAISE</h4>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -65,7 +65,7 @@ const CarouselDisplay = () => {
           alt="salon des arts, été 2024"
         />
         <Carousel.Caption>
-          <h4 className="captiontext"> </h4>
+          <h4 className="captiontext">Monique GENIN</h4>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -76,7 +76,7 @@ const CarouselDisplay = () => {
           alt="salon des arts, été 2024"
         />
         <Carousel.Caption>
-          <h4 className="captiontext"> </h4>
+          <h4 className="captiontext">Anne Sophie HOCQUEZ</h4>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -87,7 +87,7 @@ const CarouselDisplay = () => {
           alt="salon des arts, été 2024"
         />
         <Carousel.Caption>
-          <h4 className="captiontext"> </h4>
+          <h4 className="captiontext">Sylvie TROUVÉ</h4>
         </Carousel.Caption>
       </Carousel.Item> 
 
