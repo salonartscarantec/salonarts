@@ -52,23 +52,23 @@ export const TRANSLATIONS_FR = {
 
     organisation:"Organisation",
     openning:"Ouverture au public : ",
-    openningdate:" 15 Décembre 2024.",
-    openninghours:"",
+    openningdate:" 15 Décembre 2024 ",
+    openninghours:" de 14h30 à 18h30.",
     closure:"Fin le ",
     closuredate:"05 Janvier 2025.",
-    privateview:"",
+    privateview:" Vernissage le 14 Décembre à 17h30.",
     
     artworkdeposit:"Dépôt des œuvres",
     paintors:"Peintres :",
     sculptors:"Sculptures :",
-    datepaintors:" Date non communiquée ",
-    datesculptors:" Date non communiquée ",
+    datepaintors:" 9 Décembre de 10h à 12h.",
+    datesculptors:" 11 Décembre de 10h à 12h.",
     depositdatepaintors:" ",
     depositdatesculptors:" ",
     deposittext:"Accrochage et installation réalisés par l’association.",
 
     artworkretrival:"Retrait des œuvres",
-    retrivaldate:" Date non communiquée ",
+    retrivaldate:" Le 6 Janvier 2025 de 10h à 12h.",
     retrivaltext:" ",
 
     artworkinfos:"Infos œuvres",
@@ -86,7 +86,7 @@ export const TRANSLATIONS_FR = {
 
     insurancestext:"Les organisateurs prendront le plus grand soin de vos œuvres. La municipalité et l’association organisatrice de l’exposition ne répondent en aucun cas des dommages qui pourraient survenir aux œuvres pendant la durée de l’exposition. Les artistes sont invités à assurer leurs œuvres contre tout risque. Ils renoncent expressément à tout recours contre l’association. Le transport des œuvres aller et retour est à la charge de l’artiste.",
 
-    permanancytext:"Les artistes sont invités à assurer une ou 2 permanences de 14h30 à 18h30. La présence des artistes est un plus pour les échanges avec les visiteurs et favorise les ventes. Les ateliers de démonstrations sont à nouveau mis en place. Contactez nous si vous êtes intéressés. Penser à mettre des cartes de visite à disposition.",
+    permanancytext:"Les artistes sont invités à assurer une ou 2 permanences de 14h30 à 18h30 selon leurs disponibilités. La présence des artistes est un plus pour les échanges avec les visiteurs et favorise les ventes. Les ateliers de démonstrations sont à nouveau mis en place. Contactez nous si vous êtes intéressés. Penser à mettre des cartes de visite à disposition.",
 
     otherstext:"Il a été convenu que les seules ventes à l’accueil du salon, seraient les ventes des cartes, affiches, marque-pages appartenant à l’association.",
 
