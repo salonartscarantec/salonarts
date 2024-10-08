@@ -52,23 +52,23 @@ export const TRANSLATIONS_EN = {
 
     organisation:"Organisation",
     openning:"Openning to the public :", 
-    openningdate:" 15th of December 2024.",
-    openninghours:"",
+    openningdate:" 15th of December 2024 ",
+    openninghours:" from 2:30pm till 6:30pm.",
     closure:"End of the exhibition :",
     closuredate:" 5th of January 2025.",
-    privateview:"",
+    privateview:" Opening the 14th of December at 5:30pm.",
 
     artworkdeposit:"Artwork deposit",
     paintors:"Paintors :",
     sculptors:"Sculptors :",
-    datepaintors:" Not known yet",
-    datesculptors:" Not known yet",
+    datepaintors:" 9th of December from 10am till 12am.",
+    datesculptors:" 11th of December from 10am till 12am.",
     depositdatepaintors:" ",
     depositdatesculptors:" ",
     deposittext:"The setting up of the artwork is made by our trusted volonteers.",
 
     artworkretrival:"Artwork retrival",
-    retrivaldate:" Not known yet",
+    retrivaldate:" 6th of January from 10am till 12am.",
     retrivaltext:" ",
 
     artworkinfos:"Artwork informations",
@@ -86,7 +86,7 @@ export const TRANSLATIONS_EN = {
 
     insurancestext:"The comitee and volonteers will take the utmost care of your work. The city council and the association will not be responsible for any damage occuring during the exhibition. Artists are strongly invitated to insure their work against all risks. Artists also renounce the rigths to any recourse against the association. Transport of artworks is the responsability of the artist.",
 
-    permanancytext:"Artits are invited to be on site for one or 2 permanencies from 2:30 to 6:30pm. Attendance is a plus to exchange with visitors and boost your sales. Demonstration workshops are possible to set up. Contact us if you are interested. Please consider providing us with business cards to display.", 
+    permanancytext:"Artits are invited to be on site for one or 2 permanencies from 2:30 to 6:30pm according to their availabilities. Attendance is a plus to exchange with visitors and boost your sales. Demonstration workshops are possible to set up. Contact us if you are interested. Please consider providing us with business cards to display.", 
 
     otherstext:"It was decided that the only sales possible at the reception of the salon will be postcards, posters, bookmarks belonging to the association.",
 
