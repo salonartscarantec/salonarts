@@ -54,7 +54,7 @@ const CarouselDisplay = () => {
           alt="salon des arts, été 2024"
         />
         <Carousel.Caption>
-          <h4 className="captiontext">J De Kerdrel</h4>
+          <h4 className="captiontext">Jacques De Kerdrel</h4>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -65,7 +65,7 @@ const CarouselDisplay = () => {
           alt="salon des arts, été 2024"
         />
         <Carousel.Caption>
-          <h4 className="captiontext">Madeleine Mouchot</h4>
+          <h4 className="captiontext">Magdeleine Mouchot</h4>
         </Carousel.Caption>
       </Carousel.Item>
 
