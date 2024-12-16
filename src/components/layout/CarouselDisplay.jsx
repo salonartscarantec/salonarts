@@ -5,7 +5,7 @@ import image3 from 'assets/images/image3.webp';
 import image4 from 'assets/images/image4.webp';
 import image5 from 'assets/images/image5.webp';
 import image6 from 'assets/images/image6.webp';
-import image7 from 'assets/images/image7.webp';
+//import image7 from 'assets/images/image7.webp';
 //import image8 from 'assets/images/image6.webp';
 
 const CarouselDisplay = () => {
@@ -21,7 +21,7 @@ const CarouselDisplay = () => {
           alt="salon des arts, été 2024"
         />
         <Carousel.Caption>
-          <h4 className="captiontext">Michel LE DUC</h4>
+          <h4 className="captiontext">Alexis Le Borgne</h4>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -32,7 +32,7 @@ const CarouselDisplay = () => {
           alt="salon des arts, été 2024"
         />
         <Carousel.Caption>
-          <h4 className="captiontext">Bernadette PIERDAIT</h4>
+          <h4 className="captiontext">Charga</h4>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -43,7 +43,7 @@ const CarouselDisplay = () => {
           alt="salon des arts, été 2024"
         />
         <Carousel.Caption>
-          <h4 className="captiontext">Guy AN DREO</h4>
+          <h4 className="captiontext">Christian Sanchez</h4>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -54,7 +54,7 @@ const CarouselDisplay = () => {
           alt="salon des arts, été 2024"
         />
         <Carousel.Caption>
-          <h4 className="captiontext">Jean Bernard BLAISE</h4>
+          <h4 className="captiontext">J De Kerdrel</h4>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -65,7 +65,7 @@ const CarouselDisplay = () => {
           alt="salon des arts, été 2024"
         />
         <Carousel.Caption>
-          <h4 className="captiontext">Monique GENIN</h4>
+          <h4 className="captiontext">Madeleine Mouchot</h4>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -76,11 +76,11 @@ const CarouselDisplay = () => {
           alt="salon des arts, été 2024"
         />
         <Carousel.Caption>
-          <h4 className="captiontext">Anne Sophie HOCQUEZ</h4>
+          <h4 className="captiontext">Veronique Jacquelin</h4>
         </Carousel.Caption>
       </Carousel.Item>
 
-      <Carousel.Item className="imagecarousel">
+      {/* <Carousel.Item className="imagecarousel">
         <img
           className="d-block"
           src={image7}
@@ -89,7 +89,7 @@ const CarouselDisplay = () => {
         <Carousel.Caption>
           <h4 className="captiontext">Sylvie TROUVÉ</h4>
         </Carousel.Caption>
-      </Carousel.Item> 
+      </Carousel.Item>  */}
 
     </Carousel>
     </>
