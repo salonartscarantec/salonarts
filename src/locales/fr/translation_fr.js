@@ -17,7 +17,7 @@ export const TRANSLATIONS_FR = {
     followus:"Suivez nous",
 
     //home page:
-    expo:"Le Salon d'Eté 2024/2025",
+    expo:"Le Salon d'Eté 2025",
     expodate: "du 13/07 au 17/08",
     expoplace: "Espace André JACQ",
     registrationlimitdate: "Ouvertes",
