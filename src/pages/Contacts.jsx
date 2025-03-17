@@ -66,9 +66,9 @@ const Contacts = () => {
             <li>Président d’honneur : Loyz Laouénan</li>
             <li>Président : J.H. Prigent</li>
             <li>Secrétaires : J.Gauthier et C.Conaté</li>
-            <li>Communication : M.Lacut</li>
+            <li>Communication : J.Gauthier et A.Querné</li>
             <li>Trésorière : M.Querné</li>
-            <li>Trésorière adjointe : A. Le Scour</li>
+            <li>Trésorière adjointe : A pourvoir</li>
             <br></br>
           </ul>
           <p>Le Conseil d’administration se compose d’une vingtaine de membres.</p> 
