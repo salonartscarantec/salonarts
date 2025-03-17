@@ -17,8 +17,8 @@ export const TRANSLATIONS_FR = {
     followus:"Suivez nous",
 
     //home page:
-    expo:"Le Salon d'Hiver 2024/2025",
-    expodate: "du 15/12 au 05/01",
+    expo:"Le Salon d'Eté 2025",
+    expodate: "du 13/07 au 17/08",
     expoplace: "Espace André JACQ",
     registrationlimitdate: "Ouvertes",
     register:"Inscrivez Vous!",
@@ -52,23 +52,23 @@ export const TRANSLATIONS_FR = {
 
     organisation:"Organisation",
     openning:"Ouverture au public : ",
-    openningdate:" 15 Décembre 2024 ",
-    openninghours:" de 14h30 à 18h30.",
+    openningdate:" 13 Juillet 2025 ",
+    openninghours:"Horaires d'ouverture : de 15h à 19h",
     closure:"Fin le ",
-    closuredate:"05 Janvier 2025.",
-    privateview:" Vernissage le 14 Décembre à 17h30.",
+    closuredate:"17 Août 2025.",
+    privateview:" Vernissage le 12 Juiller à 18h.",
     
     artworkdeposit:"Dépôt des œuvres",
     paintors:"Peintres :",
     sculptors:"Sculptures :",
-    datepaintors:" 9 Décembre de 10h à 12h.",
-    datesculptors:" 11 Décembre de 10h à 12h.",
+    datepaintors:" 7 juillet de 10h à 12h et 14h à 16h.",
+    datesculptors:" 9 juillet de 10h à 12h.",
     depositdatepaintors:" ",
     depositdatesculptors:" ",
     deposittext:"Accrochage et installation réalisés par l’association.",
 
     artworkretrival:"Retrait des œuvres",
-    retrivaldate:" Le 6 Janvier 2025 de 10h à 12h.",
+    retrivaldate:" Le 18 Août de 10h à 12h.",
     retrivaltext:" ",
 
     artworkinfos:"Infos œuvres",
@@ -86,7 +86,7 @@ export const TRANSLATIONS_FR = {
 
     insurancestext:"Les organisateurs prendront le plus grand soin de vos œuvres. La municipalité et l’association organisatrice de l’exposition ne répondent en aucun cas des dommages qui pourraient survenir aux œuvres pendant la durée de l’exposition. Les artistes sont invités à assurer leurs œuvres contre tout risque. Ils renoncent expressément à tout recours contre l’association. Le transport des œuvres aller et retour est à la charge de l’artiste.",
 
-    permanancytext:"Les artistes sont invités à assurer une ou 2 permanences de 14h30 à 18h30 selon leurs disponibilités. La présence des artistes est un plus pour les échanges avec les visiteurs et favorise les ventes. Les ateliers de démonstrations sont à nouveau mis en place. Contactez nous si vous êtes intéressés. Penser à mettre des cartes de visite à disposition.",
+    permanancytext:"Les artistes sont invités à assurer une ou 2 permanences de 15h à 19h selon leurs disponibilités. La présence des artistes est un plus pour les échanges avec les visiteurs et favorise les ventes. Les ateliers de démonstrations sont à nouveau mis en place. Contactez nous si vous êtes intéressés. Penser à mettre des cartes de visite à disposition.",
 
     otherstext:"Il a été convenu que les seules ventes à l’accueil du salon, seraient les ventes des cartes, affiches, marque-pages appartenant à l’association.",
 

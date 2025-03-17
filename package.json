@@ -2,6 +2,11 @@
   "name": "salonarts",
   "version": "0.1.0",
   "private": true,
+
+  "engines": {
+    "node": "20.x"
+  },
+
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
@@ -21,8 +26,8 @@
     "js-cookie": "^2.2.1",
     "locales": "^0.0.2",
     "lts": "^1.2.0",
-    "next": "^13.5.3",
     "node": "^20.7.0",
+    "next": "^13.5.3",
     "postcss": "^8.4.31",
     "react": "^18.2.0",
     "react-bootstrap": "^1.5.2",
