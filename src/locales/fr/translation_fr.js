@@ -56,7 +56,7 @@ export const TRANSLATIONS_FR = {
     openninghours:"Horaires d'ouverture : de 15h à 19h",
     closure:"Fin le ",
     closuredate:"17 Août 2025.",
-    privateview:" Vernissage le 12 Juiller à 18h.",
+    privateview:" Vernissage le 12 Juillet à 18h.",
     
     artworkdeposit:"Dépôt des œuvres",
     paintors:"Peintres :",
