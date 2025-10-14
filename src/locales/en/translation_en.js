@@ -57,7 +57,8 @@ export const TRANSLATIONS_EN = {
     openninghours:"Openning hours : from 10:30am till 12:30am and from 2:30pm till 6:30pm.",
     closure:"End of the exhibition :",
     closuredate:" 4th of January 2026.",
-    privateview:" Opening the 13th of December at 5:30pm.",
+    privateviewtext:" Opening the ",
+    privateview:" 13th of December at 5:30pm.",
 
     artworkdeposit:"Artwork deposit",
     paintors:"Paintors :",
@@ -69,7 +70,7 @@ export const TRANSLATIONS_EN = {
     deposittext:"The setting up of the artwork is made by our trusted volonteers.",
 
     artworkretrival:"Artwork retrival",
-    retrivaldate:" to be confirmed.",
+    retrivaldate:" The 5th of January 2026.",
     retrivaltext:" ",
 
     artworkinfos:"Artwork informations",
