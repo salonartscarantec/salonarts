@@ -57,7 +57,8 @@ export const TRANSLATIONS_FR = {
     openninghours:"Horaires d'ouverture : de 10h30 à 12h30 et de 14h30 à 18h30",
     closure:"Fin le ",
     closuredate:"4 Janvier 2026.",
-    privateview:" Vernissage le 13 Décembre à 17h30.",
+    privateviewtext:" Vernissage le ",
+    privateview:"13 Décembre à 17h30.",
     
     artworkdeposit:"Dépôt des œuvres",
     paintors:"Peintres :",
@@ -69,7 +70,7 @@ export const TRANSLATIONS_FR = {
     deposittext:"Accrochage et installation réalisés par l’association.",
 
     artworkretrival:"Retrait des œuvres",
-    retrivaldate:" A confirmer.",
+    retrivaldate:" Le 5 janvier 2026.",
     retrivaltext:" ",
 
     artworkinfos:"Infos œuvres",
