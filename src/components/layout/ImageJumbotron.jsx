@@ -39,6 +39,7 @@ const ImageJumbotron = () => {
               <div className="box">
                 <h1 className="title">Salon des Arts Carantec</h1>
                 <h2 className="titlecustom subtitle">{t("expo")}</h2>
+                <p id="honnor">{t("honnorexpo")}</p>
                 <p id="expodate">
                   {t("expodate")}
                 </p>

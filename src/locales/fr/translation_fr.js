@@ -17,8 +17,9 @@ export const TRANSLATIONS_FR = {
     followus:"Suivez nous",
 
     //home page:
-    expo:"Le Salon d'Eté 2025",
-    expodate: "du 13/07 au 17/08",
+    expo:"Le Salon d'Hiver 2025/2026",
+    honnorexpo:"Invité : Alexis Le Borgne",
+    expodate: "du 14/12/25 au 04/01/26",
     expoplace: "Espace André JACQ",
     registrationlimitdate: "Ouvertes",
     register:"Inscrivez Vous!",
@@ -52,23 +53,23 @@ export const TRANSLATIONS_FR = {
 
     organisation:"Organisation",
     openning:"Ouverture au public : ",
-    openningdate:" 13 Juillet 2025 ",
-    openninghours:"Horaires d'ouverture : de 15h à 19h",
+    openningdate:" 14 Décembre 2025 à 14h30",
+    openninghours:"Horaires d'ouverture : de 10h30 à 12h30 et de 14h30 à 18h30",
     closure:"Fin le ",
-    closuredate:"17 Août 2025.",
-    privateview:" Vernissage le 12 Juillet à 18h.",
+    closuredate:"4 Janvier 2026.",
+    privateview:" Vernissage le 13 Décembre à 17h30.",
     
     artworkdeposit:"Dépôt des œuvres",
     paintors:"Peintres :",
     sculptors:"Sculptures :",
-    datepaintors:" 7 juillet de 10h à 12h et 14h à 16h.",
-    datesculptors:" 9 juillet de 10h à 12h.",
+    datepaintors:" 8 Décembre 2025 de 10h à 12h et 14h à 16h.",
+    datesculptors:" 10 Décembre 2025 de 10h à 12h.",
     depositdatepaintors:" ",
     depositdatesculptors:" ",
     deposittext:"Accrochage et installation réalisés par l’association.",
 
     artworkretrival:"Retrait des œuvres",
-    retrivaldate:" Le 18 Août de 10h à 12h.",
+    retrivaldate:" A confirmer.",
     retrivaltext:" ",
 
     artworkinfos:"Infos œuvres",
@@ -86,7 +87,7 @@ export const TRANSLATIONS_FR = {
 
     insurancestext:"Les organisateurs prendront le plus grand soin de vos œuvres. La municipalité et l’association organisatrice de l’exposition ne répondent en aucun cas des dommages qui pourraient survenir aux œuvres pendant la durée de l’exposition. Les artistes sont invités à assurer leurs œuvres contre tout risque. Ils renoncent expressément à tout recours contre l’association. Le transport des œuvres aller et retour est à la charge de l’artiste.",
 
-    permanancytext:"Les artistes sont invités à assurer une ou 2 permanences de 15h à 19h selon leurs disponibilités. La présence des artistes est un plus pour les échanges avec les visiteurs et favorise les ventes. Les ateliers de démonstrations sont à nouveau mis en place. Contactez nous si vous êtes intéressés. Penser à mettre des cartes de visite à disposition.",
+    permanancytext:"Les artistes sont invités à assurer une ou 2 permanences selon leurs disponibilités. La présence des artistes est un plus pour les échanges avec les visiteurs et favorise les ventes. Les ateliers de démonstrations sont à nouveau mis en place. Contactez nous si vous êtes intéressés. Penser à mettre des cartes de visite à disposition.",
 
     otherstext:"Il a été convenu que les seules ventes à l’accueil du salon, seraient les ventes des cartes, affiches, marque-pages appartenant à l’association.",
 
