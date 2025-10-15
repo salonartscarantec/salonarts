@@ -18,7 +18,7 @@ export const TRANSLATIONS_EN = {
 
     //home page:
     expo:"Winter Exhibition 2025/2026",
-    honnorexpo:"Guest: Alexis Le Borgne",
+    honnorexpo:"Guest : Alexis Le Borgne",
     expodate: "from 14/12/25 to 04/01/26",
     expoplace: "Espace André JACQ",
     registrationlimitdate: " Now",
