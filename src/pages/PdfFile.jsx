@@ -10,7 +10,7 @@ export class PdfFile extends React.PureComponent {
       <div className="PdfFile">
         <h2 id="formtitle" className="text-center">Salon des Arts - Carantec - Peinture</h2>
         <br></br>
-        <p className="font-weight-bold mt-1">Formulaire d'inscription pour l'exposition du 13/07/25 au 17/08/25, Tarif : {REACT_APP_PRICE} </p>
+        <p className="font-weight-bold mt-1">Formulaire d'inscription pour l'exposition du 14/12/25 au 04/01/26, Tarif : {REACT_APP_PRICE} </p>
         <p>Surface réservée à chaque artiste : 1m20 sur 1m80 (horizontal ou vertical)</p>
         <br></br>
         <Form>
@@ -173,7 +173,7 @@ export class PdfFile extends React.PureComponent {
             <FormCheck inline label="Réalisera une démonstration"/>
             <FormCheck inline label="confirme que mes œuvres exposées sont bien assurées"/>
             <FormCheck inline label="Possibilité de faire un après-midi vente - dédicace de vos livres (prévenir à l’avance pour l’annoncer dans la presse)"/>
-            <FormCheck inline label="Déclare avoir pris connaissance du règlement du salon d’Eté 2025 de Carantec auquel je souhaite participer et en accepte les clauses"/>
+            <FormCheck inline label="Déclare avoir pris connaissance du règlement du salon d’Hiver 2025/2026 de Carantec auquel je souhaite participer et en accepte les clauses"/>
           </FormGroup>
           <FormLabel column sm="2">
             Signature:

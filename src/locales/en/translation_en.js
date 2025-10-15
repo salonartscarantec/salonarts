@@ -17,8 +17,9 @@ export const TRANSLATIONS_EN = {
     followus:"Follow us",
 
     //home page:
-    expo:"Summer Exhibition 2025",
-    expodate: "from 13/07 to 17/08",
+    expo:"Winter Exhibition 2025/2026",
+    honnorexpo:"Guest : Alexis Le Borgne",
+    expodate: "from 14/12/25 to 04/01/26",
     expoplace: "Espace André JACQ",
     registrationlimitdate: " Now",
     register:"Register Now!",
@@ -52,23 +53,24 @@ export const TRANSLATIONS_EN = {
 
     organisation:"Organisation",
     openning:"Openning to the public :", 
-    openningdate:" 13th of July 2025 ",
-    openninghours:"Openning hours : from 3pm till 7pm.",
+    openningdate:" 14th of December 2025 at 2:30pm",
+    openninghours:"Openning hours : from 10:30am till 12:30am and from 2:30pm till 6:30pm.",
     closure:"End of the exhibition :",
-    closuredate:" 17th of August 2025.",
-    privateview:" Opening the 12th of July at 6pm.",
+    closuredate:" 4th of January 2026.",
+    privateviewtext:" Opening the ",
+    privateview:" 13th of December at 5:30pm.",
 
     artworkdeposit:"Artwork deposit",
     paintors:"Paintors :",
     sculptors:"Sculptors :",
-    datepaintors:" 7th of July from 10am till 12am and from 2pm till 4pm.",
-    datesculptors:" 9th of July from 10am till 12am.",
+    datepaintors:" 8th of December 2025 from 10am till 12am and from 2pm till 4pm.",
+    datesculptors:" 10th of December 2025 from 10am till 12am.",
     depositdatepaintors:" ",
     depositdatesculptors:" ",
     deposittext:"The setting up of the artwork is made by our trusted volonteers.",
 
     artworkretrival:"Artwork retrival",
-    retrivaldate:" 18th of August from 10am till 12am.",
+    retrivaldate:" The 5th of January 2026.",
     retrivaltext:" ",
 
     artworkinfos:"Artwork informations",
@@ -86,7 +88,7 @@ export const TRANSLATIONS_EN = {
 
     insurancestext:"The comitee and volonteers will take the utmost care of your work. The city council and the association will not be responsible for any damage occuring during the exhibition. Artists are strongly invitated to insure their work against all risks. Artists also renounce the rigths to any recourse against the association. Transport of artworks is the responsability of the artist.",
 
-    permanancytext:"Artits are invited to be on site for one or 2 permanencies from 3 to 7pm according to their availabilities. Attendance is a plus to exchange with visitors and boost your sales. Demonstration workshops are possible to set up. Contact us if you are interested. Please consider providing us with business cards to display.", 
+    permanancytext:"Artits are invited to be on site for one or 2 permanencies according to their availabilities. Attendance is a plus to exchange with visitors and boost your sales. Demonstration workshops are possible to set up. Contact us if you are interested. Please consider providing us with business cards to display.", 
 
     otherstext:"It was decided that the only sales possible at the reception of the salon will be postcards, posters, bookmarks belonging to the association.",
 
