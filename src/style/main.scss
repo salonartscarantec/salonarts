@@ -172,6 +172,12 @@ html {
     border-radius: 50%;
   }
 
+  #honnor{
+    color: $primary;
+    font-size: 40px!important;
+    font-weight: bolder;
+  }
+
   #expodate{
     font-size: 40px!important;
     font-weight: bolder;
@@ -452,6 +458,9 @@ footer {
     #expoplace{
       font-size: 2rem!important;
     }
+    #honnor{
+    font-size: 2rem!important;
+  }
   }
 
   .box{

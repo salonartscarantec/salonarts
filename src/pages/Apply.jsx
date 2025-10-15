@@ -114,7 +114,9 @@ const Apply = ( ) => {
               {t("closure")}
               <span className="importanttext">{t("closuredate")}</span>
             </li>
-            <li>{t("privateview")}</li>
+            <li>{t("privateviewtext")}
+              <span className="importanttext">{t("privateview")}</span>
+            </li>
           </ul>
           <ul id="artwork">
             <h2 className="subtitlecustom">
