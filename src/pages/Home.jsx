@@ -59,10 +59,11 @@ const Home = () => {
               <p className="presentationtext">
                 {t("presentation4")}
                 <span className="importanttextmedium"> {t("workshop")} </span> 
-                {t("presentation5")}
-                <span className="importanttextmedium"> {t("discovery")}</span>. 
+                {t("presentation5")} 
               </p>
               <p className="presentationtext"> 
+                {t("presentation5b")}
+                <span className="importanttextmedium"> {t("discovery")}</span>
                 {t("presentation6")} 
               </p>
               <p className="importanttexthome text-center">
