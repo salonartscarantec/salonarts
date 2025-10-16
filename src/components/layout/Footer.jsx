@@ -29,17 +29,6 @@ const Footer = () => {
                 {REACT_APP_EMAIL}
               </a>
             </li>
-            <li>
-              Blog : 
-              <a 
-                className="footerlinkmail" 
-                href="http://salonartscarantec.kazeo.com/"
-                target="_blank" 
-                rel="noreferrer noopener"
-              >
-                http://salonartscarantec.kazeo.com/
-              </a>
-            </li>
           </ul>
         </Col>
         <Col xs={12} md={4} className="footernavlink">
