@@ -66,6 +66,9 @@ const Home = () => {
                 <span className="importanttextmedium"> {t("discovery")}</span>
                 {t("presentation6")} 
               </p>
+              <p className="presentationtext">
+                {t("presentation7")}
+              </p>
               <p className="importanttexthome text-center">
                 {t("followus")}
               </p>
