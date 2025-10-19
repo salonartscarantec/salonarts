@@ -32,11 +32,12 @@ export const TRANSLATIONS_EN = {
     presentation3:"All artists with a SIRET number are welcome to apply.",
     presentation4:"During the exhibitions, artists have the opportunity to lead ",
     workshop:" workshops",
-    presentation5:" to share their techniques and their world with their public.",
+    presentation5:" to share their techniques and their world with the public.",
     presentation5b:"A ",
     discovery:"discovery trail ",
-    presentation6:"is offered to children. If you want more informations, look at posters and pictures of past events,",
-    
+    presentation6:"is offered to children.",
+    presentation7:"If you want more informations, look at posters and pictures of past events.",
+
     //apply page:
     registertitle:"Apply to the next exibition ",
     registerprice:"Price ",

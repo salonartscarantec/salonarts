@@ -60,11 +60,9 @@ const Contacts = () => {
           <h5 className="importanttext">Le bureau élu :</h5>
           <br></br>
           <ul className="text-left">
-            <li>Président d’honneur : Loys Laouénan</li>
             <li>Président : J.H. Prigent</li>
             <li>Secrétaire : J.Gauthier </li>
             <li>Secrétaire adjointe : Nadine Tardivel</li>
-            <li>Communication : J.Gauthier et A.Querné</li>
             <li>Trésorière : M.Querné</li>
             <li>Trésorière adjointe : Nadine Tardivel</li>
             <li>Communication : Céline Conaté - Alain Querné</li>
