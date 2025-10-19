@@ -32,10 +32,11 @@ export const TRANSLATIONS_FR = {
     presentation3:"Ces expositions sont ouvertes à tout artiste ayant un numéro de SIRET sur candidature.",
     presentation4:"Pendant les expositions les artistes ont la possibilité d’animer des ", 
     workshop:" ateliers",
-    presentation5:" pour partager leurs techniques et leur univers avec leur public.",
+    presentation5:" pour partager leurs techniques et leur univers avec le public.",
     presentation5b:"Un ",
-    discovery:"parcours de découvertes",
-    presentation6:" est proposé aux enfants. Si vous voulez plus d'informations, voir les affiches et les photos des expositions passées,",
+    discovery:"parcours découverte",
+    presentation6:" est proposé aux enfants.",
+    presentation7:"Si vous voulez plus d'informations, voir les affiches et les photos des expositions passées.",
     
     //apply page:
     registertitle:"Pour envoyer votre candidature ",
@@ -80,7 +81,7 @@ export const TRANSLATIONS_FR = {
     infossculptors:" 4 ou 5 oeuvres originales. Prévoir des socles blancs de préférence.",
 
     applicationlign1:"Le droit d’inscription est de ",
-    applicationlign2:" à régler par chèque, après reception de la fiche de candidature et acceptation par l'association, à l’ordre de l’association Salon des Arts.",
+    applicationlign2:" à régler par chèque, après réception de la fiche de candidature et acceptation par l'association, à l’ordre de l’association Salon des Arts.",
     applicationaddress:"A l’adresse suivante : ",
     applicationrule1:"L’inscription au salon implique obligatoirement l’adhésion totale au présent règlement.",
     applicationrule2:"L’inscription n’est effective qu'après la réception du dossier complet et la confirmation de l'association.",
