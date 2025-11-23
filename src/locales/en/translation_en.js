@@ -55,8 +55,8 @@ export const TRANSLATIONS_EN = {
 
     organisation:"Organisation",
     openning:"Openning to the public :", 
-    openningdate:" 14th of December 2025 at 2:30pm",
-    openninghours:"Opening hours: from 10:30 a.m. to 12:30 p.m. in the morning except on December 25 and January 31 and in the afternoon from 2:30 p.m. to 6:30 p.m.",
+    openningdate:" 14th of December 2025 at 2 p.m.",
+    openninghours:"Opening hours: from 2 p.m. to 6:30 p.m.",
     closure:"End of the exhibition :",
     closuredate:" 4th of January 2026.",
     privateviewtext:" Opening the ",
