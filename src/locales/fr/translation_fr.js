@@ -55,8 +55,8 @@ export const TRANSLATIONS_FR = {
 
     organisation:"Organisation",
     openning:"Ouverture au public : ",
-    openningdate:" 14 Décembre 2025 à 14h30",
-    openninghours:"Horaires d'ouverture : de 10h30 à 12h30 le matin sauf le 25 décembre et le 31 janvier et l'après-midi de 14h30 à 18h30",
+    openningdate:" 14 Décembre 2025 à 14h.",
+    openninghours:"Horaires d'ouverture : de 14h à 18h30.",
     closure:"Fin le ",
     closuredate:"4 Janvier 2026.",
     privateviewtext:" Vernissage le ",
