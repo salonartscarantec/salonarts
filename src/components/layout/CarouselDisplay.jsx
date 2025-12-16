@@ -65,7 +65,7 @@ const CarouselDisplay = () => {
           alt="salon des arts, hiver 2025"
         />
         <Carousel.Caption>
-          <h4 className="captiontext">Christian Le Roy</h4>
+          <h4 className="captiontext">Christian Leroy</h4>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -76,7 +76,7 @@ const CarouselDisplay = () => {
           alt="salon des arts, hiver 2025"
         />
         <Carousel.Caption>
-          <h4 className="captiontext">Céline Verdiere</h4>
+          <h4 className="captiontext">Céline Verdière</h4>
         </Carousel.Caption>
       </Carousel.Item>
 

@@ -21,7 +21,7 @@ export const TRANSLATIONS_EN = {
     honnorexpo:"Guest : Alexis Le Borgne",
     expodate: "from 14/12/25 to 04/01/26",
     expoplace: "Espace André JACQ",
-    registrationlimitdate: " Now",
+    registrationlimitdate: "",
     register:"Register Now!",
     partnership:"Become a partner : ",
     contactus:"Contact us",
