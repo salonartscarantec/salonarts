@@ -17,12 +17,12 @@ export const TRANSLATIONS_FR = {
     followus:"Suivez nous",
 
     //home page:
-    expo:"Le Salon d'Hiver 2025/2026",
-    honnorexpo:"Invité : Alexis Le Borgne",
-    expodate: "du 14/12/25 au 04/01/26",
+    expo:"Le Salon d'été 2026",
+    honnorexpo:"",
+    expodate: "du 12/07/26 au 16/08/26",
     expoplace: "Espace André JACQ",
-    registrationlimitdate: "",
-    register:"Inscrivez Vous!",
+    registrationlimitdate: " ouvertes 15/04/26",
+    register:"Inscrivez Vous! ",
     partnership:"Devenez un partenaire  ",
     contactus:"Contactez nous!",
     location:"Lieu",
@@ -55,24 +55,24 @@ export const TRANSLATIONS_FR = {
 
     organisation:"Organisation",
     openning:"Ouverture au public : ",
-    openningdate:" 14 Décembre 2025 à 14h.",
-    openninghours:"Horaires d'ouverture : de 14h à 18h30.",
-    closure:"Fin le ",
-    closuredate:"4 Janvier 2026.",
-    privateviewtext:" Vernissage le ",
-    privateview:"13 Décembre à 17h30.",
+    openningdate:" Dimanche 12 juillet 2026 à 15h.",
+    openninghours:"Horaires d'ouverture : 15h à 19h30.",
+    closure:"Fin le :",
+    closuredate:" Dimanche 16 Août 2026.",
+    privateviewtext:" Vernissage le :",
+    privateview:" Samedi 11 juillet 2026 à 18h.",
     
     artworkdeposit:"Dépôt des œuvres",
     paintors:"Peintres :",
     sculptors:"Sculptures :",
-    datepaintors:" 8 Décembre 2025 de 10h à 12h et 14h à 16h.",
-    datesculptors:" 10 Décembre 2025 de 10h à 12h.",
+    datepaintors:" Lundi 6 Juillet 2026  de 10h à 12h et de 14h à 16h.",
+    datesculptors:" Mercredi 8 Juillet 2026 de 10h à 12h.",
     depositdatepaintors:" ",
     depositdatesculptors:" ",
     deposittext:"Accrochage et installation réalisés par l’association.",
 
     artworkretrival:"Retrait des œuvres",
-    retrivaldate:" Le 5 janvier 2026.",
+    retrivaldate:" Dimanche 16 Août 2026 à 18h30 ou Lundi 17 Août de 10h à 12h.",
     retrivaltext:" ",
 
     artworkinfos:"Infos œuvres",
@@ -86,7 +86,9 @@ export const TRANSLATIONS_FR = {
     applicationrule1:"L’inscription au salon implique obligatoirement l’adhésion totale au présent règlement.",
     applicationrule2:"L’inscription n’est effective qu'après la réception du dossier complet et la confirmation de l'association.",
 
-    salestext:"Le prix de vente de chaque œuvre est de la responsabilité de l’artiste. Chaque œuvre devra porter au dos : nom, prénom, adresse, le titre de l’œuvre et son prix ainsi qu’un certificat d’authenticité signé par l’artiste. Chaque œuvre devra être munie d’un système d’accrochage solide et pratique. L’association demandera 10% sur les ventes.",
+    salestext:"Le prix de vente de chaque œuvre est de la responsabilité de l’artiste. Chaque œuvre devra porter au dos : nom, prénom, adresse, le titre de l’œuvre et son prix ainsi qu’un certificat d’authenticité signé par l’artiste. ",
+    salestext2:" Chaque œuvre devra être munie d’un système d’accrochage solide et pratique.",
+    salestext3:" L’association demandera 10% sur les ventes.",
 
     insurancestext:"Les organisateurs prendront le plus grand soin de vos œuvres. La municipalité et l’association organisatrice de l’exposition ne répondent en aucun cas des dommages qui pourraient survenir aux œuvres pendant la durée de l’exposition. Les artistes sont invités à assurer leurs œuvres contre tout risque. Ils renoncent expressément à tout recours contre l’association. Le transport des œuvres aller et retour est à la charge de l’artiste.",
 
