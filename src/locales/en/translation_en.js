@@ -55,24 +55,24 @@ export const TRANSLATIONS_EN = {
 
     organisation:"Organisation",
     openning:"Openning to the public :", 
-    openningdate:" 12th of July 2026 at 3p.m.",
+    openningdate:" Sunday 12th of July 2026 at 3p.m.",
     openninghours:"Opening hours: from 3p.m. to 7:30p.m.",
     closure:"End of the exhibition :",
-    closuredate:" 16th of August 2026.",
+    closuredate:" Sunday 16th of August 2026.",
     privateviewtext:" Opening the ",
-    privateview:" 11th of July at 6pm.",
+    privateview:" Saturday 11th of July at 6pm.",
 
     artworkdeposit:"Artwork deposit",
     paintors:"Paintors :",
     sculptors:"Sculptors :",
-    datepaintors:" 6th of July 2026 from 10am till 12am and from 2pm till 4pm.",
-    datesculptors:" 8th of July 2026 from 10am till 12am.",
+    datepaintors:" Monday 6th of July 2026 from 10am till 12am and from 2pm till 4pm.",
+    datesculptors:" Wednesday 8th of July 2026 from 10am till 12am.",
     depositdatepaintors:" ",
     depositdatesculptors:" ",
     deposittext:"The setting up of the artwork is made by our trusted volonteers.",
 
     artworkretrival:"Artwork retrival",
-    retrivaldate:" The 16th of August 2026.",
+    retrivaldate:" Sunday 16th of August 2026 at 6:30pm or Monday 17th of August from 10am till 12am.",
     retrivaltext:" ",
 
     artworkinfos:"Artwork informations",
@@ -86,7 +86,9 @@ export const TRANSLATIONS_EN = {
     applicationrule1:"Registration implies mandatory acceptance of the rules of the salon.",
     applicationrule2:"Registration is not effective untill recieving the complete application file and confirmation by the association.",
 
-    salestext:"Sailing prices are under the responsability of the artist. Each piece should have inscribed in the back : name, firstname, address, title of the piece, price and an authencication certificate signed by the artist. Each piece should be provided with a strong and practile support system. The association will ask for 10% of each sales.",
+    salestext:"Sailing prices are under the responsability of the artist. Each piece should have inscribed in the back : name, firstname, address, title of the piece, price and an authencication certificate signed by the artist.",
+    salestext2: " Each piece should be provided with a strong and practile support system.",
+    salestext3: " The association will ask for 10% of each sales.",
 
     insurancestext:"The comitee and volonteers will take the utmost care of your work. The city council and the association will not be responsible for any damage occuring during the exhibition. Artists are strongly invitated to insure their work against all risks. Artists also renounce the rigths to any recourse against the association. Transport of artworks is the responsability of the artist.",
 
