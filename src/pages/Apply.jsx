@@ -206,6 +206,8 @@ const Apply = ( ) => {
             </h2>
             <li>
               {t("salestext")}
+              <span className="importanttext">{t("salestext2")}</span>
+              {t("salestext3")}
             </li>
           </ul>
           <ul id="insurances">
