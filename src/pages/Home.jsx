@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import logo from "../assets/images/salonartscaranteccut.webp";
 import { SocialIcon } from 'react-social-icons';
-import affiche1 from "../assets/images/affiche1.webp";
+import affiche1 from "../assets/images/affiche1.jpg";
 import { Helmet } from "react-helmet-async";
 
 const Home = () => {
