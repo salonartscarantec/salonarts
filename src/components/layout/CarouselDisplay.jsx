@@ -21,7 +21,7 @@ const CarouselDisplay = () => {
           alt="salon des arts, été 2025"
         />
         <Carousel.Caption>
-          <h4 className="captiontext">Pascal Dabere</h4>
+          <h4 className="captiontext">Christophe Crépin</h4>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -32,7 +32,7 @@ const CarouselDisplay = () => {
           alt="salon des arts, hiver 2025"
         />
         <Carousel.Caption>
-          <h4 className="captiontext">Christian Sanchez</h4>
+          <h4 className="captiontext">Yolande Amiand</h4>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -43,7 +43,7 @@ const CarouselDisplay = () => {
           alt="salon des arts, hiver 2025"
         />
         <Carousel.Caption>
-          <h4 className="captiontext">Jean-Charles Bourven</h4>
+          <h4 className="captiontext">Marc Arditi</h4>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -54,7 +54,7 @@ const CarouselDisplay = () => {
           alt="salon des arts, hiver 2025"
         />
         <Carousel.Caption>
-          <h4 className="captiontext">Louis Guéguen</h4>
+          <h4 className="captiontext">Annie Thomas</h4>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -65,7 +65,7 @@ const CarouselDisplay = () => {
           alt="salon des arts, hiver 2025"
         />
         <Carousel.Caption>
-          <h4 className="captiontext">Christian Leroy</h4>
+          <h4 className="captiontext">Pillie</h4>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -76,7 +76,7 @@ const CarouselDisplay = () => {
           alt="salon des arts, hiver 2025"
         />
         <Carousel.Caption>
-          <h4 className="captiontext">Céline Verdière</h4>
+          <h4 className="captiontext">Aurélie Chauvin</h4>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -87,7 +87,7 @@ const CarouselDisplay = () => {
           alt="salon des arts, hiver 2025"
         />
         <Carousel.Caption>
-          <h4 className="captiontext">Bruno Gelebart</h4>
+          <h4 className="captiontext">Céline Conaté</h4>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -98,7 +98,7 @@ const CarouselDisplay = () => {
           alt="salon des arts, hiver 2025"
         />
         <Carousel.Caption>
-          <h4 className="captiontext">Naïg Le Meur</h4>
+          <h4 className="captiontext">Philippe Saltet</h4>
         </Carousel.Caption>
       </Carousel.Item>
 
